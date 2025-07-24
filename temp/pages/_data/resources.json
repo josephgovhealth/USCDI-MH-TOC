@@ -1,0 +1,55 @@
+{
+  "ImplementationGuide/fhir.example" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 0,
+    "source" : "/Users/joseph/Consulting/Clinovations/ASTP_Contract/Repos/USCDI-MH-TOC/fsh-generated/resources/ImplementationGuide-fhir.example.json",
+    "sourceTail" : "ImplementationGuide-fhir.example.json",
+    "path" : "index.html",
+    "url" : "http://example.org/ImplementationGuide/fhir.example",
+    "version" : "0.1.0",
+    "name" : "USCDI_Postpartum_TOC",
+    "date" : "2025-07-24T07:53:51-04:00",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "Example Publisher",
+      "link" : "http://example.org/example-publisher",
+      "status" : "Draft"
+    }
+  },
+  "Patient/PatientExample" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 1,
+    "source" : "fsh-generated/resources/Patient-PatientExample.json",
+    "sourceTail" : "Patient-PatientExample.json",
+    "path" : "Patient-PatientExample.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "StructureDefinition/MyPatient" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 2,
+    "source" : "fsh-generated/resources/StructureDefinition-MyPatient.json",
+    "sourceTail" : "StructureDefinition-MyPatient.json",
+    "path" : "StructureDefinition-MyPatient.html",
+    "url" : "http://example.org/StructureDefinition/MyPatient",
+    "version" : "0.1.0",
+    "name" : "MyPatient",
+    "date" : "2025-07-24T07:53:51-04:00",
+    "description" : "An example profile of the Patient resource.",
+    "descriptionlang" : {
+    },
+    "status" : {
+      "class" : "colsd",
+      "owner" : "Example Publisher",
+      "link" : "http://example.org/example-publisher",
+      "status" : "Draft"
+    }
+  }
+}

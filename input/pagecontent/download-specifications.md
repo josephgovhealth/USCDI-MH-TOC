@@ -1,1 +1,0 @@
-[page to download specifications]
