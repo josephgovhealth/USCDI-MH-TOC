@@ -23,6 +23,14 @@
       <tbody>
          <tr>
             <td style="column-width:30%">
+               <a href="StructureDefinition-mh-toc-parity.html"
+                  title="StructureDefinition/mh-toc-parity">MH TOC Parity Profile</a>
+            </td>
+            <td>{% capture desc %}This is an example profile for parity{% endcapture %}
+{{ desc | markdownify}}</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
                <a href="StructureDefinition-MyPatient.html"
                   title="StructureDefinition/MyPatient">MyPatient</a>
             </td>

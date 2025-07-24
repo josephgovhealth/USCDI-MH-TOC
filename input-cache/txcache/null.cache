@@ -1,0 +1,66 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "url": "http://hl7.org/fhir/us/core/ValueSet/us-core-narrative-status"}####
+e: {
+  "source" : tx.fhir.org,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "url" : "http://hl7.org/fhir/us/core/ValueSet/us-core-narrative-status",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:2.16.840.1.113883.4.642.40.2.48.14"
+  }],
+  "version" : "8.0.0-ballot",
+  "name" : "NarrativeStatus",
+  "title" : "US Core Narrative Status",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2022-09-29",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "US"
+    }]
+  }],
+  "expansion" : {
+    "identifier" : "urn:uuid:4176b166-e770-4c55-a8cd-b4acf9738466",
+    "timestamp" : "2025-07-24T19:42:21.789Z",
+    "total" : 2,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "displayLanguage",
+      "valueCode" : "en-US"
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "warning-draft",
+      "valueUri" : "http://hl7.org/fhir/narrative-status|4.0.1"
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://hl7.org/fhir/narrative-status|4.0.1"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://hl7.org/fhir/narrative-status|4.0.1"
+    }],
+    "contains" : [{
+      "system" : "http://hl7.org/fhir/narrative-status",
+      "code" : "additional",
+      "display" : "Additional"
+    },
+    {
+      "system" : "http://hl7.org/fhir/narrative-status",
+      "code" : "generated",
+      "display" : "Generated"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

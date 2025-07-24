@@ -9,7 +9,7 @@
   "version" : "0.1.0",
   "name" : "USCDI_Postpartum_TOC",
   "status" : "draft",
-  "date" : "2025-07-24T07:53:51-04:00",
+  "date" : "2025-07-24T18:01:17-04:00",
   "publisher" : "Example Publisher",
   "contact" : [{
     "name" : "Example Publisher",
@@ -40,6 +40,18 @@
     "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
     "packageId" : "hl7.fhir.uv.extensions.r4",
     "version" : "5.2.0"
+  },
+  {
+    "id" : "hl7_fhir_us_core",
+    "uri" : "http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core",
+    "packageId" : "hl7.fhir.us.core",
+    "version" : "8.0.0"
+  },
+  {
+    "id" : "mcode",
+    "uri" : "http://hl7.org/fhir/us/mcode/ImplementationGuide/hl7.fhir.us.mcode",
+    "packageId" : "hl7.fhir.us.mcode",
+    "version" : "1.0.0"
   }],
   "definition" : {
     "extension" : [{
@@ -597,6 +609,18 @@
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     }],
     "resource" : [{
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/mh-toc-parity"
+      },
+      "name" : "MH TOC Parity Profile",
+      "description" : "This is an example profile for parity",
+      "exampleBoolean" : false
+    },
+    {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"

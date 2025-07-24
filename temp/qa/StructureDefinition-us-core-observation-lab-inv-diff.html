@@ -1,0 +1,15 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>StructureDefinition-us-core-observation-lab-inv-diff</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<h4>Constraints</h4>
+<table class="list">
+<tr><td width="60"><b>Id</b></td><td><b>Grade</b></td><td><b>Path(s)</b></td><td><b>Details</b></td><td><b>Requirements</b></td></tr>
+<tr><td>us-core-4</td><td>best practice</td><td>Observation.value[x]</td><td>SHOULD use Snomed CT for coded Results<br/>: ofType(CodeableConcept).coding.system.empty() or (ofType(CodeableConcept).coding.system contains 'http://snomed.info/sct')</td><td></td></tr>
+<tr><td>us-core-22</td><td>error</td><td>Observation.referenceRange</td><td>SHALL use UCUM for coded quantity units.<br/>: (low.system.empty() or low.system = 'http://unitsofmeasure.org') and (high.system.empty() or high.system = 'http://unitsofmeasure.org')</td><td></td></tr>
+</table>
+</body>
+</html>

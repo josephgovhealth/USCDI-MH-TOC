@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :null}####
+e: {
+  "from-server" : true,
+  "error" : "Error from https://tx.fhir.org/r4: Unable to provide support for code system http://terminology.hl7.org/CodeSystem/PHOccupationalDataForHealthODH version 20191121"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "url": "http://phinvads.cdc.gov/fhir/ValueSet/2.16.840.1.114222.4.11.7901", "version": "1"}####
+e: {
+  "from-server" : true,
+  "error" : "Error from https://tx.fhir.org/r4: Unable to provide support for code system http://terminology.hl7.org/CodeSystem/PHOccupationalDataForHealthODH version 20191121"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "url": "http://phinvads.cdc.gov/fhir/ValueSet/2.16.840.1.114222.4.11.7900", "version": "1"}####
+e: {
+  "from-server" : true,
+  "error" : "Error from https://tx.fhir.org/r4: Unable to provide support for code system http://terminology.hl7.org/CodeSystem/PHOccupationalDataForHealthODH version 20191121"
+}
+-------------------------------------------------------------------------------------

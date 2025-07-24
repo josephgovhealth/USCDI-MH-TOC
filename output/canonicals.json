@@ -12,5 +12,12 @@
     "url" : "http://example.org/StructureDefinition/MyPatient",
     "version" : "0.1.0",
     "name" : "MyPatient"
+  },
+  {
+    "id" : "mh-toc-parity",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/mh-toc-parity",
+    "version" : "0.1.0",
+    "name" : "MHTOCParityProfile"
   }
 ]

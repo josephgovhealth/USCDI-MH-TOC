@@ -1,3 +1,28 @@
 {
-  "codeSystems" : []
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/fhir/us/core/CodeSystem/us-core-category",
+      "version" : "8.0.0",
+      "status" : "active",
+      "name" : "USCoreCategory",
+      "title" : "US Core Category",
+      "description" : "Category codes used across US Core Profiles and resource types. They are typically used when there is a need for categorization for searching and finding resources or workflow hints.",
+      "oids" : ["2.16.840.1.113883.4.642.40.2.16.3"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/us/core/STU8/ValueSet-us-core-simple-observation-category.html" : "US Core Simple Observation Category"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "version" : "1.0.0",
+      "status" : "draft",
+      "name" : "ObservationCategoryCodes",
+      "title" : "Observation Category Codes",
+      "description" : "Observation Category codes.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1125"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/us/core/STU8/ValueSet-us-core-simple-observation-category.html" : "US Core Simple Observation Category"
+    }
+  ]
 }

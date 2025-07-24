@@ -21,8 +21,30 @@
   "fhirVersion": [
     "4.0.1"
   ],
+  "dependsOn": [
+    {
+      "packageId": "hl7.fhir.us.core",
+      "version": "8.0.0",
+      "uri": "http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core",
+      "id": "hl7_fhir_us_core"
+    },
+    {
+      "id": "mcode",
+      "packageId": "hl7.fhir.us.mcode",
+      "uri": "http://hl7.org/fhir/us/mcode/ImplementationGuide/hl7.fhir.us.mcode",
+      "version": "1.0.0"
+    }
+  ],
   "definition": {
     "resource": [
+      {
+        "reference": {
+          "reference": "StructureDefinition/mh-toc-parity"
+        },
+        "description": "This is an example profile for parity",
+        "exampleBoolean": false,
+        "name": "MH TOC Parity Profile"
+      },
       {
         "reference": {
           "reference": "StructureDefinition/MyPatient"

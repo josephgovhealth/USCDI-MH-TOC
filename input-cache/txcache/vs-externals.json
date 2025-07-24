@@ -1,6 +1,22 @@
 {
+  "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient" : null,
+  "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization" : null,
+  "http://hl7.org/fhir/us/core/StructureDefinition/us-core-sex" : null,
+  "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity" : null,
+  "http://example.org/fhir/ValueSet/body-temperature-codes" : null,
+  "http://hl7.org/fhir/us/core/StructureDefinition/us-core-relatedperson" : null,
+  "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.88.12.80.62" : {
+    "server" : "http://tx.fhir.org/r4",
+    "filename" : "vs-51b38021-70fa-4bf3-af15-a1e9dc761d7d.json"
+  },
+  "http://hl7.org/fhir/us/core/StructureDefinition/us-core-careteam" : null,
+  "https://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets|null" : null,
+  "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner" : null,
   "http://hl7.org/fhir/us/core/ValueSet/us-core-narrative-status" : {
     "server" : "http://tx.fhir.org/r4",
     "filename" : "vs-a3e98500-2f51-4564-897d-ac18892f56d1.json"
-  }
+  },
+  "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race" : null,
+  "http://hl7.org/fhir/us/core/StructureDefinition/us-core-tribal-affiliation" : null,
+  "http://hl7.org/fhir/us/core/StructureDefinition/us-core-interpreter-needed" : null
 }

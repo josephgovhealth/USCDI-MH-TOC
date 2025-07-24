@@ -17,7 +17,7 @@
    <version value="0.1.0"/>
    <name value="USCDI_Postpartum_TOC"/>
    <status value="draft"/>
-   <date value="2025-07-24T07:53:51-04:00"/>
+   <date value="2025-07-24T18:01:17-04:00"/>
    <publisher value="Example Publisher"/>
    <contact>
       <name value="Example Publisher"/>
@@ -44,6 +44,16 @@
       <uri value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
       <packageId value="hl7.fhir.uv.extensions.r4"/>
       <version value="5.2.0"/>
+   </dependsOn>
+   <dependsOn id="hl7_fhir_us_core">
+      <uri value="http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core"/>
+      <packageId value="hl7.fhir.us.core"/>
+      <version value="8.0.0"/>
+   </dependsOn>
+   <dependsOn id="mcode">
+      <uri value="http://hl7.org/fhir/us/mcode/ImplementationGuide/hl7.fhir.us.mcode"/>
+      <packageId value="hl7.fhir.us.mcode"/>
+      <version value="1.0.0"/>
    </dependsOn>
    <definition>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -361,6 +371,24 @@
          <name value="Other"/>
          <description value="These are resources that are used within this implementation guide that do not fit into one of the other categories."/>
       </grouping>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:resource"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-mh-toc-parity.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/mh-toc-parity"/>
+         </reference>
+         <name value="MH TOC Parity Profile"/>
+         <description value="This is an example profile for parity"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-str-profile"/>
+      </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
             <valueInteger value="999999999"/>

@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://www.ama-assn.org/go/cpt"
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Error from https://tx.fhir.org/r4: The code System \"http://www.ama-assn.org/go/cpt\" has a grammar, and cannot be enumerated directly"
+}
+-------------------------------------------------------------------------------------

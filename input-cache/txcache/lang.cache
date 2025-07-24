@@ -1,0 +1,4414 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "urn:ietf:bcp:47",
+      "concept" : [{
+        "code" : "aa",
+        "display" : "Afar"
+      },
+      {
+        "code" : "ab",
+        "display" : "Abkhazian"
+      },
+      {
+        "code" : "ace",
+        "display" : "Achinese"
+      },
+      {
+        "code" : "ach",
+        "display" : "Acoli"
+      },
+      {
+        "code" : "ada",
+        "display" : "Adangme"
+      },
+      {
+        "code" : "ady",
+        "display" : "Adyghe; Adygei"
+      },
+      {
+        "code" : "ae",
+        "display" : "Avestan"
+      },
+      {
+        "code" : "af",
+        "display" : "Afrikaans"
+      },
+      {
+        "code" : "afa",
+        "display" : "Afro-Asiatic languages"
+      },
+      {
+        "code" : "afh",
+        "display" : "Afrihili"
+      },
+      {
+        "code" : "ain",
+        "display" : "Ainu"
+      },
+      {
+        "code" : "ak",
+        "display" : "Akan"
+      },
+      {
+        "code" : "akk",
+        "display" : "Akkadian"
+      },
+      {
+        "code" : "ale",
+        "display" : "Aleut"
+      },
+      {
+        "code" : "alg",
+        "display" : "Algonquian languages"
+      },
+      {
+        "code" : "alt",
+        "display" : "Southern Altai"
+      },
+      {
+        "code" : "am",
+        "display" : "Amharic"
+      },
+      {
+        "code" : "an",
+        "display" : "Aragonese"
+      },
+      {
+        "code" : "ang",
+        "display" : "English, Old (ca.450-1100)"
+      },
+      {
+        "code" : "anp",
+        "display" : "Angika"
+      },
+      {
+        "code" : "apa",
+        "display" : "Apache languages"
+      },
+      {
+        "code" : "ar",
+        "display" : "Arabic"
+      },
+      {
+        "code" : "arc",
+        "display" : "Official Aramaic (700-300 BCE); Imperial Aramaic (700-300 BCE)"
+      },
+      {
+        "code" : "arn",
+        "display" : "Mapudungun; Mapuche"
+      },
+      {
+        "code" : "arp",
+        "display" : "Arapaho"
+      },
+      {
+        "code" : "art",
+        "display" : "Artificial languages"
+      },
+      {
+        "code" : "arw",
+        "display" : "Arawak"
+      },
+      {
+        "code" : "as",
+        "display" : "Assamese"
+      },
+      {
+        "code" : "ast",
+        "display" : "Asturian; Bable; Leonese; Asturleonese"
+      },
+      {
+        "code" : "ath",
+        "display" : "Athapascan languages"
+      },
+      {
+        "code" : "aus",
+        "display" : "Australian languages"
+      },
+      {
+        "code" : "av",
+        "display" : "Avaric"
+      },
+      {
+        "code" : "awa",
+        "display" : "Awadhi"
+      },
+      {
+        "code" : "ay",
+        "display" : "Aymara"
+      },
+      {
+        "code" : "az",
+        "display" : "Azerbaijani"
+      },
+      {
+        "code" : "ba",
+        "display" : "Bashkir"
+      },
+      {
+        "code" : "bad",
+        "display" : "Banda languages"
+      },
+      {
+        "code" : "bai",
+        "display" : "Bamileke languages"
+      },
+      {
+        "code" : "bal",
+        "display" : "Baluchi"
+      },
+      {
+        "code" : "ban",
+        "display" : "Balinese"
+      },
+      {
+        "code" : "bas",
+        "display" : "Basa"
+      },
+      {
+        "code" : "bat",
+        "display" : "Baltic languages"
+      },
+      {
+        "code" : "be",
+        "display" : "Belarusian"
+      },
+      {
+        "code" : "bej",
+        "display" : "Beja; Bedawiyet"
+      },
+      {
+        "code" : "bem",
+        "display" : "Bemba"
+      },
+      {
+        "code" : "ber",
+        "display" : "Berber languages"
+      },
+      {
+        "code" : "bg",
+        "display" : "Bulgarian"
+      },
+      {
+        "code" : "bho",
+        "display" : "Bhojpuri"
+      },
+      {
+        "code" : "bi",
+        "display" : "Bislama"
+      },
+      {
+        "code" : "bik",
+        "display" : "Bikol"
+      },
+      {
+        "code" : "bin",
+        "display" : "Bini; Edo"
+      },
+      {
+        "code" : "bla",
+        "display" : "Siksika"
+      },
+      {
+        "code" : "bm",
+        "display" : "Bambara"
+      },
+      {
+        "code" : "bn",
+        "display" : "Bengali"
+      },
+      {
+        "code" : "bnt",
+        "display" : "Bantu languages"
+      },
+      {
+        "code" : "bo",
+        "display" : "Tibetan"
+      },
+      {
+        "code" : "br",
+        "display" : "Breton"
+      },
+      {
+        "code" : "bra",
+        "display" : "Braj"
+      },
+      {
+        "code" : "bs",
+        "display" : "Bosnian"
+      },
+      {
+        "code" : "btk",
+        "display" : "Batak languages"
+      },
+      {
+        "code" : "bua",
+        "display" : "Buriat"
+      },
+      {
+        "code" : "bug",
+        "display" : "Buginese"
+      },
+      {
+        "code" : "byn",
+        "display" : "Blin; Bilin"
+      },
+      {
+        "code" : "ca",
+        "display" : "Catalan; Valencian"
+      },
+      {
+        "code" : "cad",
+        "display" : "Caddo"
+      },
+      {
+        "code" : "cai",
+        "display" : "Central American Indian languages"
+      },
+      {
+        "code" : "car",
+        "display" : "Galibi Carib"
+      },
+      {
+        "code" : "cau",
+        "display" : "Caucasian languages"
+      },
+      {
+        "code" : "ce",
+        "display" : "Chechen"
+      },
+      {
+        "code" : "ceb",
+        "display" : "Cebuano"
+      },
+      {
+        "code" : "cel",
+        "display" : "Celtic languages"
+      },
+      {
+        "code" : "ch",
+        "display" : "Chamorro"
+      },
+      {
+        "code" : "chb",
+        "display" : "Chibcha"
+      },
+      {
+        "code" : "chg",
+        "display" : "Chagatai"
+      },
+      {
+        "code" : "chk",
+        "display" : "Chuukese"
+      },
+      {
+        "code" : "chm",
+        "display" : "Mari"
+      },
+      {
+        "code" : "chn",
+        "display" : "Chinook jargon"
+      },
+      {
+        "code" : "cho",
+        "display" : "Choctaw"
+      },
+      {
+        "code" : "chp",
+        "display" : "Chipewyan; Dene Suline"
+      },
+      {
+        "code" : "chr",
+        "display" : "Cherokee"
+      },
+      {
+        "code" : "chy",
+        "display" : "Cheyenne"
+      },
+      {
+        "code" : "cmc",
+        "display" : "Chamic languages"
+      },
+      {
+        "code" : "cnr",
+        "display" : "Montenegrin"
+      },
+      {
+        "code" : "co",
+        "display" : "Corsican"
+      },
+      {
+        "code" : "cop",
+        "display" : "Coptic"
+      },
+      {
+        "code" : "cpe",
+        "display" : "Creoles and pidgins, English based"
+      },
+      {
+        "code" : "cpf",
+        "display" : "Creoles and pidgins, French-based"
+      },
+      {
+        "code" : "cpp",
+        "display" : "Creoles and pidgins, Portuguese-based"
+      },
+      {
+        "code" : "cr",
+        "display" : "Cree"
+      },
+      {
+        "code" : "crh",
+        "display" : "Crimean Tatar; Crimean Turkish"
+      },
+      {
+        "code" : "crp",
+        "display" : "Creoles and pidgins"
+      },
+      {
+        "code" : "cs",
+        "display" : "Czech"
+      },
+      {
+        "code" : "csb",
+        "display" : "Kashubian"
+      },
+      {
+        "code" : "cu",
+        "display" : "Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic"
+      },
+      {
+        "code" : "cus",
+        "display" : "Cushitic languages"
+      },
+      {
+        "code" : "cv",
+        "display" : "Chuvash"
+      },
+      {
+        "code" : "cy",
+        "display" : "Welsh"
+      },
+      {
+        "code" : "da",
+        "display" : "Danish"
+      },
+      {
+        "code" : "dak",
+        "display" : "Dakota"
+      },
+      {
+        "code" : "dar",
+        "display" : "Dargwa"
+      },
+      {
+        "code" : "day",
+        "display" : "Land Dayak languages"
+      },
+      {
+        "code" : "de",
+        "display" : "German"
+      },
+      {
+        "code" : "del",
+        "display" : "Delaware"
+      },
+      {
+        "code" : "den",
+        "display" : "Slave (Athapascan)"
+      },
+      {
+        "code" : "dgr",
+        "display" : "Tlicho; Dogrib"
+      },
+      {
+        "code" : "din",
+        "display" : "Dinka"
+      },
+      {
+        "code" : "doi",
+        "display" : "Dogri"
+      },
+      {
+        "code" : "dra",
+        "display" : "Dravidian languages"
+      },
+      {
+        "code" : "dsb",
+        "display" : "Lower Sorbian"
+      },
+      {
+        "code" : "dua",
+        "display" : "Duala"
+      },
+      {
+        "code" : "dum",
+        "display" : "Dutch, Middle (ca.1050-1350)"
+      },
+      {
+        "code" : "dv",
+        "display" : "Divehi; Dhivehi; Maldivian"
+      },
+      {
+        "code" : "dyu",
+        "display" : "Dyula"
+      },
+      {
+        "code" : "dz",
+        "display" : "Dzongkha"
+      },
+      {
+        "code" : "ee",
+        "display" : "Ewe"
+      },
+      {
+        "code" : "efi",
+        "display" : "Efik"
+      },
+      {
+        "code" : "egy",
+        "display" : "Egyptian (Ancient)"
+      },
+      {
+        "code" : "eka",
+        "display" : "Ekajuk"
+      },
+      {
+        "code" : "el",
+        "display" : "Greek, Modern (1453-)"
+      },
+      {
+        "code" : "elx",
+        "display" : "Elamite"
+      },
+      {
+        "code" : "en",
+        "display" : "English"
+      },
+      {
+        "code" : "enm",
+        "display" : "English, Middle (1100-1500)"
+      },
+      {
+        "code" : "eo",
+        "display" : "Esperanto"
+      },
+      {
+        "code" : "es",
+        "display" : "Spanish; Castilian"
+      },
+      {
+        "code" : "et",
+        "display" : "Estonian"
+      },
+      {
+        "code" : "eu",
+        "display" : "Basque"
+      },
+      {
+        "code" : "ewo",
+        "display" : "Ewondo"
+      },
+      {
+        "code" : "fa",
+        "display" : "Persian"
+      },
+      {
+        "code" : "fan",
+        "display" : "Fang"
+      },
+      {
+        "code" : "fat",
+        "display" : "Fanti"
+      },
+      {
+        "code" : "ff",
+        "display" : "Fulah"
+      },
+      {
+        "code" : "fi",
+        "display" : "Finnish"
+      },
+      {
+        "code" : "fil",
+        "display" : "Filipino; Pilipino"
+      },
+      {
+        "code" : "fiu",
+        "display" : "Finno-Ugrian languages"
+      },
+      {
+        "code" : "fj",
+        "display" : "Fijian"
+      },
+      {
+        "code" : "fo",
+        "display" : "Faroese"
+      },
+      {
+        "code" : "fon",
+        "display" : "Fon"
+      },
+      {
+        "code" : "fr",
+        "display" : "French"
+      },
+      {
+        "code" : "frm",
+        "display" : "French, Middle (ca.1400-1600)"
+      },
+      {
+        "code" : "fro",
+        "display" : "French, Old (842-ca.1400)"
+      },
+      {
+        "code" : "frr",
+        "display" : "Northern Frisian"
+      },
+      {
+        "code" : "frs",
+        "display" : "Eastern Frisian"
+      },
+      {
+        "code" : "fur",
+        "display" : "Friulian"
+      },
+      {
+        "code" : "fy",
+        "display" : "Western Frisian"
+      },
+      {
+        "code" : "ga",
+        "display" : "Irish"
+      },
+      {
+        "code" : "gaa",
+        "display" : "Ga"
+      },
+      {
+        "code" : "gay",
+        "display" : "Gayo"
+      },
+      {
+        "code" : "gba",
+        "display" : "Gbaya"
+      },
+      {
+        "code" : "gd",
+        "display" : "Gaelic; Scottish Gaelic"
+      },
+      {
+        "code" : "gem",
+        "display" : "Germanic languages"
+      },
+      {
+        "code" : "gez",
+        "display" : "Geez"
+      },
+      {
+        "code" : "gil",
+        "display" : "Gilbertese"
+      },
+      {
+        "code" : "gl",
+        "display" : "Galician"
+      },
+      {
+        "code" : "gmh",
+        "display" : "German, Middle High (ca.1050-1500)"
+      },
+      {
+        "code" : "gn",
+        "display" : "Guarani"
+      },
+      {
+        "code" : "goh",
+        "display" : "German, Old High (ca.750-1050)"
+      },
+      {
+        "code" : "gon",
+        "display" : "Gondi"
+      },
+      {
+        "code" : "gor",
+        "display" : "Gorontalo"
+      },
+      {
+        "code" : "got",
+        "display" : "Gothic"
+      },
+      {
+        "code" : "grb",
+        "display" : "Grebo"
+      },
+      {
+        "code" : "grc",
+        "display" : "Greek, Ancient (to 1453)"
+      },
+      {
+        "code" : "gsw",
+        "display" : "Swiss German; Alemannic; Alsatian"
+      },
+      {
+        "code" : "gu",
+        "display" : "Gujarati"
+      },
+      {
+        "code" : "gv",
+        "display" : "Manx"
+      },
+      {
+        "code" : "gwi",
+        "display" : "Gwich'in"
+      },
+      {
+        "code" : "ha",
+        "display" : "Hausa"
+      },
+      {
+        "code" : "hai",
+        "display" : "Haida"
+      },
+      {
+        "code" : "haw",
+        "display" : "Hawaiian"
+      },
+      {
+        "code" : "he",
+        "display" : "Hebrew"
+      },
+      {
+        "code" : "hi",
+        "display" : "Hindi"
+      },
+      {
+        "code" : "hil",
+        "display" : "Hiligaynon"
+      },
+      {
+        "code" : "him",
+        "display" : "Himachali languages; Western Pahari languages"
+      },
+      {
+        "code" : "hit",
+        "display" : "Hittite"
+      },
+      {
+        "code" : "hmn",
+        "display" : "Hmong; Mong"
+      },
+      {
+        "code" : "ho",
+        "display" : "Hiri Motu"
+      },
+      {
+        "code" : "hr",
+        "display" : "Croatian"
+      },
+      {
+        "code" : "hsb",
+        "display" : "Upper Sorbian"
+      },
+      {
+        "code" : "ht",
+        "display" : "Haitian; Haitian Creole"
+      },
+      {
+        "code" : "hu",
+        "display" : "Hungarian"
+      },
+      {
+        "code" : "hup",
+        "display" : "Hupa"
+      },
+      {
+        "code" : "hy",
+        "display" : "Armenian"
+      },
+      {
+        "code" : "hz",
+        "display" : "Herero"
+      },
+      {
+        "code" : "ia",
+        "display" : "Interlingua (International Auxiliary Language Association)"
+      },
+      {
+        "code" : "iba",
+        "display" : "Iban"
+      },
+      {
+        "code" : "id",
+        "display" : "Indonesian"
+      },
+      {
+        "code" : "ie",
+        "display" : "Interlingue; Occidental"
+      },
+      {
+        "code" : "ig",
+        "display" : "Igbo"
+      },
+      {
+        "code" : "ii",
+        "display" : "Sichuan Yi; Nuosu"
+      },
+      {
+        "code" : "ijo",
+        "display" : "Ijo languages"
+      },
+      {
+        "code" : "ik",
+        "display" : "Inupiaq"
+      },
+      {
+        "code" : "ilo",
+        "display" : "Iloko"
+      },
+      {
+        "code" : "inc",
+        "display" : "Indic languages"
+      },
+      {
+        "code" : "ine",
+        "display" : "Indo-European languages"
+      },
+      {
+        "code" : "inh",
+        "display" : "Ingush"
+      },
+      {
+        "code" : "io",
+        "display" : "Ido"
+      },
+      {
+        "code" : "ira",
+        "display" : "Iranian languages"
+      },
+      {
+        "code" : "iro",
+        "display" : "Iroquoian languages"
+      },
+      {
+        "code" : "is",
+        "display" : "Icelandic"
+      },
+      {
+        "code" : "it",
+        "display" : "Italian"
+      },
+      {
+        "code" : "iu",
+        "display" : "Inuktitut"
+      },
+      {
+        "code" : "ja",
+        "display" : "Japanese"
+      },
+      {
+        "code" : "jbo",
+        "display" : "Lojban"
+      },
+      {
+        "code" : "jpr",
+        "display" : "Judeo-Persian"
+      },
+      {
+        "code" : "jrb",
+        "display" : "Judeo-Arabic"
+      },
+      {
+        "code" : "jv",
+        "display" : "Javanese"
+      },
+      {
+        "code" : "ka",
+        "display" : "Georgian"
+      },
+      {
+        "code" : "kaa",
+        "display" : "Kara-Kalpak"
+      },
+      {
+        "code" : "kab",
+        "display" : "Kabyle"
+      },
+      {
+        "code" : "kac",
+        "display" : "Kachin; Jingpho"
+      },
+      {
+        "code" : "kam",
+        "display" : "Kamba"
+      },
+      {
+        "code" : "kar",
+        "display" : "Karen languages"
+      },
+      {
+        "code" : "kaw",
+        "display" : "Kawi"
+      },
+      {
+        "code" : "kbd",
+        "display" : "Kabardian"
+      },
+      {
+        "code" : "kg",
+        "display" : "Kongo"
+      },
+      {
+        "code" : "kha",
+        "display" : "Khasi"
+      },
+      {
+        "code" : "khi",
+        "display" : "Khoisan languages"
+      },
+      {
+        "code" : "kho",
+        "display" : "Khotanese; Sakan"
+      },
+      {
+        "code" : "ki",
+        "display" : "Kikuyu; Gikuyu"
+      },
+      {
+        "code" : "kj",
+        "display" : "Kuanyama; Kwanyama"
+      },
+      {
+        "code" : "kk",
+        "display" : "Kazakh"
+      },
+      {
+        "code" : "kl",
+        "display" : "Kalaallisut; Greenlandic"
+      },
+      {
+        "code" : "km",
+        "display" : "Central Khmer"
+      },
+      {
+        "code" : "kmb",
+        "display" : "Kimbundu"
+      },
+      {
+        "code" : "kn",
+        "display" : "Kannada"
+      },
+      {
+        "code" : "ko",
+        "display" : "Korean"
+      },
+      {
+        "code" : "kok",
+        "display" : "Konkani"
+      },
+      {
+        "code" : "kos",
+        "display" : "Kosraean"
+      },
+      {
+        "code" : "kpe",
+        "display" : "Kpelle"
+      },
+      {
+        "code" : "kr",
+        "display" : "Kanuri"
+      },
+      {
+        "code" : "krc",
+        "display" : "Karachay-Balkar"
+      },
+      {
+        "code" : "krl",
+        "display" : "Karelian"
+      },
+      {
+        "code" : "kro",
+        "display" : "Kru languages"
+      },
+      {
+        "code" : "kru",
+        "display" : "Kurukh"
+      },
+      {
+        "code" : "ks",
+        "display" : "Kashmiri"
+      },
+      {
+        "code" : "ku",
+        "display" : "Kurdish"
+      },
+      {
+        "code" : "kum",
+        "display" : "Kumyk"
+      },
+      {
+        "code" : "kut",
+        "display" : "Kutenai"
+      },
+      {
+        "code" : "kv",
+        "display" : "Komi"
+      },
+      {
+        "code" : "kw",
+        "display" : "Cornish"
+      },
+      {
+        "code" : "ky",
+        "display" : "Kirghiz; Kyrgyz"
+      },
+      {
+        "code" : "la",
+        "display" : "Latin"
+      },
+      {
+        "code" : "lad",
+        "display" : "Ladino"
+      },
+      {
+        "code" : "lah",
+        "display" : "Lahnda"
+      },
+      {
+        "code" : "lam",
+        "display" : "Lamba"
+      },
+      {
+        "code" : "lb",
+        "display" : "Luxembourgish; Letzeburgesch"
+      },
+      {
+        "code" : "lez",
+        "display" : "Lezghian"
+      },
+      {
+        "code" : "lg",
+        "display" : "Ganda"
+      },
+      {
+        "code" : "li",
+        "display" : "Limburgan; Limburger; Limburgish"
+      },
+      {
+        "code" : "ln",
+        "display" : "Lingala"
+      },
+      {
+        "code" : "lo",
+        "display" : "Lao"
+      },
+      {
+        "code" : "lol",
+        "display" : "Mongo"
+      },
+      {
+        "code" : "loz",
+        "display" : "Lozi"
+      },
+      {
+        "code" : "lt",
+        "display" : "Lithuanian"
+      },
+      {
+        "code" : "lu",
+        "display" : "Luba-Katanga"
+      },
+      {
+        "code" : "lua",
+        "display" : "Luba-Lulua"
+      },
+      {
+        "code" : "lui",
+        "display" : "Luiseno"
+      },
+      {
+        "code" : "lun",
+        "display" : "Lunda"
+      },
+      {
+        "code" : "luo",
+        "display" : "Luo (Kenya and Tanzania)"
+      },
+      {
+        "code" : "lus",
+        "display" : "Lushai"
+      },
+      {
+        "code" : "lv",
+        "display" : "Latvian"
+      },
+      {
+        "code" : "mad",
+        "display" : "Madurese"
+      },
+      {
+        "code" : "mag",
+        "display" : "Magahi"
+      },
+      {
+        "code" : "mai",
+        "display" : "Maithili"
+      },
+      {
+        "code" : "mak",
+        "display" : "Makasar"
+      },
+      {
+        "code" : "man",
+        "display" : "Mandingo"
+      },
+      {
+        "code" : "map",
+        "display" : "Austronesian languages"
+      },
+      {
+        "code" : "mas",
+        "display" : "Masai"
+      },
+      {
+        "code" : "mdf",
+        "display" : "Moksha"
+      },
+      {
+        "code" : "mdr",
+        "display" : "Mandar"
+      },
+      {
+        "code" : "men",
+        "display" : "Mende"
+      },
+      {
+        "code" : "mg",
+        "display" : "Malagasy"
+      },
+      {
+        "code" : "mga",
+        "display" : "Irish, Middle (900-1200)"
+      },
+      {
+        "code" : "mh",
+        "display" : "Marshallese"
+      },
+      {
+        "code" : "mi",
+        "display" : "Maori"
+      },
+      {
+        "code" : "mic",
+        "display" : "Mi'kmaq; Micmac"
+      },
+      {
+        "code" : "min",
+        "display" : "Minangkabau"
+      },
+      {
+        "code" : "mis",
+        "display" : "Uncoded languages"
+      },
+      {
+        "code" : "mk",
+        "display" : "Macedonian"
+      },
+      {
+        "code" : "mkh",
+        "display" : "Mon-Khmer languages"
+      },
+      {
+        "code" : "ml",
+        "display" : "Malayalam"
+      },
+      {
+        "code" : "mn",
+        "display" : "Mongolian"
+      },
+      {
+        "code" : "mnc",
+        "display" : "Manchu"
+      },
+      {
+        "code" : "mni",
+        "display" : "Manipuri"
+      },
+      {
+        "code" : "mno",
+        "display" : "Manobo languages"
+      },
+      {
+        "code" : "moh",
+        "display" : "Mohawk"
+      },
+      {
+        "code" : "mos",
+        "display" : "Mossi"
+      },
+      {
+        "code" : "mr",
+        "display" : "Marathi"
+      },
+      {
+        "code" : "ms",
+        "display" : "Malay"
+      },
+      {
+        "code" : "mt",
+        "display" : "Maltese"
+      },
+      {
+        "code" : "mul",
+        "display" : "Multiple languages"
+      },
+      {
+        "code" : "mun",
+        "display" : "Munda languages"
+      },
+      {
+        "code" : "mus",
+        "display" : "Creek"
+      },
+      {
+        "code" : "mwl",
+        "display" : "Mirandese"
+      },
+      {
+        "code" : "mwr",
+        "display" : "Marwari"
+      },
+      {
+        "code" : "my",
+        "display" : "Burmese"
+      },
+      {
+        "code" : "myn",
+        "display" : "Mayan languages"
+      },
+      {
+        "code" : "myv",
+        "display" : "Erzya"
+      },
+      {
+        "code" : "na",
+        "display" : "Nauru"
+      },
+      {
+        "code" : "nah",
+        "display" : "Nahuatl languages"
+      },
+      {
+        "code" : "nai",
+        "display" : "North American Indian languages"
+      },
+      {
+        "code" : "nap",
+        "display" : "Neapolitan"
+      },
+      {
+        "code" : "nb",
+        "display" : "Bokmål, Norwegian; Norwegian Bokmål"
+      },
+      {
+        "code" : "nd",
+        "display" : "Ndebele, North; North Ndebele"
+      },
+      {
+        "code" : "nds",
+        "display" : "Low German; Low Saxon; German, Low; Saxon, Low"
+      },
+      {
+        "code" : "ne",
+        "display" : "Nepali"
+      },
+      {
+        "code" : "new",
+        "display" : "Nepal Bhasa; Newari"
+      },
+      {
+        "code" : "ng",
+        "display" : "Ndonga"
+      },
+      {
+        "code" : "nia",
+        "display" : "Nias"
+      },
+      {
+        "code" : "nic",
+        "display" : "Niger-Kordofanian languages"
+      },
+      {
+        "code" : "niu",
+        "display" : "Niuean"
+      },
+      {
+        "code" : "nl",
+        "display" : "Dutch; Flemish"
+      },
+      {
+        "code" : "nn",
+        "display" : "Norwegian Nynorsk; Nynorsk, Norwegian"
+      },
+      {
+        "code" : "no",
+        "display" : "Norwegian"
+      },
+      {
+        "code" : "nog",
+        "display" : "Nogai"
+      },
+      {
+        "code" : "non",
+        "display" : "Norse, Old"
+      },
+      {
+        "code" : "nqo",
+        "display" : "N'Ko"
+      },
+      {
+        "code" : "nr",
+        "display" : "Ndebele, South; South Ndebele"
+      },
+      {
+        "code" : "nso",
+        "display" : "Pedi; Sepedi; Northern Sotho"
+      },
+      {
+        "code" : "nub",
+        "display" : "Nubian languages"
+      },
+      {
+        "code" : "nv",
+        "display" : "Navajo; Navaho"
+      },
+      {
+        "code" : "nwc",
+        "display" : "Classical Newari; Old Newari; Classical Nepal Bhasa"
+      },
+      {
+        "code" : "ny",
+        "display" : "Chichewa; Chewa; Nyanja"
+      },
+      {
+        "code" : "nym",
+        "display" : "Nyamwezi"
+      },
+      {
+        "code" : "nyn",
+        "display" : "Nyankole"
+      },
+      {
+        "code" : "nyo",
+        "display" : "Nyoro"
+      },
+      {
+        "code" : "nzi",
+        "display" : "Nzima"
+      },
+      {
+        "code" : "oc",
+        "display" : "Occitan (post 1500)"
+      },
+      {
+        "code" : "oj",
+        "display" : "Ojibwa"
+      },
+      {
+        "code" : "om",
+        "display" : "Oromo"
+      },
+      {
+        "code" : "or",
+        "display" : "Oriya"
+      },
+      {
+        "code" : "os",
+        "display" : "Ossetian; Ossetic"
+      },
+      {
+        "code" : "osa",
+        "display" : "Osage"
+      },
+      {
+        "code" : "ota",
+        "display" : "Turkish, Ottoman (1500-1928)"
+      },
+      {
+        "code" : "oto",
+        "display" : "Otomian languages"
+      },
+      {
+        "code" : "pa",
+        "display" : "Panjabi; Punjabi"
+      },
+      {
+        "code" : "paa",
+        "display" : "Papuan languages"
+      },
+      {
+        "code" : "pag",
+        "display" : "Pangasinan"
+      },
+      {
+        "code" : "pal",
+        "display" : "Pahlavi"
+      },
+      {
+        "code" : "pam",
+        "display" : "Pampanga; Kapampangan"
+      },
+      {
+        "code" : "pap",
+        "display" : "Papiamento"
+      },
+      {
+        "code" : "pau",
+        "display" : "Palauan"
+      },
+      {
+        "code" : "peo",
+        "display" : "Persian, Old (ca.600-400 B.C.)"
+      },
+      {
+        "code" : "phi",
+        "display" : "Philippine languages"
+      },
+      {
+        "code" : "phn",
+        "display" : "Phoenician"
+      },
+      {
+        "code" : "pi",
+        "display" : "Pali"
+      },
+      {
+        "code" : "pl",
+        "display" : "Polish"
+      },
+      {
+        "code" : "pon",
+        "display" : "Pohnpeian"
+      },
+      {
+        "code" : "pra",
+        "display" : "Prakrit languages"
+      },
+      {
+        "code" : "pro",
+        "display" : "Provençal, Old (to 1500);Occitan, Old (to 1500)"
+      },
+      {
+        "code" : "ps",
+        "display" : "Pushto; Pashto"
+      },
+      {
+        "code" : "pt",
+        "display" : "Portuguese"
+      },
+      {
+        "code" : "qu",
+        "display" : "Quechua"
+      },
+      {
+        "code" : "raj",
+        "display" : "Rajasthani"
+      },
+      {
+        "code" : "rap",
+        "display" : "Rapanui"
+      },
+      {
+        "code" : "rar",
+        "display" : "Rarotongan; Cook Islands Maori"
+      },
+      {
+        "code" : "rm",
+        "display" : "Romansh"
+      },
+      {
+        "code" : "rn",
+        "display" : "Rundi"
+      },
+      {
+        "code" : "ro",
+        "display" : "Romanian; Moldavian; Moldovan"
+      },
+      {
+        "code" : "roa",
+        "display" : "Romance languages"
+      },
+      {
+        "code" : "rom",
+        "display" : "Romany"
+      },
+      {
+        "code" : "ru",
+        "display" : "Russian"
+      },
+      {
+        "code" : "rup",
+        "display" : "Aromanian; Arumanian; Macedo-Romanian"
+      },
+      {
+        "code" : "rw",
+        "display" : "Kinyarwanda"
+      },
+      {
+        "code" : "sa",
+        "display" : "Sanskrit"
+      },
+      {
+        "code" : "sad",
+        "display" : "Sandawe"
+      },
+      {
+        "code" : "sah",
+        "display" : "Yakut"
+      },
+      {
+        "code" : "sai",
+        "display" : "South American Indian languages"
+      },
+      {
+        "code" : "sal",
+        "display" : "Salishan languages"
+      },
+      {
+        "code" : "sam",
+        "display" : "Samaritan Aramaic"
+      },
+      {
+        "code" : "sas",
+        "display" : "Sasak"
+      },
+      {
+        "code" : "sat",
+        "display" : "Santali"
+      },
+      {
+        "code" : "sc",
+        "display" : "Sardinian"
+      },
+      {
+        "code" : "scn",
+        "display" : "Sicilian"
+      },
+      {
+        "code" : "sco",
+        "display" : "Scots"
+      },
+      {
+        "code" : "sd",
+        "display" : "Sindhi"
+      },
+      {
+        "code" : "se",
+        "display" : "Northern Sami"
+      },
+      {
+        "code" : "sel",
+        "display" : "Selkup"
+      },
+      {
+        "code" : "sem",
+        "display" : "Semitic languages"
+      },
+      {
+        "code" : "sg",
+        "display" : "Sango"
+      },
+      {
+        "code" : "sga",
+        "display" : "Irish, Old (to 900)"
+      },
+      {
+        "code" : "sgn",
+        "display" : "Sign Languages"
+      },
+      {
+        "code" : "shn",
+        "display" : "Shan"
+      },
+      {
+        "code" : "si",
+        "display" : "Sinhala; Sinhalese"
+      },
+      {
+        "code" : "sid",
+        "display" : "Sidamo"
+      },
+      {
+        "code" : "sio",
+        "display" : "Siouan languages"
+      },
+      {
+        "code" : "sit",
+        "display" : "Sino-Tibetan languages"
+      },
+      {
+        "code" : "sk",
+        "display" : "Slovak"
+      },
+      {
+        "code" : "sl",
+        "display" : "Slovenian"
+      },
+      {
+        "code" : "sla",
+        "display" : "Slavic languages"
+      },
+      {
+        "code" : "sm",
+        "display" : "Samoan"
+      },
+      {
+        "code" : "sma",
+        "display" : "Southern Sami"
+      },
+      {
+        "code" : "smi",
+        "display" : "Sami languages"
+      },
+      {
+        "code" : "smj",
+        "display" : "Lule Sami"
+      },
+      {
+        "code" : "smn",
+        "display" : "Inari Sami"
+      },
+      {
+        "code" : "sms",
+        "display" : "Skolt Sami"
+      },
+      {
+        "code" : "sn",
+        "display" : "Shona"
+      },
+      {
+        "code" : "snk",
+        "display" : "Soninke"
+      },
+      {
+        "code" : "so",
+        "display" : "Somali"
+      },
+      {
+        "code" : "sog",
+        "display" : "Sogdian"
+      },
+      {
+        "code" : "son",
+        "display" : "Songhai languages"
+      },
+      {
+        "code" : "sq",
+        "display" : "Albanian"
+      },
+      {
+        "code" : "sr",
+        "display" : "Serbian"
+      },
+      {
+        "code" : "srn",
+        "display" : "Sranan Tongo"
+      },
+      {
+        "code" : "srr",
+        "display" : "Serer"
+      },
+      {
+        "code" : "ss",
+        "display" : "Swati"
+      },
+      {
+        "code" : "ssa",
+        "display" : "Nilo-Saharan languages"
+      },
+      {
+        "code" : "st",
+        "display" : "Sotho, Southern"
+      },
+      {
+        "code" : "su",
+        "display" : "Sundanese"
+      },
+      {
+        "code" : "suk",
+        "display" : "Sukuma"
+      },
+      {
+        "code" : "sus",
+        "display" : "Susu"
+      },
+      {
+        "code" : "sux",
+        "display" : "Sumerian"
+      },
+      {
+        "code" : "sv",
+        "display" : "Swedish"
+      },
+      {
+        "code" : "sw",
+        "display" : "Swahili"
+      },
+      {
+        "code" : "syc",
+        "display" : "Classical Syriac"
+      },
+      {
+        "code" : "syr",
+        "display" : "Syriac"
+      },
+      {
+        "code" : "ta",
+        "display" : "Tamil"
+      },
+      {
+        "code" : "tai",
+        "display" : "Tai languages"
+      },
+      {
+        "code" : "te",
+        "display" : "Telugu"
+      },
+      {
+        "code" : "tem",
+        "display" : "Timne"
+      },
+      {
+        "code" : "ter",
+        "display" : "Tereno"
+      },
+      {
+        "code" : "tet",
+        "display" : "Tetum"
+      },
+      {
+        "code" : "tg",
+        "display" : "Tajik"
+      },
+      {
+        "code" : "th",
+        "display" : "Thai"
+      },
+      {
+        "code" : "ti",
+        "display" : "Tigrinya"
+      },
+      {
+        "code" : "tig",
+        "display" : "Tigre"
+      },
+      {
+        "code" : "tiv",
+        "display" : "Tiv"
+      },
+      {
+        "code" : "tk",
+        "display" : "Turkmen"
+      },
+      {
+        "code" : "tkl",
+        "display" : "Tokelau"
+      },
+      {
+        "code" : "tl",
+        "display" : "Tagalog"
+      },
+      {
+        "code" : "tlh",
+        "display" : "Klingon; tlhIngan-Hol"
+      },
+      {
+        "code" : "tli",
+        "display" : "Tlingit"
+      },
+      {
+        "code" : "tmh",
+        "display" : "Tamashek"
+      },
+      {
+        "code" : "tn",
+        "display" : "Tswana"
+      },
+      {
+        "code" : "to",
+        "display" : "Tonga (Tonga Islands)"
+      },
+      {
+        "code" : "tog",
+        "display" : "Tonga (Nyasa)"
+      },
+      {
+        "code" : "tpi",
+        "display" : "Tok Pisin"
+      },
+      {
+        "code" : "tr",
+        "display" : "Turkish"
+      },
+      {
+        "code" : "ts",
+        "display" : "Tsonga"
+      },
+      {
+        "code" : "tsi",
+        "display" : "Tsimshian"
+      },
+      {
+        "code" : "tt",
+        "display" : "Tatar"
+      },
+      {
+        "code" : "tum",
+        "display" : "Tumbuka"
+      },
+      {
+        "code" : "tup",
+        "display" : "Tupi languages"
+      },
+      {
+        "code" : "tut",
+        "display" : "Altaic languages"
+      },
+      {
+        "code" : "tvl",
+        "display" : "Tuvalu"
+      },
+      {
+        "code" : "tw",
+        "display" : "Twi"
+      },
+      {
+        "code" : "ty",
+        "display" : "Tahitian"
+      },
+      {
+        "code" : "tyv",
+        "display" : "Tuvinian"
+      },
+      {
+        "code" : "udm",
+        "display" : "Udmurt"
+      },
+      {
+        "code" : "ug",
+        "display" : "Uighur; Uyghur"
+      },
+      {
+        "code" : "uga",
+        "display" : "Ugaritic"
+      },
+      {
+        "code" : "uk",
+        "display" : "Ukrainian"
+      },
+      {
+        "code" : "umb",
+        "display" : "Umbundu"
+      },
+      {
+        "code" : "und",
+        "display" : "Undetermined"
+      },
+      {
+        "code" : "ur",
+        "display" : "Urdu"
+      },
+      {
+        "code" : "uz",
+        "display" : "Uzbek"
+      },
+      {
+        "code" : "vai",
+        "display" : "Vai"
+      },
+      {
+        "code" : "ve",
+        "display" : "Venda"
+      },
+      {
+        "code" : "vi",
+        "display" : "Vietnamese"
+      },
+      {
+        "code" : "vo",
+        "display" : "Volapük"
+      },
+      {
+        "code" : "vot",
+        "display" : "Votic"
+      },
+      {
+        "code" : "wa",
+        "display" : "Walloon"
+      },
+      {
+        "code" : "wak",
+        "display" : "Wakashan languages"
+      },
+      {
+        "code" : "wal",
+        "display" : "Wolaitta; Wolaytta"
+      },
+      {
+        "code" : "war",
+        "display" : "Waray"
+      },
+      {
+        "code" : "was",
+        "display" : "Washo"
+      },
+      {
+        "code" : "wen",
+        "display" : "Sorbian languages"
+      },
+      {
+        "code" : "wo",
+        "display" : "Wolof"
+      },
+      {
+        "code" : "xal",
+        "display" : "Kalmyk; Oirat"
+      },
+      {
+        "code" : "xh",
+        "display" : "Xhosa"
+      },
+      {
+        "code" : "yao",
+        "display" : "Yao"
+      },
+      {
+        "code" : "yap",
+        "display" : "Yapese"
+      },
+      {
+        "code" : "yi",
+        "display" : "Yiddish"
+      },
+      {
+        "code" : "yo",
+        "display" : "Yoruba"
+      },
+      {
+        "code" : "ypk",
+        "display" : "Yupik languages"
+      },
+      {
+        "code" : "za",
+        "display" : "Zhuang; Chuang"
+      },
+      {
+        "code" : "zap",
+        "display" : "Zapotec"
+      },
+      {
+        "code" : "zbl",
+        "display" : "Blissymbols; Blissymbolics; Bliss"
+      },
+      {
+        "code" : "zen",
+        "display" : "Zenaga"
+      },
+      {
+        "code" : "zgh",
+        "display" : "Standard Moroccan Tamazight"
+      },
+      {
+        "code" : "zh",
+        "display" : "Chinese"
+      },
+      {
+        "code" : "znd",
+        "display" : "Zande languages"
+      },
+      {
+        "code" : "zu",
+        "display" : "Zulu"
+      },
+      {
+        "code" : "zun",
+        "display" : "Zuni"
+      },
+      {
+        "code" : "zxx",
+        "display" : "No linguistic content; Not applicable"
+      },
+      {
+        "code" : "zza",
+        "display" : "Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki"
+      }]
+    }]
+  }
+}}####
+e: {
+  "source" : tx.fhir.org,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:b386a4ee-13b8-4bf0-b59a-0a592fccfac0",
+    "timestamp" : "2025-07-24T19:24:21.321Z",
+    "total" : 485,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "displayLanguage",
+      "valueCode" : "en-US"
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "urn:ietf:bcp:47"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "urn:ietf:bcp:47"
+    }],
+    "contains" : [{
+      "system" : "urn:ietf:bcp:47",
+      "code" : "aa",
+      "display" : "Afar"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ab",
+      "display" : "Abkhazian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ace",
+      "display" : "Achinese"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ach",
+      "display" : "Acoli"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ada",
+      "display" : "Adangme"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ady",
+      "display" : "Adyghe"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ae",
+      "display" : "Avestan"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "af",
+      "display" : "Afrikaans"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "afa",
+      "display" : "Afro-Asiatic languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "afh",
+      "display" : "Afrihili"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ain",
+      "display" : "Ainu (Japan)"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ak",
+      "display" : "Akan"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "akk",
+      "display" : "Akkadian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ale",
+      "display" : "Aleut"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "alg",
+      "display" : "Algonquian languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "alt",
+      "display" : "Southern Altai"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "am",
+      "display" : "Amharic"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "an",
+      "display" : "Aragonese"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ang",
+      "display" : "Old English (ca. 450-1100)"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "anp",
+      "display" : "Angika"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "apa",
+      "display" : "Apache languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ar",
+      "display" : "Arabic"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "arc",
+      "display" : "Official Aramaic (700-300 BCE)"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "arn",
+      "display" : "Mapudungun"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "arp",
+      "display" : "Arapaho"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "art",
+      "display" : "Artificial languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "arw",
+      "display" : "Arawak"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "as",
+      "display" : "Assamese"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ast",
+      "display" : "Asturian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ath",
+      "display" : "Athapascan languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "aus",
+      "display" : "Australian languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "av",
+      "display" : "Avaric"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "awa",
+      "display" : "Awadhi"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ay",
+      "display" : "Aymara"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "az",
+      "display" : "Azerbaijani"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ba",
+      "display" : "Bashkir"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "bad",
+      "display" : "Banda languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "bai",
+      "display" : "Bamileke languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "bal",
+      "display" : "Baluchi"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ban",
+      "display" : "Balinese"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "bas",
+      "display" : "Basa (Cameroon)"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "bat",
+      "display" : "Baltic languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "be",
+      "display" : "Belarusian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "bej",
+      "display" : "Beja"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "bem",
+      "display" : "Bemba (Zambia)"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ber",
+      "display" : "Berber languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "bg",
+      "display" : "Bulgarian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "bho",
+      "display" : "Bhojpuri"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "bi",
+      "display" : "Bislama"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "bik",
+      "display" : "Bikol"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "bin",
+      "display" : "Bini"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "bla",
+      "display" : "Siksika"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "bm",
+      "display" : "Bambara"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "bn",
+      "display" : "Bengali"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "bnt",
+      "display" : "Bantu languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "bo",
+      "display" : "Tibetan"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "br",
+      "display" : "Breton"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "bra",
+      "display" : "Braj"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "bs",
+      "display" : "Bosnian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "btk",
+      "display" : "Batak languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "bua",
+      "display" : "Buriat"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "bug",
+      "display" : "Buginese"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "byn",
+      "display" : "Bilin"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ca",
+      "display" : "Catalan"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "cad",
+      "display" : "Caddo"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "cai",
+      "display" : "Central American Indian languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "car",
+      "display" : "Galibi Carib"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "cau",
+      "display" : "Caucasian languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ce",
+      "display" : "Chechen"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ceb",
+      "display" : "Cebuano"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "cel",
+      "display" : "Celtic languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ch",
+      "display" : "Chamorro"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "chb",
+      "display" : "Chibcha"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "chg",
+      "display" : "Chagatai"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "chk",
+      "display" : "Chuukese"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "chm",
+      "display" : "Mari (Russia)"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "chn",
+      "display" : "Chinook jargon"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "cho",
+      "display" : "Choctaw"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "chp",
+      "display" : "Chipewyan"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "chr",
+      "display" : "Cherokee"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "chy",
+      "display" : "Cheyenne"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "cmc",
+      "display" : "Chamic languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "cnr",
+      "display" : "Montenegrin"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "co",
+      "display" : "Corsican"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "cop",
+      "display" : "Coptic"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "cpe",
+      "display" : "English-based creoles and pidgins"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "cpf",
+      "display" : "French-based creoles and pidgins"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "cpp",
+      "display" : "Portuguese-based creoles and pidgins"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "cr",
+      "display" : "Cree"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "crh",
+      "display" : "Crimean Tatar"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "crp",
+      "display" : "Creoles and pidgins"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "cs",
+      "display" : "Czech"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "csb",
+      "display" : "Kashubian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "cu",
+      "display" : "Church Slavic"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "cus",
+      "display" : "Cushitic languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "cv",
+      "display" : "Chuvash"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "cy",
+      "display" : "Welsh"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "da",
+      "display" : "Danish"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "dak",
+      "display" : "Dakota"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "dar",
+      "display" : "Dargwa"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "day",
+      "display" : "Land Dayak languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "de",
+      "display" : "German"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "del",
+      "display" : "Delaware"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "den",
+      "display" : "Slave (Athapascan)"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "dgr",
+      "display" : "Dogrib"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "din",
+      "display" : "Dinka"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "doi",
+      "display" : "Dogri (macrolanguage)"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "dra",
+      "display" : "Dravidian languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "dsb",
+      "display" : "Lower Sorbian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "dua",
+      "display" : "Duala"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "dum",
+      "display" : "Middle Dutch (ca. 1050-1350)"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "dv",
+      "display" : "Dhivehi"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "dyu",
+      "display" : "Dyula"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "dz",
+      "display" : "Dzongkha"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ee",
+      "display" : "Ewe"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "efi",
+      "display" : "Efik"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "egy",
+      "display" : "Egyptian (Ancient)"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "eka",
+      "display" : "Ekajuk"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "el",
+      "display" : "Modern Greek (1453-)"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "elx",
+      "display" : "Elamite"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "en",
+      "display" : "English"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "enm",
+      "display" : "Middle English (1100-1500)"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "eo",
+      "display" : "Esperanto"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "es",
+      "display" : "Spanish"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "et",
+      "display" : "Estonian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "eu",
+      "display" : "Basque"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ewo",
+      "display" : "Ewondo"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "fa",
+      "display" : "Persian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "fan",
+      "display" : "Fang (Equatorial Guinea)"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "fat",
+      "display" : "Fanti"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ff",
+      "display" : "Fulah"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "fi",
+      "display" : "Finnish"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "fil",
+      "display" : "Filipino"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "fiu",
+      "display" : "Finno-Ugrian languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "fj",
+      "display" : "Fijian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "fo",
+      "display" : "Faroese"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "fon",
+      "display" : "Fon"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "fr",
+      "display" : "French"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "frm",
+      "display" : "Middle French (ca. 1400-1600)"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "fro",
+      "display" : "Old French (842-ca. 1400)"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "frr",
+      "display" : "Northern Frisian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "frs",
+      "display" : "Eastern Frisian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "fur",
+      "display" : "Friulian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "fy",
+      "display" : "Western Frisian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ga",
+      "display" : "Irish"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "gaa",
+      "display" : "Ga"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "gay",
+      "display" : "Gayo"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "gba",
+      "display" : "Gbaya (Central African Republic)"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "gd",
+      "display" : "Scottish Gaelic"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "gem",
+      "display" : "Germanic languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "gez",
+      "display" : "Geez"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "gil",
+      "display" : "Gilbertese"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "gl",
+      "display" : "Galician"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "gmh",
+      "display" : "Middle High German (ca. 1050-1500)"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "gn",
+      "display" : "Guarani"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "goh",
+      "display" : "Old High German (ca. 750-1050)"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "gon",
+      "display" : "Gondi"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "gor",
+      "display" : "Gorontalo"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "got",
+      "display" : "Gothic"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "grb",
+      "display" : "Grebo"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "grc",
+      "display" : "Ancient Greek (to 1453)"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "gsw",
+      "display" : "Swiss German"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "gu",
+      "display" : "Gujarati"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "gv",
+      "display" : "Manx"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "gwi",
+      "display" : "GwichJ<in"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ha",
+      "display" : "Hausa"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "hai",
+      "display" : "Haida"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "haw",
+      "display" : "Hawaiian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "he",
+      "display" : "Hebrew"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "hi",
+      "display" : "Hindi"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "hil",
+      "display" : "Hiligaynon"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "him",
+      "display" : "Himachali languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "hit",
+      "display" : "Hittite"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "hmn",
+      "display" : "Hmong"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ho",
+      "display" : "Hiri Motu"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "hr",
+      "display" : "Croatian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "hsb",
+      "display" : "Upper Sorbian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ht",
+      "display" : "Haitian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "hu",
+      "display" : "Hungarian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "hup",
+      "display" : "Hupa"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "hy",
+      "display" : "Armenian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "hz",
+      "display" : "Herero"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ia",
+      "display" : "Interlingua (International Auxiliary Language"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "iba",
+      "display" : "Iban"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "id",
+      "display" : "Indonesian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ie",
+      "display" : "Interlingue"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ig",
+      "display" : "Igbo"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ii",
+      "display" : "Sichuan Yi"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ijo",
+      "display" : "Ijo languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ik",
+      "display" : "Inupiaq"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ilo",
+      "display" : "Iloko"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "inc",
+      "display" : "Indic languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ine",
+      "display" : "Indo-European languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "inh",
+      "display" : "Ingush"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "io",
+      "display" : "Ido"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ira",
+      "display" : "Iranian languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "iro",
+      "display" : "Iroquoian languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "is",
+      "display" : "Icelandic"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "it",
+      "display" : "Italian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "iu",
+      "display" : "Inuktitut"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ja",
+      "display" : "Japanese"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "jbo",
+      "display" : "Lojban"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "jpr",
+      "display" : "Judeo-Persian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "jrb",
+      "display" : "Judeo-Arabic"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "jv",
+      "display" : "Javanese"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ka",
+      "display" : "Georgian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "kaa",
+      "display" : "Kara-Kalpak"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "kab",
+      "display" : "Kabyle"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "kac",
+      "display" : "Kachin"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "kam",
+      "display" : "Kamba (Kenya)"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "kar",
+      "display" : "Karen languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "kaw",
+      "display" : "Kawi"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "kbd",
+      "display" : "Kabardian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "kg",
+      "display" : "Kongo"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "kha",
+      "display" : "Khasi"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "khi",
+      "display" : "Khoisan languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "kho",
+      "display" : "Khotanese"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ki",
+      "display" : "Kikuyu"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "kj",
+      "display" : "Kuanyama"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "kk",
+      "display" : "Kazakh"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "kl",
+      "display" : "Kalaallisut"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "km",
+      "display" : "Khmer"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "kmb",
+      "display" : "Kimbundu"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "kn",
+      "display" : "Kannada"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ko",
+      "display" : "Korean"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "kok",
+      "display" : "Konkani (macrolanguage)"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "kos",
+      "display" : "Kosraean"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "kpe",
+      "display" : "Kpelle"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "kr",
+      "display" : "Kanuri"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "krc",
+      "display" : "Karachay-Balkar"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "krl",
+      "display" : "Karelian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "kro",
+      "display" : "Kru languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "kru",
+      "display" : "Kurukh"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ks",
+      "display" : "Kashmiri"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ku",
+      "display" : "Kurdish"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "kum",
+      "display" : "Kumyk"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "kut",
+      "display" : "Kutenai"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "kv",
+      "display" : "Komi"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "kw",
+      "display" : "Cornish"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ky",
+      "display" : "Kirghiz"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "la",
+      "display" : "Latin"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "lad",
+      "display" : "Ladino"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "lah",
+      "display" : "Lahnda"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "lam",
+      "display" : "Lamba"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "lb",
+      "display" : "Luxembourgish"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "lez",
+      "display" : "Lezghian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "lg",
+      "display" : "Ganda"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "li",
+      "display" : "Limburgan"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ln",
+      "display" : "Lingala"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "lo",
+      "display" : "Lao"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "lol",
+      "display" : "Mongo"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "loz",
+      "display" : "Lozi"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "lt",
+      "display" : "Lithuanian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "lu",
+      "display" : "Luba-Katanga"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "lua",
+      "display" : "Luba-Lulua"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "lui",
+      "display" : "Luiseno"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "lun",
+      "display" : "Lunda"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "luo",
+      "display" : "Luo (Kenya and Tanzania)"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "lus",
+      "display" : "Lushai"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "lv",
+      "display" : "Latvian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "mad",
+      "display" : "Madurese"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "mag",
+      "display" : "Magahi"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "mai",
+      "display" : "Maithili"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "mak",
+      "display" : "Makasar"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "man",
+      "display" : "Mandingo"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "map",
+      "display" : "Austronesian languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "mas",
+      "display" : "Masai"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "mdf",
+      "display" : "Moksha"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "mdr",
+      "display" : "Mandar"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "men",
+      "display" : "Mende (Sierra Leone)"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "mg",
+      "display" : "Malagasy"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "mga",
+      "display" : "Middle Irish (900-1200)"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "mh",
+      "display" : "Marshallese"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "mi",
+      "display" : "Maori"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "mic",
+      "display" : "Mi'kmaq"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "min",
+      "display" : "Minangkabau"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "mis",
+      "display" : "Uncoded languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "mk",
+      "display" : "Macedonian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "mkh",
+      "display" : "Mon-Khmer languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ml",
+      "display" : "Malayalam"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "mn",
+      "display" : "Mongolian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "mnc",
+      "display" : "Manchu"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "mni",
+      "display" : "Manipuri"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "mno",
+      "display" : "Manobo languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "moh",
+      "display" : "Mohawk"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "mos",
+      "display" : "Mossi"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "mr",
+      "display" : "Marathi"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ms",
+      "display" : "Malay (macrolanguage)"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "mt",
+      "display" : "Maltese"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "mul",
+      "display" : "Multiple languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "mun",
+      "display" : "Munda languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "mus",
+      "display" : "Creek"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "mwl",
+      "display" : "Mirandese"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "mwr",
+      "display" : "Marwari"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "my",
+      "display" : "Burmese"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "myn",
+      "display" : "Mayan languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "myv",
+      "display" : "Erzya"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "na",
+      "display" : "Nauru"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "nah",
+      "display" : "Nahuatl languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "nai",
+      "display" : "North American Indian languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "nap",
+      "display" : "Neapolitan"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "nb",
+      "display" : "Norwegian BokmC%l"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "nd",
+      "display" : "North Ndebele"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "nds",
+      "display" : "Low German"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ne",
+      "display" : "Nepali (macrolanguage)"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "new",
+      "display" : "Newari"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ng",
+      "display" : "Ndonga"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "nia",
+      "display" : "Nias"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "nic",
+      "display" : "Niger-Kordofanian languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "niu",
+      "display" : "Niuean"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "nl",
+      "display" : "Dutch"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "nn",
+      "display" : "Norwegian Nynorsk"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "no",
+      "display" : "Norwegian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "nog",
+      "display" : "Nogai"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "non",
+      "display" : "Old Norse"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "nqo",
+      "display" : "N'Ko"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "nr",
+      "display" : "South Ndebele"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "nso",
+      "display" : "Pedi"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "nub",
+      "display" : "Nubian languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "nv",
+      "display" : "Navajo"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "nwc",
+      "display" : "Classical Newari"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ny",
+      "display" : "Nyanja"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "nym",
+      "display" : "Nyamwezi"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "nyn",
+      "display" : "Nyankole"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "nyo",
+      "display" : "Nyoro"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "nzi",
+      "display" : "Nzima"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "oc",
+      "display" : "Occitan (post 1500)"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "oj",
+      "display" : "Ojibwa"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "om",
+      "display" : "Oromo"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "or",
+      "display" : "Oriya (macrolanguage)"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "os",
+      "display" : "Ossetian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "osa",
+      "display" : "Osage"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ota",
+      "display" : "Ottoman Turkish (1500-1928)"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "oto",
+      "display" : "Otomian languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "pa",
+      "display" : "Panjabi"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "paa",
+      "display" : "Papuan languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "pag",
+      "display" : "Pangasinan"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "pal",
+      "display" : "Pahlavi"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "pam",
+      "display" : "Pampanga"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "pap",
+      "display" : "Papiamento"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "pau",
+      "display" : "Palauan"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "peo",
+      "display" : "Old Persian (ca. 600-400 B.C.)"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "phi",
+      "display" : "Philippine languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "phn",
+      "display" : "Phoenician"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "pi",
+      "display" : "Pali"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "pl",
+      "display" : "Polish"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "pon",
+      "display" : "Pohnpeian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "pra",
+      "display" : "Prakrit languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "pro",
+      "display" : "Old ProvenC'al (to 1500)"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ps",
+      "display" : "Pushto"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "pt",
+      "display" : "Portuguese"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "qu",
+      "display" : "Quechua"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "raj",
+      "display" : "Rajasthani"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "rap",
+      "display" : "Rapanui"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "rar",
+      "display" : "Rarotongan"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "rm",
+      "display" : "Romansh"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "rn",
+      "display" : "Rundi"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ro",
+      "display" : "Romanian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "roa",
+      "display" : "Romance languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "rom",
+      "display" : "Romany"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ru",
+      "display" : "Russian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "rup",
+      "display" : "Macedo-Romanian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "rw",
+      "display" : "Kinyarwanda"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "sa",
+      "display" : "Sanskrit"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "sad",
+      "display" : "Sandawe"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "sah",
+      "display" : "Yakut"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "sai",
+      "display" : "South American Indian languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "sal",
+      "display" : "Salishan languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "sam",
+      "display" : "Samaritan Aramaic"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "sas",
+      "display" : "Sasak"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "sat",
+      "display" : "Santali"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "sc",
+      "display" : "Sardinian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "scn",
+      "display" : "Sicilian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "sco",
+      "display" : "Scots"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "sd",
+      "display" : "Sindhi"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "se",
+      "display" : "Northern Sami"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "sel",
+      "display" : "Selkup"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "sem",
+      "display" : "Semitic languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "sg",
+      "display" : "Sango"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "sga",
+      "display" : "Old Irish (to 900)"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "sgn",
+      "display" : "Sign languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "shn",
+      "display" : "Shan"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "si",
+      "display" : "Sinhala"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "sid",
+      "display" : "Sidamo"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "sio",
+      "display" : "Siouan languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "sit",
+      "display" : "Sino-Tibetan languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "sk",
+      "display" : "Slovak"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "sl",
+      "display" : "Slovenian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "sla",
+      "display" : "Slavic languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "sm",
+      "display" : "Samoan"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "sma",
+      "display" : "Southern Sami"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "smi",
+      "display" : "Sami languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "smj",
+      "display" : "Lule Sami"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "smn",
+      "display" : "Inari Sami"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "sms",
+      "display" : "Skolt Sami"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "sn",
+      "display" : "Shona"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "snk",
+      "display" : "Soninke"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "so",
+      "display" : "Somali"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "sog",
+      "display" : "Sogdian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "son",
+      "display" : "Songhai languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "sq",
+      "display" : "Albanian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "sr",
+      "display" : "Serbian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "srn",
+      "display" : "Sranan Tongo"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "srr",
+      "display" : "Serer"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ss",
+      "display" : "Swati"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ssa",
+      "display" : "Nilo-Saharan languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "st",
+      "display" : "Southern Sotho"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "su",
+      "display" : "Sundanese"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "suk",
+      "display" : "Sukuma"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "sus",
+      "display" : "Susu"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "sux",
+      "display" : "Sumerian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "sv",
+      "display" : "Swedish"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "sw",
+      "display" : "Swahili (macrolanguage)"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "syc",
+      "display" : "Classical Syriac"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "syr",
+      "display" : "Syriac"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ta",
+      "display" : "Tamil"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "tai",
+      "display" : "Tai languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "te",
+      "display" : "Telugu"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "tem",
+      "display" : "Timne"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ter",
+      "display" : "Tereno"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "tet",
+      "display" : "Tetum"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "tg",
+      "display" : "Tajik"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "th",
+      "display" : "Thai"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ti",
+      "display" : "Tigrinya"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "tig",
+      "display" : "Tigre"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "tiv",
+      "display" : "Tiv"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "tk",
+      "display" : "Turkmen"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "tkl",
+      "display" : "Tokelau"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "tl",
+      "display" : "Tagalog"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "tlh",
+      "display" : "Klingon"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "tli",
+      "display" : "Tlingit"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "tmh",
+      "display" : "Tamashek"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "tn",
+      "display" : "Tswana"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "to",
+      "display" : "Tonga (Tonga Islands)"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "tog",
+      "display" : "Tonga (Nyasa)"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "tpi",
+      "display" : "Tok Pisin"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "tr",
+      "display" : "Turkish"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ts",
+      "display" : "Tsonga"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "tsi",
+      "display" : "Tsimshian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "tt",
+      "display" : "Tatar"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "tum",
+      "display" : "Tumbuka"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "tup",
+      "display" : "Tupi languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "tut",
+      "display" : "Altaic languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "tvl",
+      "display" : "Tuvalu"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "tw",
+      "display" : "Twi"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ty",
+      "display" : "Tahitian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "tyv",
+      "display" : "Tuvinian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "udm",
+      "display" : "Udmurt"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ug",
+      "display" : "Uighur"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "uga",
+      "display" : "Ugaritic"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "uk",
+      "display" : "Ukrainian"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "umb",
+      "display" : "Umbundu"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "und",
+      "display" : "Undetermined"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ur",
+      "display" : "Urdu"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "uz",
+      "display" : "Uzbek"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "vai",
+      "display" : "Vai"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ve",
+      "display" : "Venda"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "vi",
+      "display" : "Vietnamese"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "vo",
+      "display" : "VolapC<k"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "vot",
+      "display" : "Votic"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "wa",
+      "display" : "Walloon"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "wak",
+      "display" : "Wakashan languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "wal",
+      "display" : "Wolaytta"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "war",
+      "display" : "Waray (Philippines)"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "was",
+      "display" : "Washo"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "wen",
+      "display" : "Sorbian languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "wo",
+      "display" : "Wolof"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "xal",
+      "display" : "Kalmyk"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "xh",
+      "display" : "Xhosa"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "yao",
+      "display" : "Yao"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "yap",
+      "display" : "Yapese"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "yi",
+      "display" : "Yiddish"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "yo",
+      "display" : "Yoruba"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "ypk",
+      "display" : "Yupik languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "za",
+      "display" : "Zhuang"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "zap",
+      "display" : "Zapotec"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "zbl",
+      "display" : "Blissymbols"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "zen",
+      "display" : "Zenaga"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "zgh",
+      "display" : "Standard Moroccan Tamazight"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "zh",
+      "display" : "Chinese"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "znd",
+      "display" : "Zande languages"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "zu",
+      "display" : "Zulu"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "zun",
+      "display" : "Zuni"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "zxx",
+      "display" : "No linguistic content"
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "code" : "zza",
+      "display" : "Zaza"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
