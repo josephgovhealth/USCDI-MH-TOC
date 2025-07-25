@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet
+    xmlns="http://hl7.org/fhir">
+    <id value="hypertensive-disorders-pregnancy-ICD"/>
+    <meta>
+        <versionId value="7"/>
+        <lastUpdated value="2022-03-01T17:34:08.569+00:00"/>
+        <source value="#SooQ5o4wacYGudiF"/>
+    </meta>
+    <url value="http://hl7.org/fhir/us/mihr/ValueSet/hypertensive-disorders-pregnancy-ICD"/>
+    <name value="ValueSetHypertensiveDisordersOfPregnancyICD10"/>
+    <title value="ValueSet – Hypertensive Disorders of Pregnancy ICD"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <description value="This value set includes terms related to hypertensive disorders of pregnancy which include pre-existing hypertension, chronic hypertension, hypertensive chronic kidney disease, essential hypertension, hypertension diagnosed during the course of pregnancy and diagnoses of pre-eclampsia and eclampsia."/>
+    <copyright value="ICD-10-cm"/>
+    <compose>
+        <include>
+            <system value="http://hl7.org/fhir/sid/icd-10-cm"/>
+            <concept>
+                <code value="O10.01"/>
+                <display value="Pre-existing essential hypertension complicating pregnancy,"/>
+            </concept>
+            <concept>
+                <code value="O10.011"/>
+                <display value="Pre-existing essential hypertension complicating pregnancy, first trimester"/>
+            </concept>
+            <concept>
+                <code value="O10.012"/>
+                <display value="Pre-existing essential hypertension complicating pregnancy, second trimester"/>
+            </concept>
+            <concept>
+                <code value="O10.013"/>
+                <display value="Pre-existing essential hypertension complicating pregnancy, third trimester"/>
+            </concept>
+            <concept>
+                <code value="O10.019"/>
+                <display value="Pre-existing essential hypertension complicating pregnancy, unspecified trimester"/>
+            </concept>
+            <concept>
+                <code value="O10.02"/>
+                <display value="Pre-existing essential hypertension complicating childbirth"/>
+            </concept>
+            <concept>
+                <code value="O10.03"/>
+                <display value="Pre-existing essential hypertension complicating the puerperium"/>
+            </concept>
+            <concept>
+                <code value="O10.11"/>
+                <display value="Pre-existing hypertensive heart disease complicating pregnancy"/>
+            </concept>
+            <concept>
+                <code value="O10.111"/>
+                <display value="Pre-existing hypertensive heart disease complicating pregnancy, first trimester"/>
+            </concept>
+            <concept>
+                <code value="O10.112"/>
+                <display value="Pre-existing hypertensive heart disease complicating pregnancy, second trimester"/>
+            </concept>
+            <concept>
+                <code value="O10.113"/>
+                <display value="Pre-existing hypertensive heart disease complicating pregnancy, third trimester"/>
+            </concept>
+            <concept>
+                <code value="O10.119"/>
+                <display value="Pre-existing hypertensive heart disease complicating pregnancy, unspecified trimester"/>
+            </concept>
+            <concept>
+                <code value="O10.12"/>
+                <display value="Pre-existing hypertensive heart disease complicating childbirth"/>
+            </concept>
+            <concept>
+                <code value="O10.13"/>
+                <display value="Pre-existing hypertensive heart disease complicating the puerperium"/>
+            </concept>
+            <concept>
+                <code value="O10.211"/>
+                <display value="Pre-existing hypertensive chronic kidney disease complicating pregnancy, first trimester"/>
+            </concept>
+            <concept>
+                <code value="O10.212"/>
+                <display value="Pre-existing hypertensive chronic kidney disease complicating pregnancy, second trimester"/>
+            </concept>
+            <concept>
+                <code value="O10.213"/>
+                <display value="Pre-existing hypertensive chronic kidney disease complicating pregnancy, third trimester"/>
+            </concept>
+            <concept>
+                <code value="O10.219"/>
+                <display value="Pre-existing hypertensive chronic kidney disease complicating pregnancy, unspecified trimester"/>
+            </concept>
+            <concept>
+                <code value="O10.22"/>
+                <display value="Pre-existing hypertensive chronic kidney disease complicating childbirth"/>
+            </concept>
+            <concept>
+                <code value="O10.23"/>
+                <display value="Pre-existing hypertensive chronic kidney disease complicating the puerperium"/>
+            </concept>
+            <concept>
+                <code value="O10.311"/>
+                <display value="Pre-existing hypertensive heart and chronic kidney disease complicating pregnancy, first trimester"/>
+            </concept>
+            <concept>
+                <code value="O10.312"/>
+                <display value="Pre-existing hypertensive heart and chronic kidney disease complicating pregnancy, second trimester"/>
+            </concept>
+            <concept>
+                <code value="O10.313"/>
+                <display value="Pre-existing hypertensive heart and chronic kidney disease complicating pregnancy, third trimester"/>
+            </concept>
+            <concept>
+                <code value="O10.319"/>
+                <display value="Pre-existing hypertensive heart and chronic kidney disease complicating pregnancy, unspecified trimester"/>
+            </concept>
+            <concept>
+                <code value="O10.32"/>
+                <display value="Pre-existing hypertensive heart and chronic kidney disease complicating childbirth"/>
+            </concept>
+            <concept>
+                <code value="O10.33"/>
+                <display value="Pre-existing hypertensive heart and chronic kidney disease complicating the puerperium"/>
+            </concept>
+            <concept>
+                <code value="O10.41"/>
+                <display value="Pre-existing secondary hypertension complicating pregnancy"/>
+            </concept>
+            <concept>
+                <code value="O10.411"/>
+                <display value="Pre-existing secondary hypertension complicating pregnancy, first trimester"/>
+            </concept>
+            <concept>
+                <code value="O10.412"/>
+                <display value="Pre-existing secondary hypertension complicating pregnancy, second trimester"/>
+            </concept>
+            <concept>
+                <code value="O10.413"/>
+                <display value="Pre-existing secondary hypertension complicating pregnancy, third trimester"/>
+            </concept>
+            <concept>
+                <code value="O10.419"/>
+                <display value="Pre-existing secondary hypertension complicating pregnancy, unspecified trimester"/>
+            </concept>
+            <concept>
+                <code value="O10.42"/>
+                <display value="Pre-existing secondary hypertension complicating childbirth"/>
+            </concept>
+            <concept>
+                <code value="O10.43"/>
+                <display value="Pre-existing secondary hypertension complicating the puerperium"/>
+            </concept>
+            <concept>
+                <code value="O10.91"/>
+                <display value="Unspecified pre-existing hypertension complicating pregnancy"/>
+            </concept>
+            <concept>
+                <code value="O10.911"/>
+                <display value="Unspecified pre-existing hypertension complicating pregnancy, first trimester"/>
+            </concept>
+            <concept>
+                <code value="O10.912"/>
+                <display value="Unspecified pre-existing hypertension complicating pregnancy, second trimester"/>
+            </concept>
+            <concept>
+                <code value="O10.913"/>
+                <display value="Unspecified pre-existing hypertension complicating pregnancy, third trimester"/>
+            </concept>
+            <concept>
+                <code value="O10.919"/>
+                <display value="Unspecified pre-existing hypertension complicating pregnancy, unspecified trimester"/>
+            </concept>
+            <concept>
+                <code value="O10.92"/>
+                <display value="Unspecified pre-existing hypertension complicating childbirth"/>
+            </concept>
+            <concept>
+                <code value="O10.93"/>
+                <display value="Unspecified pre-existing hypertension complicating the puerperium"/>
+            </concept>
+            <concept>
+                <code value="O11"/>
+                <display value="Pre-existing hypertension with pre-eclampsia"/>
+            </concept>
+            <concept>
+                <code value="O11.1"/>
+                <display value="Pre-existing hypertension with pre-eclampsia, first trimester"/>
+            </concept>
+            <concept>
+                <code value="O11.2"/>
+                <display value="Pre-existing hypertension with pre-eclampsia, second trimester"/>
+            </concept>
+            <concept>
+                <code value="O11.3"/>
+                <display value="Pre-existing hypertension with pre-eclampsia, third trimester"/>
+            </concept>
+            <concept>
+                <code value="O11.4"/>
+                <display value="Pre-existing hypertension with pre-eclampsia, complicating childbirth"/>
+            </concept>
+            <concept>
+                <code value="O11.5"/>
+                <display value="Pre-existing hypertension with pre-eclampsia, complicating the puerperium"/>
+            </concept>
+            <concept>
+                <code value="O11.9"/>
+                <display value="Pre-existing hypertension with pre-eclampsia, unspecified trimester"/>
+            </concept>
+            <concept>
+                <code value="O13"/>
+                <display value="Gestational [pregnancy-induced] hypertension without significant proteinuria"/>
+            </concept>
+            <concept>
+                <code value="O13.1"/>
+                <display value="Gestational [pregnancy-induced] hypertension without significant proteinuria, first trimester"/>
+            </concept>
+            <concept>
+                <code value="O13.2"/>
+                <display value="Gestational [pregnancy-induced] hypertension without significant proteinuria, second trimester"/>
+            </concept>
+            <concept>
+                <code value="O13.3"/>
+                <display value="Gestational [pregnancy-induced] hypertension without significant proteinuria, third trimester"/>
+            </concept>
+            <concept>
+                <code value="O13.4"/>
+                <display value="Gestational [pregnancy-induced] hypertension without significant proteinuria, complicating childbirth"/>
+            </concept>
+            <concept>
+                <code value="O13.5"/>
+                <display value="Gestational [pregnancy-induced] hypertension without significant proteinuria, complicating the puerperium"/>
+            </concept>
+            <concept>
+                <code value="O13.9"/>
+                <display value="Gestational [pregnancy-induced] hypertension without significant proteinuria, unspecified trimester"/>
+            </concept>
+            <concept>
+                <code value="O14.00"/>
+                <display value="Mild to moderate pre-eclampsia, unspecified trimester"/>
+            </concept>
+            <concept>
+                <code value="O14.02"/>
+                <display value="Mild to moderate pre-eclampsia, second trimester"/>
+            </concept>
+            <concept>
+                <code value="O14.03"/>
+                <display value="Mild to moderate pre-eclampsia, third trimester"/>
+            </concept>
+            <concept>
+                <code value="O14.04"/>
+                <display value="Mild to moderate pre-eclampsia, complicating childbirth"/>
+            </concept>
+            <concept>
+                <code value="O14.05"/>
+                <display value="Mild to moderate pre-eclampsia, complicating the puerperium"/>
+            </concept>
+            <concept>
+                <code value="O14.1"/>
+                <display value="Severe pre-eclampsia"/>
+            </concept>
+            <concept>
+                <code value="O14.10"/>
+                <display value="Severe pre-eclampsia, unspecified trimester"/>
+            </concept>
+            <concept>
+                <code value="O14.12"/>
+                <display value="Severe pre-eclampsia, second trimester"/>
+            </concept>
+            <concept>
+                <code value="O14.13"/>
+                <display value="Severe pre-eclampsia, third trimester"/>
+            </concept>
+            <concept>
+                <code value="O14.14"/>
+                <display value="Severe pre-eclampsia complicating childbirth"/>
+            </concept>
+            <concept>
+                <code value="O14.15"/>
+                <display value="Severe pre-eclampsia, complicating the puerperium"/>
+            </concept>
+            <concept>
+                <code value="O14.2"/>
+                <display value="HELLP syndrome"/>
+            </concept>
+            <concept>
+                <code value="O14.20"/>
+                <display value="HELLP syndrome (HELLP), unspecified trimester"/>
+            </concept>
+            <concept>
+                <code value="O14.22"/>
+                <display value="HELLP syndrome (HELLP), second trimester"/>
+            </concept>
+            <concept>
+                <code value="O14.23"/>
+                <display value="HELLP syndrome (HELLP), third trimester"/>
+            </concept>
+            <concept>
+                <code value="O14.24"/>
+                <display value="HELLP syndrome, complicating childbirth"/>
+            </concept>
+            <concept>
+                <code value="O14.25"/>
+                <display value="HELLP syndrome, complicating the puerperium"/>
+            </concept>
+            <concept>
+                <code value="O14.9"/>
+                <display value="Unspecified pre-eclampsia"/>
+            </concept>
+            <concept>
+                <code value="O14.90"/>
+                <display value="Unspecified pre-eclampsia, unspecified trimester"/>
+            </concept>
+            <concept>
+                <code value="O14.92"/>
+                <display value="Unspecified pre-eclampsia, second trimester"/>
+            </concept>
+            <concept>
+                <code value="O14.93"/>
+                <display value="Unspecified pre-eclampsia, third trimester"/>
+            </concept>
+            <concept>
+                <code value="O14.94"/>
+                <display value="Unspecified pre-eclampsia, complicating childbirth"/>
+            </concept>
+            <concept>
+                <code value="O14.95"/>
+                <display value="Unspecified pre-eclampsia, complicating the puerperium"/>
+            </concept>
+            <concept>
+                <code value="O15"/>
+                <display value="Eclampsia"/>
+            </concept>
+            <concept>
+                <code value="O15.0"/>
+                <display value="Eclampsia complicating pregnancy"/>
+            </concept>
+            <concept>
+                <code value="O15.00"/>
+                <display value="Eclampsia complicating pregnancy, unspecified trimester"/>
+            </concept>
+            <concept>
+                <code value="O15.02"/>
+                <display value="Eclampsia complicating pregnancy, second trimester"/>
+            </concept>
+            <concept>
+                <code value="O15.03"/>
+                <display value="Eclampsia complicating pregnancy, third trimester"/>
+            </concept>
+            <concept>
+                <code value="O15.1"/>
+                <display value="Eclampsia complicating labor"/>
+            </concept>
+            <concept>
+                <code value="O15.2"/>
+                <display value="Eclampsia complicating the puerperium"/>
+            </concept>
+            <concept>
+                <code value="O15.9"/>
+                <display value="Eclampsia, unspecified as to time period"/>
+            </concept>
+            <concept>
+                <code value="O16"/>
+                <display value="Unspecified maternal hypertension"/>
+            </concept>
+            <concept>
+                <code value="O16.1"/>
+                <display value="Unspecified maternal hypertension, first trimester"/>
+            </concept>
+            <concept>
+                <code value="O16.2"/>
+                <display value="Unspecified maternal hypertension, second trimester"/>
+            </concept>
+            <concept>
+                <code value="O16.3"/>
+                <display value="Unspecified maternal hypertension, third trimester"/>
+            </concept>
+            <concept>
+                <code value="O16.4"/>
+                <display value="Unspecified maternal hypertension, complicating childbirth"/>
+            </concept>
+            <concept>
+                <code value="O16.5"/>
+                <display value="Unspecified maternal hypertension, complicating the puerperium"/>
+            </concept>
+            <concept>
+                <code value="O16.9"/>
+                <display value="Unspecified maternal hypertension, unspecified trimester"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>

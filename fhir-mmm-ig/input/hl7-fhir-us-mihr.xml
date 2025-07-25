@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImplementationGuide
+    xmlns="http://hl7.org/fhir">
+    <id value="hl7-fhir-us-mihr"/>
+    <meta>
+        <versionId value="484"/>
+        <lastUpdated value="2022-10-06T20:45:56.378+00:00"/>
+        <source value="#XJPU3AStgqUwJTMu"/>
+    </meta>
+    <url value="http://hl7.org/fhir/us/mihr/ImplementationGuide/hl7-fhir-us-mihr"/>
+    <version value="1.0.0"/>
+    <name value="MaternalInfantHealthResearch"/>
+    <title value="Longitudinal Maternal &amp; Infant Health Information for Research"/>
+    <status value="active"/>
+    <experimental value="false"/>
+    <date value="2022-12-08"/>
+    <publisher value="HL7 Public Health Work Group"/>
+    <contact>
+        <name value="HL7 International - Public Health"/>
+        <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/pher"/>
+        </telecom>
+    </contact>
+    <description value="### Scope&#xA;The Longitudinal Maternal &amp; Child Health Information for Research FHIR R4 implementation guide (IG) defines a framework to enable maternal health researchers to aggregate, calculate, and analyze clinical information of research populations to explore the root causes for maternal and child morbidity and mortality. It uses Clinical Quality Language (CQL) expressions to assist researchers in capturing clinical data based on population study cohort criteria. This IG focuses on information relevant to longitudinal maternal care, which includes antepartum (including pre-pregnancy), intrapartum, and postpartum care of a pregnant woman. It includes how to link maternal longitudinal record with associated child/children records. &#xA;&#xA;This US Realm IG supports the use of US Core profiles where possible, as well as base FHIR and Vital Records Common Profiles FHIR IG data model for the structural linkage of mother and child clinical records. &#xA;&#xA;&#xA;### Background&#xA;The rates of maternal mortality have been rising in the United States since 1987. Clinical data relevant to understanding this trend are not standardized, and data exchange is not interoperable across many relevant settings. Maternal health and associated child health are inextricably linked – what happens during gestation, delivery, and after informs health outcomes of both mother and child – but relevant data is often held in separate, unconnected records. These issues impede research on maternal morbidity and longitudinal maternal care and associated impacts to infant health. Research on root causes of maternal mortality, pediatric developmental problems, and effective treatments requires exchange of information stored in disparate sources, such as electronic health record (EHR) systems, registries, and public health agencies (PHAs).&#xA;&#xA;The types of information needed to research maternal health and morbidity include social determinants of health (SDOH) and associated clinical data such as antepartum, intrapartum, and postpartum care of a pregnant woman; pregnancy-related conditions and outcomes; maternal co-morbidities; child health data; and procedures. The goal of this FHIR IG is to define a model to support data exchange for predictive analysis, risk assessment, and retrospective maternal health research across the spectrum and duration of care. &#xA;&#xA;Future users may include health departments using EHR data to inform public health interventions (e.g., case identification for reportable conditions, identifying persons lost to care, etc.) and maternal and child health researchers. The standards development effort will also examine options for data exchange mechanisms, including point-in-time query (data pull) and research population creation, i.e., patient enrollment in a study.&#xA;&#xA;### Maternal Research Use Cases&#xA;&#xA;This IG will eventually support mapping maternal data across health records from specialty care and linking mother and child data harmonized across a broad set of use cases. This will support researchers in identifying root causes of maternal mortality and pediatric developmental problems, including SDOH such as limited income, poor nutrition, lack of medical coverage, etc. The goal of the project is to create a method to standardize data capture for comparative analysis over time to improve health outcomes and define a framework for studying additional research populations in the future.&#xA;&#xA;Initial use cases of this IG focus on hypertensive disorders of pregnancy pre, ante, and postpartum and pregnancy and subsequent death within a specific timeframe. The intent is to specify the consistent capture of clinical data of interest to maternal health researchers and outline implementing FHIR resources for that capture. Currently, the IG defines two initial, separate research use case populations: &#xA;&#xA;*	Pregnancy and subsequent death within a specific time frame: This cohort includes women who died within a year (365 days) of a pregnancy regardless of cause of death or pregnancy outcome.&#xA;*	Hypertensive Disorders of pregnancy: This use case focuses on women with a diagnosis of hypertensive disorders of pregnancy.&#xA;&#xA;In both instances, the IG will establish linkages via the US Core Related Person profile to collect associated child health data that may inform maternal health research outcomes. &#xA;&#xA;In the future, the IG will expand this framework to a range of use cases including:&#xA;*	Risks for children related to maternal exposure to medications taken during pregnancy&#xA;*	Potential adverse maternal obstetric history impacts on child outcomes&#xA;*	Access to relevant sensitive health information&#xA;*	Retrospective population-based analysis of inherited disorders&#xA;*	The impacts of [work habits, work environment, and work-associated health insurance](http://hl7.org/fhir/us/odh/) impacts to pregnancy and maternal health&#xA;&#xA;This guide fundamentally relies on creating structural relationships between:&#xA;*	Maternal and child records to effectively diagnose and treat otherwise fatal child outcomes&#xA;*	Maternal and child birth records and/or maternal and child death records&#xA;*	Maternal and child records in multiple disparate systems&#xA;&#xA;### Audience &#xA;The audience for this IG includes EHR vendors, developers of software tooling researchers, and associated information management systems. Researchers, business analysts, and policy managers can also benefit from a basic understanding of the use of this guide to support measure calculation for research purposes.&#xA;&#xA;### Authors &amp; Project Team&#xA;This table lists the authors, subject matter experts, and the affiliations which contributed to this standard. &#xA;&#xA;&lt;style type=&quot;text/css&quot;&gt;&#xA;.tg  {border-collapse:collapse;border-spacing:0;}&#xA;.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;&#xA;  overflow:hidden;padding:10px 5px;word-break:normal;}&#xA;.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;&#xA;  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}&#xA;.tg .tg-4erg{border-color:inherit;font-style:italic;font-weight:bold;text-align:left;vertical-align:top}&#xA;.tg .tg-0r4h{border-color:inherit;font-family:serif !important;font-weight:bold;text-align:left;vertical-align:top}&#xA;.tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}&#xA;.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}&#xA;&lt;/style&gt;&#xA;&lt;table class=&quot;tg&quot;&gt;&#xA;&lt;thead&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;th class=&quot;tg-fymr&quot;&gt;Name &amp;amp; Affiliation&lt;/th&gt;&#xA;    &lt;th class=&quot;tg-0r4h&quot;&gt;Role&lt;/th&gt;&#xA;    &lt;th class=&quot;tg-fymr&quot;&gt;Contact&lt;/th&gt;&#xA;  &lt;/tr&gt;&#xA;&lt;/thead&gt;&#xA;&lt;tbody&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td class=&quot;tg-4erg&quot;&gt;Lantana Consulting Group&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt; &lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt; &lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;Courtney Panaia-Rodi &lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;Project Executive&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;courtney.panaia-rodi@lantanagroup.com&lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;Wendy Wise&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;Project Manager&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;wendy.wise@lantanagroup.com&lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;Lani Johnson&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;Associate Project Manager&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;lani.johnson@lantanagroup.com&lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;Rick Geimer&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;FHIR Subject Matter Expert&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;rick.geimer@lantanagroup.com&lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;Zabrina Gonzaga&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;Terminology Subject Matter Expert&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;zabrina.gonzaga@lantanagroup.com&lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;Sarah Gaunt&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;Senior FHIR/CDA Analyst&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;sarah.gaunt@lantanagroup.com&lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;Dave deRoode&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;FHIR/CDA Analyst&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;david.deroode@lantanagroup.com&lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;Ming Dunajick&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;FHIR/CDA Analyst&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;ming.dunajick@lantanagroup.com&lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;Ruby Nash&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;FHIR Analyst&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;ruby.nash@lantanagroup.com&lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td class=&quot;tg-4erg&quot;&gt;Office of the Assistant Secretary for Planning and Evaluation (ASPE)&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt; &lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt; &lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;Violanda Grigorescu, MD, MSPH&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;Senior Health Scientist &lt;br&gt;Division of Healthcare Quality and Outcomes, Office of Health Policy&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;violanda.grigorescu@hhs.gov&lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td class=&quot;tg-4erg&quot;&gt;Centers for Disease Control and Prevention (CDC)&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt; &lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt; &lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;Margaret Lampe, RN, MPH&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;Nurse Epidemiologist &amp;amp; Project Officer &lt;br&gt;Perinatal HIV Prevention Program&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;mol0@cdc.gov&lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;Lisa Romero, DrPH&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;Health Scientist &lt;br&gt;Division of Adolescent School Health&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;eon1@cdc.gov&lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td class=&quot;tg-4erg&quot;&gt;National Institutes of Health (NIH) &lt;br&gt;Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD) &lt;br&gt;National Information Center on Health Services Research and Health Care Technology (NICHSR)&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt; &lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt; &lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;Alison Cernich&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;NICHD Deputy Director&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;alison.cernich@nih.hhs.gov&lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;John (Jack) Moye, Jr., MD&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;Acting Director - National Children's Study &lt;br&gt;NICHD Medical Officer - Maternal &amp;amp; Pediatric Infectious Disease Branch&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;moyej@exchange.nih.gov&lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;Nahida Chakhtoura, MD, MsGH&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;NICHD Medical Officer &lt;br&gt;Maternal and Pediatric Infectious Disease Branch&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;nahida.chakhtoura@nih.gov&lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;Juanita Chinn, PhD&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;NICHD Program Director &lt;br&gt;Population Dynamics Branch&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;juanita.chinn@nih.gov&lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;Valerie Cotton&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;NICHD Deputy Director &lt;br&gt;Office of Data Science and Sharing&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;valerie.cotton@nih.gov&lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;Liz Amos, MLIS&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;Special Assistant to the Chief Health Data Standards Officer &lt;br&gt;National Library of Medicine&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;liz.amos@nih.gov&lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td class=&quot;tg-4erg&quot;&gt;Office of the National Coordinator for Health IT (ONC)&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt; &lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt; &lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;Carmen Smiley&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;IT Specialist (Systems Analysis)&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;carmen.smiley@hhs.gov&lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;Rachel Abbey&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;Public Health Analyst &amp;amp; Program Officer&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;rachel.abbey@hhs.gov&lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;Stephanie Garcia&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;Senior Program Analyst&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;stephanie.garcia@hhs.gov&lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;Brittney Boakye, MPH&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;Program Assistant &lt;br&gt;Scientific Advancement Branch&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;brittney.boakye@hhs.gov&lt;br&gt;&lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;Alan Taylor&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;Medical Informatics Officer, Standards and Terminology&lt;/td&gt;&#xA;    &lt;td class=&quot;tg-0pky&quot;&gt;albert.taylor@hhs.gov&lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;&lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&#xA;###	Acknowledgements&#xA;This guide was developed and produced through the efforts of Health Level Seven (HL7) and created using the Trifolia-on-FHIR tool, provided by Lantana Consulting Group. The HL7 Project Insight reference number for this project is 1736.&#xA;The editors appreciate the support and sponsorship of the HL7 Public Health Workgroup, and all volunteers and staff associated with the creation of this document. This guide would not have been possible without the support of the following groups.&#xA;Health Level Seven, HL7, CDA, CCD, FHIR and the [FLAME DESIGN] are registered trademarks of Health Level Seven International, registered in the US Trademark Office.&#xA;&#xA;This IG includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.&#xA;&#xA;This material contains content from [LOINC](http://loinc.org). LOINC is copyright © 1995-2021, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at https://loinc.org/kb/license/. LOINC® is a registered United States trademark of Regenstrief Institute, Inc."/>
+    <jurisdiction>
+        <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="US"/>
+            <display value="United States of America"/>
+        </coding>
+        <text value="United States of America"/>
+    </jurisdiction>
+    <packageId value="hl7.fhir.us.mihr"/>
+    <fhirVersion value="4.0.1"/>
+    <dependsOn id="uscore">
+        <uri value="http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core#5.0.1"/>
+        <packageId value="hl7.fhir.us.core"/>
+        <version value="5.0.1"/>
+    </dependsOn>
+    <dependsOn id="hl7fhirusvrcommonlibrary">
+        <uri value="http://hl7.org/fhir/us/vr-common-library/ImplementationGuide/hl7.fhir.us.vr-common-library#1.0.0"/>
+        <packageId value="hl7.fhir.us.vr-common-library"/>
+        <version value="1.0.0"/>
+    </dependsOn>
+    <dependsOn id="hl7fhirusbfdr">
+        <uri value="http://hl7.org/fhir/us/bfdr/ImplementationGuide/hl7.fhir.us.bfdr#1.0.0"/>
+        <packageId value="hl7.fhir.us.bfdr"/>
+        <version value="1.0.0"/>
+    </dependsOn>
+    <dependsOn id="usnlmvsac">
+        <uri value="http://fhir.org/packages/us.nlm.vsac/ImplementationGuide/us.nlm.vsac"/>
+        <packageId value="us.nlm.vsac"/>
+        <version value="0.9.0"/>
+    </dependsOn>
+    <dependsOn id="fhircqfcommon">
+        <uri value="http://fhir.org/guides/cqf/common/ImplementationGuide/fhir.cqf.common#4.0.1"/>
+        <packageId value="fhir.cqf.common"/>
+        <version value="4.0.1"/>
+    </dependsOn>
+    <dependsOn id="qmi">
+        <uri value="http://hl7.org/fhir/us/cqfmeasures/ImplementationGuide/hl7.fhir.us.cqfmeasures#3.0.0"/>
+        <packageId value="hl7.fhir.us.cqfmeasures"/>
+        <version value="3.0.0"/>
+    </dependsOn>
+    <definition>
+        <grouping id="pih">
+            <name value="Hypertensive Disorders of Pregnancy Measure Examples"/>
+            <description value="Group of Resources pertinent to the Hypertensive Disorders of Pregnancy cohort"/>
+        </grouping>
+        <grouping id="pamdeaths">
+            <name value="Pregnancy-Associated Maternal Deaths Measure Examples"/>
+            <description value="Group of Resources pertinent to Pregnancy-Associated Maternal Deaths"/>
+        </grouping>
+        <grouping id="pih-examples">
+            <name value="Hypertensive Disorders of Pregnancy Clinical Examples"/>
+            <description value="Group of FHIR resources pertinent to testing/evaluating the Hypertensive Disorders of Pregnancy measure"/>
+        </grouping>
+        <grouping id="pamdeaths-examples">
+            <name value="Pregnancy-Associated Maternal Deaths Clinical Examples"/>
+            <description value="Group of FHIR resources pertinent to testing/evaluating the Pregnancy-Associated Maternal Deaths measure"/>
+        </grouping>
+        <grouping id="terminology">
+            <name value="Terminologies"/>
+            <description value="Group of Terminology-related resources (ValueSets and CodeSystems)"/>
+        </grouping>
+        <grouping id="other-parameters">
+            <name value="Other Parameters"/>
+            <description value="Other parameters used by this implementation guide"/>
+        </grouping>
+        <resource>
+            <reference>
+                <reference value="Measure/PIHCohort"/>
+                <display value="Measure for Hypertensive Disorders of Pregnancy"/>
+            </reference>
+            <name value="Measure for Hypertensive Disorders of Pregnancy"/>
+            <description value="Measure for Hypertensive Disorders of Pregnancy"/>
+            <exampleBoolean value="true"/>
+            <groupingId value="pih"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Library/PIHCohort"/>
+                <display value="Library for Hypertensive Disorders of Pregnancy"/>
+            </reference>
+            <name value="Library for Hypertensive Disorders of Pregnancy"/>
+            <description value="Library for Hypertensive Disorders of Pregnancy. The cql logic for the calculation of mother Patients who are expected to be found within the Hypertensive Disorders of Pregnancy cohort is contained."/>
+            <exampleBoolean value="true"/>
+            <groupingId value="pih"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Measure/PAMDeaths"/>
+                <display value="Measure for Pregnancy Associated Maternal Deaths"/>
+            </reference>
+            <name value="Measure for Pregnancy Associated Maternal Deaths"/>
+            <description value="Measure for Pregnancy Associated Maternal Deaths"/>
+            <exampleBoolean value="true"/>
+            <groupingId value="pamdeaths"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Library/PAMDeaths"/>
+                <display value="Library for Pregnancy Associated Maternal Deaths"/>
+            </reference>
+            <name value="Library for Pregnancy Associated Maternal Deaths"/>
+            <description value="Library for Pregnancy Associated Maternal Deaths"/>
+            <exampleBoolean value="true"/>
+            <groupingId value="pamdeaths"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Patient/patient-allison-doe-example"/>
+                <display value="Patient - Allison Doe"/>
+            </reference>
+            <name value="Patient - Allison Doe"/>
+            <description value="Example of a case of pregnancy-associated maternal death."/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
+            <groupingId value="pamdeaths-examples"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/pregnancy"/>
+                <display value="ValueSet – Pregnancy"/>
+            </reference>
+            <name value="Pregnancy"/>
+            <description value="This value set represents values associated with pregnancy conditions diagnoses, outcomes, and state.  This value set is a grouping of 3 value sets: Pregnancy 2.16.840.1.113883.3.526.3.378, Complications of Pregnancy, Childbirth and the Puerperium  2.16.840.1.113883.3.464.1003.111.12.1012, and Complications of Pregnancy, Childbirth and the Puerperium (ICD 9) 2.16.840.1.113883.3.464.1003.111.11.1021 which contain SNOMED CT, and ICD-9/10 codes.  Please see VSAC (https://vsac.nlm.nih.gov/) for the latest expansion of these value sets."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="terminology"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/hypertensive-disorders-pregnancy-ICD"/>
+                <display value="ValueSetHypertensiveDisordersOfPregnancyICD10"/>
+            </reference>
+            <name value="ValueSet – Hypertensive Disorders of Pregnancy ICD"/>
+            <description value="This value set includes terms related to hypertensive disorders of pregnancy which include pre-existing hypertension, chronic hypertension, hypertensive chronic kidney disease, essential hypertension, hypertension diagnosed during the course of pregnancy and diagnoses of pre-eclampsia and eclampsia."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="terminology"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/hypertensive-disorders-pregnancy-SNOMED"/>
+                <display value="ValueSetHypertensiveDisordersOfPregnancySNOMED"/>
+            </reference>
+            <name value="ValueSet – Hypertensive Disorders of Pregnancy SNOMED CT"/>
+            <description value="This value set includes terms related to hypertensive disorders of pregnancy which include pre-existing hypertension, chronic hypertension, hypertensive chronic kidney disease, essential hypertension, hypertension diagnosed during the course of pregnancy and diagnoses of pre-eclampsia and eclampsia."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="terminology"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/hypertensive-disorders-pregnancy"/>
+                <display value="ValueSet – Hypertensive Disorders of Pregnancy"/>
+            </reference>
+            <name value="ValueSet – Hypertensive Disorders of Pregnancy"/>
+            <description value="This is a grouping value set that includes terms related to hypertensive disorders of pregnancy which include pre-existing hypertension, chronic hypertension, hypertensive chronic kidney disease, essential hypertension, hypertension diagnosed during the course of pregnancy and diagnoses of pre-eclampsia and eclampsia."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="terminology"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/PregnancyNonLive"/>
+                <display value="ValueSet - Pregnancy Non-Live"/>
+            </reference>
+            <name value="Pregnancy Non-Live"/>
+            <description value="This value set represents conditions and diagnoses that identify non live births or deliveries such as fetal death, abortions or miscarriages.  This value set contains a grouping of two value sets:  Non Live Birth Diagnosis 2.16.840.1.113762.1.4.1166.137 which contains ICD-10 and SNOMED CT values and Non Live Birth CPT Procedures  2.16.840.1.113762.1.4.1166.127 indicating non-live births (i.e., ectopic pregnancies, intrauterine fetal demise, early pregnancy loss, abortion).  Please see VSAC (https://vsac.nlm.nih.gov/) for the latest expansion of these value sets."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="terminology"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/PregnancyProcedureDelivery"/>
+                <display value="ValueSet – Pregnancy Procedure Delivery"/>
+            </reference>
+            <name value="Pregnancy Procedure Delivery"/>
+            <description value="This pregnancy procedure delivery value set defines delivery and live birth procedures such as vaginal, cesarean and forcep deliveries.  This is a grouping value set  which includes two value sets: Delivery and Live Births 2.16.840.1.113883.3.464.1003.111.12.1015 and Delivery Procedures 2.16.840.1.113762.1.4.1078.5 which contains SNOMED CT, ICD10PCS codes. Please see VSAC (https://vsac.nlm.nih.gov/) for the latest code expansion."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="terminology"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Patient/patient-child-bobby-doe-example"/>
+                <display value="Patient - child of Allison Doe Example"/>
+            </reference>
+            <name value="Patient - child of Allison Doe Example"/>
+            <description value="Example of a child associated with a case of pregnancy-associated maternal death."/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
+            <groupingId value="pamdeaths-examples"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Patient/patient-child-peter-doe-example"/>
+                <display value="Patient - child of Allison Doe example"/>
+            </reference>
+            <name value="Patient - child of Allison Doe example"/>
+            <description value="Example of a child associated with a maternal death example patient."/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
+            <groupingId value="pamdeaths-examples"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Patient/patient-child-jane-smith-example"/>
+                <display value="Patient - child of Jane Smith example"/>
+            </reference>
+            <name value="Patient - second child of Jane Smith example"/>
+            <description value="Example of a child associated with a pregnancy-induced hypertension."/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
+            <groupingId value="pih-examples"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="RelatedPerson/relatedperson-child-bobby-doe-example"/>
+                <display value="RelatedPerson - child of Allison Doe example"/>
+            </reference>
+            <name value="RelatedPerson - child of Allison Doe example"/>
+            <description value="Example of a RelatedPerson for a child associated with a case pregnancy-associated maternal death."/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/vr-common-library/StructureDefinition/RelatedPerson-mother-gestational"/>
+            <groupingId value="pamdeaths-examples"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Condition/condition-miscarriage-birth-allison-doe-example"/>
+                <display value="Condition - example of a miscarriage"/>
+            </reference>
+            <name value="Condition - example of a miscarriage"/>
+            <description value="Example of a miscarriage during pregnancy."/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"/>
+            <groupingId value="pamdeaths-examples"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Observation/observation-allison-doe-example"/>
+                <display value="Observation - example for patient Allison Doe example"/>
+            </reference>
+            <name value="Observation - example for patient Allison Doe example"/>
+            <description value="Example of an observation for a case of pregnancy-associated maternal death."/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-blood-pressure"/>
+            <groupingId value="pamdeaths-examples"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="FamilyMemberHistory/familymemberhistory-jane-smith-example"/>
+                <display value="Family Member History - family member of patient Jane Smith example"/>
+            </reference>
+            <name value="Family Member History - family member of patient Jane Smith example"/>
+            <description value="Example of a FamilyMemberHistory related to a case of pregnancy-associated maternal death."/>
+            <exampleBoolean value="true"/>
+            <groupingId value="pamdeaths-examples"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Encounter/encounter-delivery-jane-smith-example"/>
+                <display value="Encounter - Jane Smith example"/>
+            </reference>
+            <name value="Encounter - Jane Smith example"/>
+            <description value="Example of an encounter associated with a patient with pregnancy-induced hypertension."/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"/>
+            <groupingId value="pih-examples"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="RelatedPerson/relatedperson-child-peter-doe-example"/>
+                <display value="Related Person - child of Allison Doe example"/>
+            </reference>
+            <name value="Related Person - child of Allison Doe example"/>
+            <description value="Example of a RelatedPerson associated with a case of pregnancy-associated maternal death."/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/vr-common-library/StructureDefinition/RelatedPerson-mother-gestational"/>
+            <groupingId value="pamdeaths-examples"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Encounter/encounter-newborn-child-jane-smith-example"/>
+                <display value="Encounter - newborn child of Jane Smith example"/>
+            </reference>
+            <name value="Encounter - newborn child of Jane Smith example"/>
+            <description value="Example of an encounter with a child patient of a mother with pregnancy-induced hypertension."/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"/>
+            <groupingId value="pih-examples"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="RelatedPerson/relatedperson-jane-smith-example"/>
+                <display value="Related Person - child of Jane Smith example"/>
+            </reference>
+            <name value="Related Person - child of Jane Smith example"/>
+            <description value="Example of a RelatedPerson file associated with a mother with pregnancy-induced hypertension."/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/vr-common-library/StructureDefinition/RelatedPerson-mother-gestational"/>
+            <groupingId value="pih-examples"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Patient/patient-jane-smith-example"/>
+                <display value="Patient - Jane Smith"/>
+            </reference>
+            <name value="Patient - Jane Smith"/>
+            <description value="Example of a patient with pregnancy-induced hypertension."/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
+            <groupingId value="pih-examples"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Condition/condition-pih-jane-smith-example"/>
+                <display value="Condition - pregnancy-induced hypertension example"/>
+            </reference>
+            <name value="Condition - pregnancy-induced hypertension example"/>
+            <description value="Example of a pregnancy-induced hypertension condition."/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"/>
+            <groupingId value="pih-examples"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Condition/condition-pregnant-jane-smith-example"/>
+                <display value="Condition - pregnancy example"/>
+            </reference>
+            <name value="Condition - Jane Smith pregnancy example"/>
+            <description value="Example of a pregnancy condition."/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"/>
+            <groupingId value="pih-examples"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Condition/condition-pregnant-allison-doe-example"/>
+                <display value="Condition - pregnancy example"/>
+            </reference>
+            <name value="Condition - Allison Doe pregnancy example"/>
+            <description value="Example of a pregnancy condition associated with a case of pregnancy-associated maternal death."/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"/>
+            <groupingId value="pamdeaths-examples"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Parameters/expansion-parameter-mmm-ig"/>
+                <display value="Expansion Parameters - MIHR IG"/>
+            </reference>
+            <name value="Expansion Parameters - MIHR IG"/>
+            <description value="This Expansion Parameters specifies the US edition of SNOMED CT reference to US National Library of Medicine maintained module (core metadata concept)."/>
+            <exampleBoolean value="true"/>
+            <groupingId value="other-parameters"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Observation/observation-child-john-smith-example"/>
+                <display value="Observation - APGAR Score example"/>
+            </reference>
+            <name value="Observation - APGAR Score example"/>
+            <description value="Example of an observation that includes the APGAR score for a child."/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/vr-common-library/StructureDefinition/Observation-apgar-score"/>
+            <groupingId value="pih-examples"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Observation/observation-child-peter-doe-example"/>
+                <display value="Observation - Bilirubin Test example"/>
+            </reference>
+            <name value="Observation - Bilirubin Test example"/>
+            <description value="Example of an observation that includes the results of a bilirubin test."/>
+            <exampleBoolean value="true"/>
+            <groupingId value="pih-examples"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Patient/patient-child-john-smith-example"/>
+                <display value="Patient - child of Jane Smith example"/>
+            </reference>
+            <name value="Patient - child of Jane Smith example"/>
+            <description value="Example child patient of a mother with pregnancy-induced hypertension."/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
+            <groupingId value="pih-examples"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Patient/example-nih-mother-pih"/></reference>
+            <name value="Mother Patient with Pregnancy-induced Hypertension"/>
+            <description value="Example mother Patient with pregnancy-induced hypertension."/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Patient/example-nih-child-pih"/></reference>
+            <name value="Child of Mother Patient with Pregnancy-Induced Hypertension"/>
+            <description value="Example child of a mother Patient with pregnancy-induced hypertension."/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/PregnancyProcedureDelivery-CPT"/>
+                <display value="Pregnancyproceduredeliverymmmcpt"/>
+            </reference>
+            <name value="Pregnancy Procedure Delivery CPT"/>
+            <description value="ValueSet containing all CPT concepts for pregnancy procedures"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Device/cqf-tooling"/>
+                <display value="Device CQF Tooling"/>
+            </reference>
+            <name value="Device CQF Tooling"/>
+            <description value="A FHIR Device resource used by the CQF tooling to support $evaluate-measure workflow"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <page>
+            <nameUrl value="index.html"/>
+            <title value="Home Page"/>
+            <generation value="markdown"/>
+            <page>
+                <nameUrl value="clinical_quality_framework_for_research.html"/>
+                <title value="Clinical Quality Framework for Research"/>
+                <generation value="markdown"/>
+            </page>
+            <page>
+                <nameUrl value="research_considerations.html"/>
+                <title value="Research Considerations"/>
+                <generation value="markdown"/>
+            </page>
+            <page>
+                <nameUrl value="this_specification.html"/>
+                <title value="This Specification"/>
+                <generation value="markdown"/>
+                <page>
+                    <nameUrl value="downloads.html"/>
+                    <title value="Downloads"/>
+                    <generation value="markdown"/>
+                </page>
+            </page>
+        </page>
+        <parameter>
+            <code value="path-expansion-params"/>
+            <value value="resources/parameters/expansion-parameter-mmm-ig.xml"/>
+        </parameter>
+        <parameter>
+            <code value="copyrightyear"/>
+            <value value="2020+"/>
+        </parameter>
+        <parameter>
+            <code value="releaselabel"/>
+            <value value="STU 1.0.0"/>
+        </parameter>
+    </definition>
+</ImplementationGuide>

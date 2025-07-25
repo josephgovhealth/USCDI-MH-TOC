@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet
+    xmlns="http://hl7.org/fhir">
+    <id value="hypertensive-disorders-pregnancy"/>
+    <meta>
+        <versionId value="5"/>
+        <lastUpdated value="2022-03-28T18:00:55.602+00:00"/>
+        <source value="#s6H7Vx3TpzM3PBPT"/>
+    </meta>
+    <url value="http://hl7.org/fhir/us/mihr/ValueSet/hypertensive-disorders-pregnancy"/>
+    <name value="ValueSetHypertensiveDisordersofPregnancy"/>
+    <title value="ValueSet – Hypertensive Disorders of Pregnancy"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <description value="This is a grouping value set that includes terms related to hypertensive disorders of pregnancy which include pre-existing hypertension, chronic hypertension, hypertensive chronic kidney disease, essential hypertension, hypertension diagnosed during the course of pregnancy and diagnoses of pre-eclampsia and eclampsia."/>
+    <purpose value="This grouping value set groups Hypertensive Disorders of Pregnancy codes from the SNOMED-CT and ICD-10 codesystems."/>
+    <copyright value="ICD-10-cm and SNOMED CT"/>
+    <compose>
+        <include>
+            <valueSet value="http://hl7.org/fhir/us/mihr/ValueSet/hypertensive-disorders-pregnancy-ICD"/>
+        </include>
+        <include>
+            <valueSet value="http://hl7.org/fhir/us/mihr/ValueSet/hypertensive-disorders-pregnancy-SNOMED"/>
+        </include>
+    </compose>
+</ValueSet>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet
+    xmlns="http://hl7.org/fhir">
+    <id value="PregnancyNonLive"/>
+    <meta>
+        <versionId value="11"/>
+        <lastUpdated value="2022-10-05T20:29:57.329+00:00"/>
+        <source value="#YI9tHzgFSDosyArK"/>
+    </meta>
+    <url value="http://hl7.org/fhir/us/mihr/ValueSet/PregnancyNonLive"/>
+    <name value="PregnancyNonLive"/>
+    <title value="Pregnancy Non-Live"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <description value="This value set represents conditions and diagnoses that identify non live births or deliveries such as fetal death, abortions or miscarriages.  This value set contains a grouping of two value sets:  Non Live Birth Diagnosis 2.16.840.1.113762.1.4.1166.137 which contains ICD-10 and SNOMED CT values and Non Live Birth CPT Procedures  2.16.840.1.113762.1.4.1166.127 indicating non-live births (i.e., ectopic pregnancies, intrauterine fetal demise, early pregnancy loss, abortion).  Please see VSAC (https://vsac.nlm.nih.gov/) for the latest expansion of these value sets."/>
+    <purpose value="This purpose of this value set is to provide a list of terms that represent conditions and diagnoses that identify non live births or deliveries such as fetal death, abortions or miscarriages"/>
+    <copyright value="SNOMED CT, ICD 10 and  CPT copyrights."/>
+    <compose>
+        <include>
+            <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1166.127"/>
+        </include>
+        <include>
+            <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1166.137"/>
+        </include>
+    </compose>
+</ValueSet>

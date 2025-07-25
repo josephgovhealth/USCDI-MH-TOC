@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Condition
+    xmlns="http://hl7.org/fhir">
+    <id value="condition-pih-jane-smith-example"/>
+    <meta>
+        <extension url="http://hl7.org/fhir/StructureDefinition/instance-name">
+            <valueString value="Condition Example"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/instance-description">
+            <valueMarkdown value="This is a condition example for the *US Core Condition Profile*."/>
+        </extension>
+        <versionId value="1"/>
+        <lastUpdated value="2022-03-15T14:53:19.001+00:00"/>
+        <source value="#zMP6IUiOaDNV81SY"/>
+        <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"/>
+    </meta>
+    <clinicalStatus>
+        <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/condition-clinical"/>
+            <code value="active"/>
+            <display value="Active"/>
+        </coding>
+        <text value="Active"/>
+    </clinicalStatus>
+    <verificationStatus>
+        <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/condition-ver-status"/>
+            <code value="confirmed"/>
+            <display value="Confirmed"/>
+        </coding>
+        <text value="Confirmed"/>
+    </verificationStatus>
+    <category>
+        <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/condition-category"/>
+            <code value="problem-list-item"/>
+            <display value="Problem List Item"/>
+        </coding>
+        <text value="Problem"/>
+    </category>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="48194001"/>
+            <display value="Pregnancy-induced hypertension (disorder)"/>
+        </coding>
+        <text value="Pregnancy-induced hypertension (disorder)"/>
+    </code>
+    <subject>
+        <reference value="Patient/patient-jane-smith-example"/>
+        <display value="Jane Smith"/>
+    </subject>
+    <onsetDateTime value="2021-10-11"/>
+</Condition>

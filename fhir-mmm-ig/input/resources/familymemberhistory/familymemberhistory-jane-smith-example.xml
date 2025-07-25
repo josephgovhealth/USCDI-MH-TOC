@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FamilyMemberHistory
+    xmlns="http://hl7.org/fhir">
+    <id value="familymemberhistory-jane-smith-example"/>
+    <meta>
+        <versionId value="2"/>
+        <lastUpdated value="2022-03-15T20:00:01.536+00:00"/>
+        <source value="#hZuB1hlHIbhDP7Xd"/>
+    </meta>
+    <status value="completed"/>
+    <patient>
+        <reference value="Patient/patient-jane-smith-example"/>
+        <display value="Wilamette Smith"/>
+    </patient>
+    <relationship>
+        <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <code value="CHILD"/>
+            <display value="child"/>
+        </coding>
+    </relationship>
+</FamilyMemberHistory>

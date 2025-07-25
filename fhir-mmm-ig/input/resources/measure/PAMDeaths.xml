@@ -1,0 +1,2118 @@
+<Measure xmlns="http://hl7.org/fhir">
+   <id value="PAMDeaths"/>
+   <meta>
+      <profile
+         value="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-measure-cqfm"/>
+   </meta>
+   <contained>
+      <Library xmlns="http://hl7.org/fhir">
+         <id value="effective-data-requirements"/>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-directReferenceCode">
+            <valueCoding>
+               <system value="http://loinc.org"/>
+               <code value="8302-2"/>
+            </valueCoding>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-directReferenceCode">
+            <valueCoding>
+               <system value="http://loinc.org"/>
+               <code value="59576-9"/>
+            </valueCoding>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-directReferenceCode">
+            <valueCoding>
+               <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+               <code value="laboratory"/>
+            </valueCoding>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-directReferenceCode">
+            <valueCoding>
+               <system value="http://loinc.org"/>
+               <code value="8867-4"/>
+            </valueCoding>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-directReferenceCode">
+            <valueCoding>
+               <system value="http://loinc.org"/>
+               <code value="39156-5"/>
+            </valueCoding>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-directReferenceCode">
+            <valueCoding>
+               <system value="http://loinc.org"/>
+               <code value="82810-3"/>
+               <display value="Pregnancy Status"/>
+            </valueCoding>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-directReferenceCode">
+            <valueCoding>
+               <system value="http://loinc.org"/>
+               <code value="11449-6"/>
+               <display value="Pregnancy status - Reported"/>
+            </valueCoding>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-directReferenceCode">
+            <valueCoding>
+               <system value="http://snomed.info/sct"/>
+               <code value="77386006"/>
+               <display value="Pregnancy (finding)"/>
+            </valueCoding>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-directReferenceCode">
+            <valueCoding>
+               <system value="http://loinc.org"/>
+               <code value="2708-6"/>
+            </valueCoding>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-directReferenceCode">
+            <valueCoding>
+               <system value="http://loinc.org"/>
+               <code value="59408-5"/>
+            </valueCoding>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-directReferenceCode">
+            <valueCoding>
+               <system value="http://loinc.org"/>
+               <code value="9279-1"/>
+            </valueCoding>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-directReferenceCode">
+            <valueCoding>
+               <system value="http://loinc.org"/>
+               <code value="8310-5"/>
+            </valueCoding>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-directReferenceCode">
+            <valueCoding>
+               <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+               <code value="social-history"/>
+            </valueCoding>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-directReferenceCode">
+            <valueCoding>
+               <system value="http://loinc.org"/>
+               <code value="85354-9"/>
+            </valueCoding>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-directReferenceCode">
+            <valueCoding>
+               <system value="http://loinc.org"/>
+               <code value="9843-4"/>
+            </valueCoding>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-directReferenceCode">
+            <valueCoding>
+               <system value="http://loinc.org"/>
+               <code value="8289-1"/>
+            </valueCoding>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-directReferenceCode">
+            <valueCoding>
+               <system value="http://loinc.org"/>
+               <code value="29463-7"/>
+            </valueCoding>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-directReferenceCode">
+            <valueCoding>
+               <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+               <code value="vital-signs"/>
+            </valueCoding>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-directReferenceCode">
+            <valueCoding>
+               <system value="http://loinc.org"/>
+               <code value="77606-2"/>
+            </valueCoding>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PAMDeaths"/>
+            </extension>
+            <extension url="name">
+               <valueString value="SDE Height"/>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;SDE Height&quot;:
+	[Observation: code ~ &quot;Height&quot;] Height"/>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="0"/>
+            </extension>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PAMDeaths"/>
+            </extension>
+            <extension url="name">
+               <valueString value="SDE Procedure"/>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;SDE Procedure&quot;:
+	[Procedure] Procedures"/>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="1"/>
+            </extension>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PAMDeaths"/>
+            </extension>
+            <extension url="name">
+               <valueString value="SDE Care Team"/>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;SDE Care Team&quot;:
+	[CareTeam] CareTeams"/>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="2"/>
+            </extension>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PAMDeaths"/>
+            </extension>
+            <extension url="name">
+               <valueString value="SDE Document Reference"/>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;SDE Document Reference&quot;:
+	[DocumentReference] DocumentReference"/>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="3"/>
+            </extension>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PAMDeaths"/>
+            </extension>
+            <extension url="name">
+               <valueString value="SDE Practitioner"/>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;SDE Practitioner&quot;:
+	[Practitioner] Practitioners"/>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="4"/>
+            </extension>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PAMDeaths"/>
+            </extension>
+            <extension url="name">
+               <valueString value="SDE Diagnostic Report"/>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;SDE Diagnostic Report&quot;:
+	[DiagnosticReport] DiagnosticReports"/>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="5"/>
+            </extension>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PAMDeaths"/>
+            </extension>
+            <extension url="name">
+               <valueString value="SDE Device"/>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;SDE Device&quot;:
+	[Device] Devices"/>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="6"/>
+            </extension>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PAMDeaths"/>
+            </extension>
+            <extension url="name">
+               <valueString value="SDE Pediatric BMI"/>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;SDE Pediatric BMI&quot;:
+	[Observation: code ~ &quot;Pediatric BMI&quot;] PediatricBMI"/>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="7"/>
+            </extension>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PAMDeaths"/>
+            </extension>
+            <extension url="name">
+               <valueString value="SDE Care Plan"/>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;SDE Care Plan&quot;:
+	[CarePlan] CarePlans"/>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="8"/>
+            </extension>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PAMDeaths"/>
+            </extension>
+            <extension url="name">
+               <valueString value="SDE Lab Observation"/>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;SDE Lab Observation&quot;:
+	[Observation: code ~ &quot;Laboratory&quot;] LabObservations"/>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="9"/>
+            </extension>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PAMDeaths"/>
+            </extension>
+            <extension url="name">
+               <valueString value="SDE Heart Rate"/>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;SDE Heart Rate&quot;:
+	[Observation: code ~ &quot;Heart Rate&quot;] HeartRate"/>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="10"/>
+            </extension>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PAMDeaths"/>
+            </extension>
+            <extension url="name">
+               <valueString value="SDE Practitioner Role"/>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;SDE Practitioner Role&quot;:
+	[PractitionerRole] PractitionerRoles"/>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="11"/>
+            </extension>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PAMDeaths"/>
+            </extension>
+            <extension url="name">
+               <valueString value="SDE Organization"/>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;SDE Organization&quot;:
+	[Organization] Organizations"/>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="12"/>
+            </extension>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PAMDeaths"/>
+            </extension>
+            <extension url="name">
+               <valueString value="SDE Immunization"/>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;SDE Immunization&quot;:
+	[Immunization] Immunizations"/>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="13"/>
+            </extension>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PAMDeaths"/>
+            </extension>
+            <extension url="name">
+               <valueString value="SDE Patient"/>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;SDE Patient&quot;:
+	[Patient] Patients"/>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="14"/>
+            </extension>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PAMDeaths"/>
+            </extension>
+            <extension url="name">
+               <valueString value="SDE BMI"/>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;SDE BMI&quot;:
+	[Observation: code ~ &quot;BMI&quot;] BMI"/>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="15"/>
+            </extension>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PAMDeaths"/>
+            </extension>
+            <extension url="name">
+               <valueString value="Delivery Procedure Group"/>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;Delivery Procedure Group&quot;:
+	[Procedure: &quot;Delivery Live Births&quot;]
+	union [Procedure: &quot;Delivery Procedure&quot;]
+	union [Procedure: &quot;Pregnancy Procedure Delivery CPT&quot;]"/>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="16"/>
+            </extension>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PAMDeaths"/>
+            </extension>
+            <extension url="name">
+               <valueString value="Pregnancy Group"/>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;Pregnancy Group&quot;:
+	[Condition: &quot;Pregnancy&quot;]
+	union [Condition: &quot;Complications of Pregnancy, Childbirth and the Puerperium&quot;]
+	union [Condition: &quot;Complications of Pregnancy, Childbirth and the Puerperium (ICD 9)&quot;]"
+               />
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="17"/>
+            </extension>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PAMDeaths"/>
+            </extension>
+            <extension url="name">
+               <valueString value="Non-Live Birth Group"/>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;Non-Live Birth Group&quot;:
+	[Condition: &quot;Non Live Birth CPT Procedures&quot;]
+	union [Condition: &quot;Non Live Birth Diagnoses&quot;]"/>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="18"/>
+            </extension>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PAMDeaths"/>
+            </extension>
+            <extension url="name">
+               <valueString value="Pregnancy Test Confirms Pregnant"/>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;Pregnancy Test Confirms Pregnant&quot;:
+    ([Observation: &quot;Pregnancy Status&quot;]
+	union [Observation: &quot;Pregnancy Status Reported&quot;]) PregnancyConfirmedTest
+		where PregnancyConfirmedTest.value ~ &quot;Pregnant (finding)&quot;"/>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="19"/>
+            </extension>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PAMDeaths"/>
+            </extension>
+            <extension url="name">
+               <valueString value="Delivery Diagnosis Group"/>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;Delivery Diagnosis Group&quot;:
+	[Condition: &quot;Delivery Diagnosis&quot;]
+	union [Condition: &quot;Delivery Live Births&quot;]
+	union [Condition: &quot;Delivery Procedure&quot;]
+	union [Condition: &quot;Pregnancy Procedure Delivery CPT&quot;]"/>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="20"/>
+            </extension>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PAMDeaths"/>
+            </extension>
+            <extension url="name">
+               <valueString value="Procedures During Pregnancy Group"/>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;Procedures During Pregnancy Group&quot;:
+	[Procedure: &quot;Procedures During Pregnancy Valueset Group&quot;]"/>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="21"/>
+            </extension>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PAMDeaths"/>
+            </extension>
+            <extension url="name">
+               <valueString value="History of Pregnancy"/>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;History of Pregnancy&quot;:
+	&quot;Delivery Procedure Group&quot;
+	union &quot;Pregnancy Group&quot;
+	union &quot;Non-Live Birth Group&quot;
+	union &quot;Pregnancy Test Confirms Pregnant&quot;
+	union &quot;Delivery Diagnosis Group&quot;
+	union &quot;Procedures During Pregnancy Group&quot;"/>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="22"/>
+            </extension>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PAMDeaths"/>
+            </extension>
+            <extension url="name">
+               <valueString value="Patient Deceased within a Year of Pregnancy"/>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;Patient Deceased within a Year of Pregnancy&quot;:
+	exists(&quot;History of Pregnancy&quot; Pregnancy)
+    and (exists (&quot;Pregnancy Group&quot; PregnancyDx
+            where Patient.deceased as FHIR.dateTime occurs 645 days or less after start of Global.&quot;Normalize Interval&quot;(PregnancyDx.onset))
+		or exists((&quot;Delivery Diagnosis Group&quot;
+			union &quot;Non-Live Birth Group&quot; ) DeliveryCondition
+			where Patient.deceased as FHIR.dateTime occurs 365 days or less after end of Global.&quot;Normalize Interval&quot;(DeliveryCondition.onset))
+		or exists(&quot;Pregnancy Test Confirms Pregnant&quot; PregnancyConfirmedTest
+			where Patient.deceased as FHIR.dateTime occurs 645 days or less on or after start of Global.&quot;Normalize Interval&quot;(PregnancyConfirmedTest.effective))
+		or exists((&quot;Delivery Procedure Group&quot;
+			union &quot;Procedures During Pregnancy Group&quot;) DeliveryProcedure
+			where (Patient.deceased) as FHIR.dateTime occurs 365 days or less after end of Global.&quot;Normalize Interval&quot;(DeliveryProcedure.performed))
+	)"/>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="23"/>
+            </extension>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PAMDeaths"/>
+            </extension>
+            <extension url="name">
+               <valueString value="Initial Population"/>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;Initial Population&quot;:
+	&quot;Patient Deceased within a Year of Pregnancy&quot;"/>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="24"/>
+            </extension>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PAMDeaths"/>
+            </extension>
+            <extension url="name">
+               <valueString value="SDE Oximetry"/>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;SDE Oximetry&quot;:
+	[Observation] Oximetry
+	where (Oximetry.code ~ &quot;Pulse Oximetry&quot;
+	or Oximetry.code ~ &quot;Oxygen Saturation&quot;)"/>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="25"/>
+            </extension>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PAMDeaths"/>
+            </extension>
+            <extension url="name">
+               <valueString value="SDE Allergy Intolerance"/>
+            </extension>
+            <extension url="statement">
+               <valueString value="//Supplemental Data Elements
+define &quot;SDE Allergy Intolerance&quot;:
+	[AllergyIntolerance] Allergy"/>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="26"/>
+            </extension>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PAMDeaths"/>
+            </extension>
+            <extension url="name">
+               <valueString value="SDE Respiratory Rate"/>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;SDE Respiratory Rate&quot;:
+	[Observation: code ~ &quot;Respiratory Rate&quot;] RespiratoryRate"/>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="27"/>
+            </extension>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PAMDeaths"/>
+            </extension>
+            <extension url="name">
+               <valueString value="SDE Medication"/>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;SDE Medication&quot;:
+	[Medication] Medications"/>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="28"/>
+            </extension>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PAMDeaths"/>
+            </extension>
+            <extension url="name">
+               <valueString value="SDE Body Temperature"/>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;SDE Body Temperature&quot;:
+	[Observation: code ~ &quot;Body Temperature&quot;] BodyTemperature"/>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="29"/>
+            </extension>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PAMDeaths"/>
+            </extension>
+            <extension url="name">
+               <valueString value="SDE Conditions"/>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;SDE Conditions&quot;:
+	[Condition] Conditions"/>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="30"/>
+            </extension>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PAMDeaths"/>
+            </extension>
+            <extension url="name">
+               <valueString value="SDE Medication Request"/>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;SDE Medication Request&quot;:
+	[MedicationRequest] MedicationRequests"/>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="31"/>
+            </extension>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PAMDeaths"/>
+            </extension>
+            <extension url="name">
+               <valueString value="SDE Smoking Status"/>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;SDE Smoking Status&quot;:
+    [Observation] SmokingStatus
+	with SmokingStatus.category category
+	such that category ~ &quot;Social History&quot;"/>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="32"/>
+            </extension>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PAMDeaths"/>
+            </extension>
+            <extension url="name">
+               <valueString value="SDE Blood Pressure"/>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;SDE Blood Pressure&quot;:
+	[Observation: code ~ &quot;Blood Pressure&quot;] BP"/>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="33"/>
+            </extension>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PAMDeaths"/>
+            </extension>
+            <extension url="name">
+               <valueString value="SDE Head Circumference"/>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;SDE Head Circumference&quot;:
+	[Observation: code ~ &quot;Head Circumference&quot;] HeadCircumference"/>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="34"/>
+            </extension>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PAMDeaths"/>
+            </extension>
+            <extension url="name">
+               <valueString value="SDE Occipital Frontal Head Circumference"/>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;SDE Occipital Frontal Head Circumference&quot;:
+	[Observation: code ~ &quot;Frontal Head Circumference&quot;] FrontalHead"/>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="35"/>
+            </extension>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PAMDeaths"/>
+            </extension>
+            <extension url="name">
+               <valueString value="SDE Body Weight"/>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;SDE Body Weight&quot;:
+	[Observation: code ~ &quot;Weight&quot;] Weight"/>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="36"/>
+            </extension>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PAMDeaths"/>
+            </extension>
+            <extension url="name">
+               <valueString value="SDE Vital Signs"/>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;SDE Vital Signs&quot;:
+	[Observation] VitalSigns
+	with VitalSigns.category category
+	such that category ~ &quot;Vital Signs&quot;"/>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="37"/>
+            </extension>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PAMDeaths"/>
+            </extension>
+            <extension url="name">
+               <valueString value="SDE Goal"/>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;SDE Goal&quot;:
+	[Goal] Goals"/>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="38"/>
+            </extension>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PAMDeaths"/>
+            </extension>
+            <extension url="name">
+               <valueString value="SDE Encounters"/>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;SDE Encounters&quot;:
+	[Encounter] Encounters"/>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="39"/>
+            </extension>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PAMDeaths"/>
+            </extension>
+            <extension url="name">
+               <valueString value="SDE Location"/>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;SDE Location&quot;:
+	[Location] Locations"/>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="40"/>
+            </extension>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PAMDeaths"/>
+            </extension>
+            <extension url="name">
+               <valueString value="SDE Pediatric Weight for Height"/>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;SDE Pediatric Weight for Height&quot;:
+	[Observation: code ~ &quot;Pediatric Weight&quot;] PediatricWeight"/>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="41"/>
+            </extension>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PAMDeaths"/>
+            </extension>
+            <extension url="name">
+               <valueString value="SDE Provenance"/>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;SDE Provenance&quot;:
+	[Provenance] Provenances"/>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="42"/>
+            </extension>
+         </extension>
+         <extension
+            url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PAMDeaths"/>
+            </extension>
+            <extension url="name">
+               <valueString value="SDE Related Person"/>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;SDE Related Person&quot;:
+	[RelatedPerson] RelatedPersons"/>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="43"/>
+            </extension>
+         </extension>
+         <status value="active"/>
+         <type>
+            <coding>
+               <system value="http://terminology.hl7.org/CodeSystem/library-type"/>
+               <code value="module-definition"/>
+            </coding>
+         </type>
+         <relatedArtifact>
+            <type value="depends-on"/>
+            <display value="Library FHIRHelpers"/>
+            <resource value="http://fhir.org/guides/cqf/Library/FHIRHelpers|4.0.1"/>
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"/>
+            <display value="Library Global"/>
+            <resource
+               value="http://fhir.org/guides/cqf/Library/MATGlobalCommonFunctionsFHIR4|6.1.000"/>
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"/>
+            <display value="Code system LOINC"/>
+            <resource value="http://loinc.org"/>
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"/>
+            <display value="Code system Observation Category"/>
+            <resource value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"/>
+            <display value="Code system SNOMEDCT"/>
+            <resource value="http://snomed.info/sct"/>
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"/>
+            <display value="Value set Delivery Live Births"/>
+            <resource
+               value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.111.12.1015"
+            />
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"/>
+            <display value="Value set Delivery Procedure"/>
+            <resource value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1078.5"/>
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"/>
+            <display value="Value set Pregnancy Procedure Delivery CPT"/>
+            <resource
+               value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyProcedureDelivery-CPT"/>
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"/>
+            <display value="Value set Pregnancy"/>
+            <resource value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.526.3.378"/>
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"/>
+            <display value="Value set Complications of Pregnancy, Childbirth and the Puerperium"/>
+            <resource
+               value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.111.12.1012"
+            />
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"/>
+            <display
+               value="Value set Complications of Pregnancy, Childbirth and the Puerperium (ICD 9)"/>
+            <resource
+               value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.111.11.1021"
+            />
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"/>
+            <display value="Value set Non Live Birth CPT Procedures"/>
+            <resource value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1166.127"/>
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"/>
+            <display value="Value set Non Live Birth Diagnoses"/>
+            <resource value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1166.137"/>
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"/>
+            <display value="Value set Delivery Diagnosis"/>
+            <resource
+               value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.67.1.101.1.278"/>
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"/>
+            <display value="Value set Procedures During Pregnancy Valueset Group"/>
+            <resource
+               value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.111.12.1009"
+            />
+         </relatedArtifact>
+         <parameter>
+            <name value="SDE Height"/>
+            <use value="out"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type value="Observation"/>
+         </parameter>
+         <parameter>
+            <name value="SDE Procedure"/>
+            <use value="out"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type value="Procedure"/>
+         </parameter>
+         <parameter>
+            <name value="SDE Care Team"/>
+            <use value="out"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type value="CareTeam"/>
+         </parameter>
+         <parameter>
+            <name value="SDE Document Reference"/>
+            <use value="out"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type value="DocumentReference"/>
+         </parameter>
+         <parameter>
+            <name value="SDE Practitioner"/>
+            <use value="out"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type value="Practitioner"/>
+         </parameter>
+         <parameter>
+            <name value="SDE Diagnostic Report"/>
+            <use value="out"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type value="DiagnosticReport"/>
+         </parameter>
+         <parameter>
+            <name value="SDE Device"/>
+            <use value="out"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type value="Device"/>
+         </parameter>
+         <parameter>
+            <name value="SDE Pediatric BMI"/>
+            <use value="out"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type value="Observation"/>
+         </parameter>
+         <parameter>
+            <name value="SDE Care Plan"/>
+            <use value="out"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type value="CarePlan"/>
+         </parameter>
+         <parameter>
+            <name value="SDE Lab Observation"/>
+            <use value="out"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type value="Observation"/>
+         </parameter>
+         <parameter>
+            <name value="SDE Heart Rate"/>
+            <use value="out"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type value="Observation"/>
+         </parameter>
+         <parameter>
+            <name value="SDE Practitioner Role"/>
+            <use value="out"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type value="PractitionerRole"/>
+         </parameter>
+         <parameter>
+            <name value="SDE Organization"/>
+            <use value="out"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type value="Organization"/>
+         </parameter>
+         <parameter>
+            <name value="SDE Immunization"/>
+            <use value="out"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type value="Immunization"/>
+         </parameter>
+         <parameter>
+            <name value="SDE Patient"/>
+            <use value="out"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type value="Patient"/>
+         </parameter>
+         <parameter>
+            <name value="SDE BMI"/>
+            <use value="out"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type value="Observation"/>
+         </parameter>
+         <parameter>
+            <name value="Initial Population"/>
+            <use value="out"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type value="boolean"/>
+         </parameter>
+         <parameter>
+            <name value="SDE Oximetry"/>
+            <use value="out"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type value="Observation"/>
+         </parameter>
+         <parameter>
+            <name value="SDE Allergy Intolerance"/>
+            <use value="out"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type value="AllergyIntolerance"/>
+         </parameter>
+         <parameter>
+            <name value="SDE Respiratory Rate"/>
+            <use value="out"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type value="Observation"/>
+         </parameter>
+         <parameter>
+            <name value="SDE Medication"/>
+            <use value="out"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type value="Medication"/>
+         </parameter>
+         <parameter>
+            <name value="SDE Body Temperature"/>
+            <use value="out"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type value="Observation"/>
+         </parameter>
+         <parameter>
+            <name value="SDE Conditions"/>
+            <use value="out"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type value="Condition"/>
+         </parameter>
+         <parameter>
+            <name value="SDE Medication Request"/>
+            <use value="out"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type value="MedicationRequest"/>
+         </parameter>
+         <parameter>
+            <name value="SDE Smoking Status"/>
+            <use value="out"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type value="Observation"/>
+         </parameter>
+         <parameter>
+            <name value="SDE Blood Pressure"/>
+            <use value="out"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type value="Observation"/>
+         </parameter>
+         <parameter>
+            <name value="SDE Head Circumference"/>
+            <use value="out"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type value="Observation"/>
+         </parameter>
+         <parameter>
+            <name value="SDE Occipital Frontal Head Circumference"/>
+            <use value="out"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type value="Observation"/>
+         </parameter>
+         <parameter>
+            <name value="SDE Body Weight"/>
+            <use value="out"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type value="Observation"/>
+         </parameter>
+         <parameter>
+            <name value="SDE Vital Signs"/>
+            <use value="out"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type value="Observation"/>
+         </parameter>
+         <parameter>
+            <name value="SDE Goal"/>
+            <use value="out"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type value="Goal"/>
+         </parameter>
+         <parameter>
+            <name value="SDE Encounters"/>
+            <use value="out"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type value="Encounter"/>
+         </parameter>
+         <parameter>
+            <name value="SDE Location"/>
+            <use value="out"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type value="Location"/>
+         </parameter>
+         <parameter>
+            <name value="SDE Pediatric Weight for Height"/>
+            <use value="out"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type value="Observation"/>
+         </parameter>
+         <parameter>
+            <name value="SDE Provenance"/>
+            <use value="out"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type value="Provenance"/>
+         </parameter>
+         <parameter>
+            <name value="SDE Related Person"/>
+            <use value="out"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type value="RelatedPerson"/>
+         </parameter>
+         <dataRequirement>
+            <type value="Observation"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/Observation"/>
+            <mustSupport value="code"/>
+            <codeFilter>
+               <path value="code"/>
+               <code>
+                  <system value="http://loinc.org"/>
+                  <code value="8302-2"/>
+               </code>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Observation"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/Observation"/>
+            <mustSupport value="code"/>
+            <codeFilter>
+               <path value="code"/>
+               <code>
+                  <system value="http://loinc.org"/>
+                  <code value="59576-9"/>
+               </code>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Observation"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/Observation"/>
+            <mustSupport value="code"/>
+            <codeFilter>
+               <path value="code"/>
+               <code>
+                  <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+                  <code value="laboratory"/>
+               </code>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Observation"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/Observation"/>
+            <mustSupport value="code"/>
+            <codeFilter>
+               <path value="code"/>
+               <code>
+                  <system value="http://loinc.org"/>
+                  <code value="8867-4"/>
+               </code>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Observation"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/Observation"/>
+            <mustSupport value="code"/>
+            <codeFilter>
+               <path value="code"/>
+               <code>
+                  <system value="http://loinc.org"/>
+                  <code value="39156-5"/>
+               </code>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Observation"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/Observation"/>
+            <mustSupport value="code"/>
+            <codeFilter>
+               <path value="code"/>
+               <code>
+                  <system value="http://loinc.org"/>
+                  <code value="82810-3"/>
+                  <display value="Pregnancy Status"/>
+               </code>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Observation"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/Observation"/>
+            <mustSupport value="code"/>
+            <codeFilter>
+               <path value="code"/>
+               <code>
+                  <system value="http://loinc.org"/>
+                  <code value="11449-6"/>
+                  <display value="Pregnancy status - Reported"/>
+               </code>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Observation"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/Observation"/>
+            <mustSupport value="code"/>
+            <codeFilter>
+               <path value="code"/>
+               <code>
+                  <system value="http://loinc.org"/>
+                  <code value="9279-1"/>
+               </code>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Observation"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/Observation"/>
+            <mustSupport value="code"/>
+            <codeFilter>
+               <path value="code"/>
+               <code>
+                  <system value="http://loinc.org"/>
+                  <code value="8310-5"/>
+               </code>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Observation"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/Observation"/>
+            <mustSupport value="code"/>
+            <codeFilter>
+               <path value="code"/>
+               <code>
+                  <system value="http://loinc.org"/>
+                  <code value="85354-9"/>
+               </code>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Observation"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/Observation"/>
+            <mustSupport value="code"/>
+            <codeFilter>
+               <path value="code"/>
+               <code>
+                  <system value="http://loinc.org"/>
+                  <code value="9843-4"/>
+               </code>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Observation"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/Observation"/>
+            <mustSupport value="code"/>
+            <codeFilter>
+               <path value="code"/>
+               <code>
+                  <system value="http://loinc.org"/>
+                  <code value="8289-1"/>
+               </code>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Observation"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/Observation"/>
+            <mustSupport value="code"/>
+            <codeFilter>
+               <path value="code"/>
+               <code>
+                  <system value="http://loinc.org"/>
+                  <code value="29463-7"/>
+               </code>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Observation"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/Observation"/>
+            <mustSupport value="code"/>
+            <mustSupport value="category"/>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Observation"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/Observation"/>
+            <mustSupport value="code"/>
+            <codeFilter>
+               <path value="code"/>
+               <code>
+                  <system value="http://loinc.org"/>
+                  <code value="77606-2"/>
+               </code>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Procedure"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/Procedure"/>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Procedure"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/Procedure"/>
+            <mustSupport value="code"/>
+            <codeFilter>
+               <path value="code"/>
+               <valueSet
+                  value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.111.12.1015"
+               />
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Procedure"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/Procedure"/>
+            <mustSupport value="code"/>
+            <codeFilter>
+               <path value="code"/>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1078.5"/>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Procedure"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/Procedure"/>
+            <mustSupport value="code"/>
+            <codeFilter>
+               <path value="code"/>
+               <valueSet
+                  value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyProcedureDelivery-CPT"/>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Procedure"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/Procedure"/>
+            <mustSupport value="code"/>
+            <codeFilter>
+               <path value="code"/>
+               <valueSet
+                  value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.111.12.1009"
+               />
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="CareTeam"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/CareTeam"/>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="DocumentReference"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/DocumentReference"/>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Practitioner"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/Practitioner"/>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="DiagnosticReport"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/DiagnosticReport"/>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Device"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/Device"/>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="CarePlan"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/CarePlan"/>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="PractitionerRole"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/PractitionerRole"/>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Organization"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/Organization"/>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Immunization"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/Immunization"/>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Patient"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/Patient"/>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Condition"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/Condition"/>
+            <mustSupport value="code"/>
+            <codeFilter>
+               <path value="code"/>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.526.3.378"
+               />
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Condition"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/Condition"/>
+            <mustSupport value="code"/>
+            <codeFilter>
+               <path value="code"/>
+               <valueSet
+                  value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.111.12.1012"
+               />
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Condition"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/Condition"/>
+            <mustSupport value="code"/>
+            <codeFilter>
+               <path value="code"/>
+               <valueSet
+                  value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.111.11.1021"
+               />
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Condition"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/Condition"/>
+            <mustSupport value="code"/>
+            <codeFilter>
+               <path value="code"/>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1166.127"
+               />
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Condition"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/Condition"/>
+            <mustSupport value="code"/>
+            <codeFilter>
+               <path value="code"/>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1166.137"
+               />
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Condition"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/Condition"/>
+            <mustSupport value="code"/>
+            <codeFilter>
+               <path value="code"/>
+               <valueSet
+                  value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.67.1.101.1.278"/>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Condition"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/Condition"/>
+            <mustSupport value="code"/>
+            <codeFilter>
+               <path value="code"/>
+               <valueSet
+                  value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.111.12.1015"
+               />
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Condition"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/Condition"/>
+            <mustSupport value="code"/>
+            <codeFilter>
+               <path value="code"/>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1078.5"/>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Condition"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/Condition"/>
+            <mustSupport value="code"/>
+            <codeFilter>
+               <path value="code"/>
+               <valueSet
+                  value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyProcedureDelivery-CPT"/>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Condition"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/Condition"/>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="AllergyIntolerance"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/AllergyIntolerance"/>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Medication"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/Medication"/>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="MedicationRequest"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/MedicationRequest"/>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Goal"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/Goal"/>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Encounter"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/Encounter"/>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Location"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/Location"/>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Provenance"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/Provenance"/>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="RelatedPerson"/>
+            <profile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson"/>
+         </dataRequirement>
+      </Library>
+   </contained>
+   <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-softwaresystem">
+      <valueReference>
+         <reference value="Device/cqf-tooling"/>
+      </valueReference>
+   </extension>
+   <extension id="effective-data-requirements"
+      url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-effectiveDataRequirements">
+      <valueReference>
+         <reference value="#effective-data-requirements"/>
+      </valueReference>
+   </extension>
+   <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-populationBasis">
+      <valueCode value="Patient"/>
+   </extension>
+   <url value="http://www.hl7.org/fhir/us/mihr/Measure/PAMDeaths"/>
+   <identifier>
+      <system value="https://nihmeasures.org"/>
+      <value value="pamdeaths"/>
+   </identifier>
+   <version value="0.0.01"/>
+   <name value="PAMDeaths"/>
+   <title value="PAMDeaths Cohort"/>
+   <experimental value="false"/>
+   <date value="2022-11-08T10:47:48-05:00"/>
+   <description
+      value="Mothers who were pregnant and subsequently died within a specific time frame."/>
+   <purpose value="Unknown"/>
+   <copyright
+      value="Limited proprietary coding is contained in the measure specifications for user convenience. Users of proprietary code sets should obtain all necessary licenses from the owners of the code sets. Lantana disclaims all liability for use or accuracy of any third party codes contained in the specifications.  CPT(R) contained in the measure specifications is copyright 2004-2020 American Medical Association. LOINC(R) copyright 2004-2020 Regenstrief Institute, Inc. This material contains SNOMED Clinical Terms(R) (SNOMED CT[R]) copyright 2004-2020 International Health Terminology Standards Development Organisation. ICD-10 copyright 2020 World Health Organization. All Rights Reserved."/>
+   <effectivePeriod>
+      <start value="2021-01-01"/>
+      <end value="2021-12-31"/>
+   </effectivePeriod>
+   <library value="http://fhir.org/guides/cqf/Library/PAMDeaths"/>
+   <disclaimer
+      value="These performance measures are not clinical guidelines, do not establish a standard of medical care, and have not been tested for all potential applications.   THE MEASURES AND SPECIFICATION ARE PROVIDED ?AS IS? WITHOUT WARRANTY OF ANY KIND.   Due to technical limitations, registered trademarks are indicated by (R) or [R] and unregistered trademarks are indicated by (TM) or [TM]."/>
+   <scoring>
+      <coding>
+         <system value="http://terminology.hl7.org/CodeSystem/measure-scoring"/>
+         <code value="cohort"/>
+         <display value="Cohort"/>
+      </coding>
+   </scoring>
+   <type>
+      <coding>
+         <system value="http://terminology.hl7.org/CodeSystem/measure-type"/>
+         <code value="process"/>
+         <display value="Process"/>
+      </coding>
+   </type>
+   <group>
+      <population>
+         <code>
+            <coding>
+               <system value="http://terminology.hl7.org/CodeSystem/measure-population"/>
+               <code value="initial-population"/>
+               <display value="Initial Population"/>
+            </coding>
+         </code>
+         <criteria>
+            <language value="text/cql-identifier"/>
+            <expression value="Initial Population"/>
+         </criteria>
+      </population>
+   </group>
+   <supplementalData>
+      <usage>
+         <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
+            <code value="supplemental-data"/>
+         </coding>
+      </usage>
+      <criteria>
+         <language value="text/cql-identifier"/>
+         <expression value="SDE Allergy Intolerance"/>
+      </criteria>
+   </supplementalData>
+   <supplementalData>
+      <usage>
+         <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
+            <code value="supplemental-data"/>
+         </coding>
+      </usage>
+      <criteria>
+         <language value="text/cql-identifier"/>
+         <expression value="SDE BMI"/>
+      </criteria>
+   </supplementalData>
+   <supplementalData>
+      <usage>
+         <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
+            <code value="supplemental-data"/>
+         </coding>
+      </usage>
+      <criteria>
+         <language value="text/cql-identifier"/>
+         <expression value="SDE Blood Pressure"/>
+      </criteria>
+   </supplementalData>
+   <supplementalData>
+      <usage>
+         <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
+            <code value="supplemental-data"/>
+         </coding>
+      </usage>
+      <criteria>
+         <language value="text/cql-identifier"/>
+         <expression value="SDE Height"/>
+      </criteria>
+   </supplementalData>
+   <supplementalData>
+      <usage>
+         <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
+            <code value="supplemental-data"/>
+         </coding>
+      </usage>
+      <criteria>
+         <language value="text/cql-identifier"/>
+         <expression value="SDE Body Temperature"/>
+      </criteria>
+   </supplementalData>
+   <supplementalData>
+      <usage>
+         <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
+            <code value="supplemental-data"/>
+         </coding>
+      </usage>
+      <criteria>
+         <language value="text/cql-identifier"/>
+         <expression value="SDE Body Weight"/>
+      </criteria>
+   </supplementalData>
+   <supplementalData>
+      <usage>
+         <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
+            <code value="supplemental-data"/>
+         </coding>
+      </usage>
+      <criteria>
+         <language value="text/cql-identifier"/>
+         <expression value="SDE Body Weight"/>
+      </criteria>
+   </supplementalData>
+   <supplementalData>
+      <usage>
+         <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
+            <code value="supplemental-data"/>
+         </coding>
+      </usage>
+      <criteria>
+         <language value="text/cql-identifier"/>
+         <expression value="SDE Care Plan"/>
+      </criteria>
+   </supplementalData>
+   <supplementalData>
+      <usage>
+         <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
+            <code value="supplemental-data"/>
+         </coding>
+      </usage>
+      <criteria>
+         <language value="text/cql-identifier"/>
+         <expression value="SDE Care Team"/>
+      </criteria>
+   </supplementalData>
+   <supplementalData>
+      <usage>
+         <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
+            <code value="supplemental-data"/>
+         </coding>
+      </usage>
+      <criteria>
+         <language value="text/cql-identifier"/>
+         <expression value="SDE Conditions"/>
+      </criteria>
+   </supplementalData>
+   <supplementalData>
+      <usage>
+         <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
+            <code value="supplemental-data"/>
+         </coding>
+      </usage>
+      <criteria>
+         <language value="text/cql-identifier"/>
+         <expression value="SDE Diagnostic Report"/>
+      </criteria>
+   </supplementalData>
+   <supplementalData>
+      <usage>
+         <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
+            <code value="supplemental-data"/>
+         </coding>
+      </usage>
+      <criteria>
+         <language value="text/cql-identifier"/>
+         <expression value="SDE Document Reference"/>
+      </criteria>
+   </supplementalData>
+   <supplementalData>
+      <usage>
+         <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
+            <code value="supplemental-data"/>
+         </coding>
+      </usage>
+      <criteria>
+         <language value="text/cql-identifier"/>
+         <expression value="SDE Encounters"/>
+      </criteria>
+   </supplementalData>
+   <supplementalData>
+      <usage>
+         <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
+            <code value="supplemental-data"/>
+         </coding>
+      </usage>
+      <criteria>
+         <language value="text/cql-identifier"/>
+         <expression value="SDE Goal"/>
+      </criteria>
+   </supplementalData>
+   <supplementalData>
+      <usage>
+         <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
+            <code value="supplemental-data"/>
+         </coding>
+      </usage>
+      <criteria>
+         <language value="text/cql-identifier"/>
+         <expression value="SDE Head Circumference"/>
+      </criteria>
+   </supplementalData>
+   <supplementalData>
+      <usage>
+         <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
+            <code value="supplemental-data"/>
+         </coding>
+      </usage>
+      <criteria>
+         <language value="text/cql-identifier"/>
+         <expression value="SDE Heart Rate"/>
+      </criteria>
+   </supplementalData>
+   <supplementalData>
+      <usage>
+         <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
+            <code value="supplemental-data"/>
+         </coding>
+      </usage>
+      <criteria>
+         <language value="text/cql-identifier"/>
+         <expression value="SDE Immunization"/>
+      </criteria>
+   </supplementalData>
+   <supplementalData>
+      <usage>
+         <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
+            <code value="supplemental-data"/>
+         </coding>
+      </usage>
+      <criteria>
+         <language value="text/cql-identifier"/>
+         <expression value="SDE Device"/>
+      </criteria>
+   </supplementalData>
+   <supplementalData>
+      <usage>
+         <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
+            <code value="supplemental-data"/>
+         </coding>
+      </usage>
+      <criteria>
+         <language value="text/cql-identifier"/>
+         <expression value="SDE Lab Observation"/>
+      </criteria>
+   </supplementalData>
+   <supplementalData>
+      <usage>
+         <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
+            <code value="supplemental-data"/>
+         </coding>
+      </usage>
+      <criteria>
+         <language value="text/cql-identifier"/>
+         <expression value="SDE Location"/>
+      </criteria>
+   </supplementalData>
+   <supplementalData>
+      <usage>
+         <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
+            <code value="supplemental-data"/>
+         </coding>
+      </usage>
+      <criteria>
+         <language value="text/cql-identifier"/>
+         <expression value="SDE Medication"/>
+      </criteria>
+   </supplementalData>
+   <supplementalData>
+      <usage>
+         <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
+            <code value="supplemental-data"/>
+         </coding>
+      </usage>
+      <criteria>
+         <language value="text/cql-identifier"/>
+         <expression value="SDE Medication Request"/>
+      </criteria>
+   </supplementalData>
+   <supplementalData>
+      <usage>
+         <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
+            <code value="supplemental-data"/>
+         </coding>
+      </usage>
+      <criteria>
+         <language value="text/cql-identifier"/>
+         <expression value="SDE Organization"/>
+      </criteria>
+   </supplementalData>
+   <supplementalData>
+      <usage>
+         <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
+            <code value="supplemental-data"/>
+         </coding>
+      </usage>
+      <criteria>
+         <language value="text/cql-identifier"/>
+         <expression value="SDE Patient"/>
+      </criteria>
+   </supplementalData>
+   <supplementalData>
+      <usage>
+         <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
+            <code value="supplemental-data"/>
+         </coding>
+      </usage>
+      <criteria>
+         <language value="text/cql-identifier"/>
+         <expression value="SDE Pediatric BMI"/>
+      </criteria>
+   </supplementalData>
+   <supplementalData>
+      <usage>
+         <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
+            <code value="supplemental-data"/>
+         </coding>
+      </usage>
+      <criteria>
+         <language value="text/cql-identifier"/>
+         <expression value="SDE Occipital Frontal Head Circumference"/>
+      </criteria>
+   </supplementalData>
+   <supplementalData>
+      <usage>
+         <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
+            <code value="supplemental-data"/>
+         </coding>
+      </usage>
+      <criteria>
+         <language value="text/cql-identifier"/>
+         <expression value="SDE Pediatric Weight for Height"/>
+      </criteria>
+   </supplementalData>
+   <supplementalData>
+      <usage>
+         <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
+            <code value="supplemental-data"/>
+         </coding>
+      </usage>
+      <criteria>
+         <language value="text/cql-identifier"/>
+         <expression value="SDE Practitioner"/>
+      </criteria>
+   </supplementalData>
+   <supplementalData>
+      <usage>
+         <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
+            <code value="supplemental-data"/>
+         </coding>
+      </usage>
+      <criteria>
+         <language value="text/cql-identifier"/>
+         <expression value="SDE Practitioner Role"/>
+      </criteria>
+   </supplementalData>
+   <supplementalData>
+      <usage>
+         <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
+            <code value="supplemental-data"/>
+         </coding>
+      </usage>
+      <criteria>
+         <language value="text/cql-identifier"/>
+         <expression value="SDE Procedure"/>
+      </criteria>
+   </supplementalData>
+   <supplementalData>
+      <usage>
+         <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
+            <code value="supplemental-data"/>
+         </coding>
+      </usage>
+      <criteria>
+         <language value="text/cql-identifier"/>
+         <expression value="SDE Provenance"/>
+      </criteria>
+   </supplementalData>
+   <supplementalData>
+      <usage>
+         <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
+            <code value="supplemental-data"/>
+         </coding>
+      </usage>
+      <criteria>
+         <language value="text/cql-identifier"/>
+         <expression value="SDE Oximetry"/>
+      </criteria>
+   </supplementalData>
+   <supplementalData>
+      <usage>
+         <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
+            <code value="supplemental-data"/>
+         </coding>
+      </usage>
+      <criteria>
+         <language value="text/cql-identifier"/>
+         <expression value="SDE Respiratory Rate"/>
+      </criteria>
+   </supplementalData>
+   <supplementalData>
+      <usage>
+         <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
+            <code value="supplemental-data"/>
+         </coding>
+      </usage>
+      <criteria>
+         <language value="text/cql-identifier"/>
+         <expression value="SDE Smoking Status"/>
+      </criteria>
+   </supplementalData>
+   <supplementalData>
+      <usage>
+         <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
+            <code value="supplemental-data"/>
+         </coding>
+      </usage>
+      <criteria>
+         <language value="text/cql-identifier"/>
+         <expression value="SDE Vital Signs"/>
+      </criteria>
+   </supplementalData>
+   <supplementalData>
+      <usage>
+         <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
+            <code value="supplemental-data"/>
+         </coding>
+      </usage>
+      <criteria>
+         <language value="text/cql-identifier"/>
+         <expression value="SDE Related Person"/>
+      </criteria>
+   </supplementalData>
+</Measure>

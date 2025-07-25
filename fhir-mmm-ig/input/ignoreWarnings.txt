@@ -1,0 +1,16 @@
+== Suppressed Messages ==
+# The following code systems are external and not supported by terminology server. This is known to occur at the following location: input\resources\valueset\PregnancyProcedureDelivery-CPT @ ValueSet.compose[0].include[0]
+Error from server: Unable to provide support for code system http://www.ama-assn.org/go/cpt
+Unknown System 'http://www.ama-assn.org/go/cpt' specified, so Concepts and Filters can't be checked (Details: Local Error: Resolved system http://www.ama-assn.org/go/cpt (v3.0.0), but the definition is not complete. Server Error: The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59400'); The code provided (http://www.ama-assn.org/go/cpt#59400) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4))
+
+# This text is expected embedded HTML. This is occurs at the following location: ImplementationGuide.description
+The markdown contains content that appears to be an embedded HTML tag starting at ' S'. This will (or SHOULD) be escaped by the presentation layer. The content should be checked to confirm that this is the desired behaviour
+
+# HTML fragments are not needed for this guide
+The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+
+# Measure group population criteria expression is expected to contain whitespaces
+Rule cqm-4: 'Group population criteria SHOULD be simple expression names found within the primary library for the measure. The criteria SHOULD NOT include a namespace.' Failed

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet
+    xmlns="http://hl7.org/fhir">
+    <id value="PregnancyProcedureDelivery"/>
+    <meta>
+        <versionId value="15"/>
+        <lastUpdated value="2022-10-05T20:26:39.069+00:00"/>
+        <source value="#84pinPtJzPVByzNQ"/>
+    </meta>
+    <url value="http://hl7.org/fhir/us/mihr/ValueSet/PregnancyProcedureDelivery"/>
+    <name value="PregnancyProcedureDelivery"/>
+    <title value="Pregnancy Procedure Delivery"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <description value="This pregnancy procedure delivery value set defines delivery and live birth procedures such as vaginal, cesarean and forcep deliveries.  This is a grouping value set  which includes two value sets: Delivery and Live Births 2.16.840.1.113883.3.464.1003.111.12.1015 and Delivery Procedures 2.16.840.1.113762.1.4.1078.5 which contains SNOMED CT, ICD10PCS codes. Please see VSAC (https://vsac.nlm.nih.gov/) for the latest code expansion."/>
+    <purpose value="The purpose of this value set is to represent procedure concepts for single or multiple live deliveries."/>
+    <copyright value="VSAC (https://vsac.nlm.nih.gov/valueset/2.16.840.1.113883.3.464.1003.111.12.1015) and SNOMED CT and ICD-10 copyright."/>
+    <compose>
+        <include>
+            <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.111.12.1015"/>
+        </include>
+        <include>
+            <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1078.5"/>
+        </include>
+        <include>
+            <valueSet value="http://hl7.org/fhir/us/mihr/ValueSet/PregnancyProcedureDelivery-CPT"/>
+        </include>
+    </compose>
+</ValueSet>

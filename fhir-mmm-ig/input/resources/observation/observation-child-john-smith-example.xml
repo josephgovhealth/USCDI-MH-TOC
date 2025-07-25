@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Observation
+    xmlns="http://hl7.org/fhir">
+    <id value="observation-child-john-smith-example"/>
+    <meta>
+        <versionId value="2"/>
+        <lastUpdated value="2022-03-15T19:44:07.305+00:00"/>
+        <source value="#6e8TbvYYQXBdERa1"/>
+        <profile value="http://hl7.org/fhir/us/vr-common-library/StructureDefinition/Observation-apgar-score"/>
+    </meta>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://loinc.org"/>
+            <code value="9274-2"/>
+            <display value="5 minute Apgar Score"/>
+        </coding>
+        <text value="5 minute Apgar Score"/>
+    </code>
+    <subject>
+        <reference value="Patient/patient-child-john-smith-example"/>
+        <display value="John Smith"/>
+    </subject>
+    <valueInteger value="7"/>
+</Observation>

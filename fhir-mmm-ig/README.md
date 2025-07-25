@@ -1,0 +1,2 @@
+# fhir-mmm-ig
+This FHIR R4 implementation guide (IG) for the US Realm will be based on Clinical Quality Framework and US Core profiles where possible. This FHIR implementation guide will use the US Core profiles. If this FHIR implementation guide is unable to use a US Core profile, we will follow the Cross Group Projects WG's variance request process, and provide the US Realm Steering Committee an approved rationale for deviation in the implementation guide where applicable.

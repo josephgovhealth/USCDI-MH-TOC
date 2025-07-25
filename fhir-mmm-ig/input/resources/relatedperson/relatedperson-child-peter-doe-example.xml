@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelatedPerson
+    xmlns="http://hl7.org/fhir">
+    <id value="relatedperson-child-peter-doe-example"/>
+    <meta>
+        <versionId value="2"/>
+        <lastUpdated value="2022-03-15T17:14:37.196+00:00"/>
+        <source value="#oFdcJA7tnpwLDQ31"/>
+        <profile value="http://hl7.org/fhir/us/vr-common-library/StructureDefinition/RelatedPerson-mother-gestational"/>
+    </meta>
+    <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-race">
+        <extension url="ombCategory">
+            <valueCoding>
+                <system value="urn:oid:2.16.840.1.113883.6.238"/>
+                <code value="2054-5"/>
+                <display value="Black or African American"/>
+            </valueCoding>
+        </extension>
+        <extension url="text">
+            <valueString value="Black or African America"/>
+        </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity">
+        <extension url="ombCategory">
+            <valueCoding>
+                <system value="urn:oid:2.16.840.1.113883.6.238"/>
+                <code value="2135-2"/>
+                <display value="Hispanic or Latino"/>
+            </valueCoding>
+        </extension>
+        <extension url="text">
+            <valueString value="Hispanic or Latino"/>
+        </extension>
+    </extension>
+    <active value="true"/>
+    <patient>
+        <reference value="Patient/patient-child-peter-doe-example"/>
+        <display value="Patient - Peter Doe"/>
+    </patient>
+    <relationship>
+        <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <code value="GESTM"/>
+            <display value="gestational mother"/>
+        </coding>
+        <text value="mother"/>
+    </relationship>
+    <name id="CI-12742728-1">
+        <use value="official"/>
+        <text value="DOE, ALLISON"/>
+        <family value="DOE"/>
+        <given value="ALLISON"/>
+        <period>
+            <start value="2021-01-03T11:01:29.000Z"/>
+        </period>
+    </name>
+    <telecom id="CI-PH-29822997-7">
+        <system value="phone"/>
+        <value value="5555555555"/>
+        <use value="mobile"/>
+        <rank value="1"/>
+        <period>
+            <start value="2021-01-03T11:01:29.000Z"/>
+        </period>
+    </telecom>
+    <gender value="female"/>
+    <birthDate value="1999-09-16"/>
+    <address id="CI-24327194-0">
+        <use value="home"/>
+        <text value="2801 ANY &#xA;ANY, MO 64117&#xA;US"/>
+        <line value="2801 ANY"/>
+        <city value="ANY"/>
+        <state value="MO"/>
+        <postalCode value="64117"/>
+        <country value="US"/>
+        <period>
+            <start value="2021-01-03T11:01:29.000Z"/>
+        </period>
+    </address>
+</RelatedPerson>
