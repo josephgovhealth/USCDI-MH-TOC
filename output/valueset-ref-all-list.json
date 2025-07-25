@@ -63,8 +63,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-MyPatient.html" : "MyPatient",
-      "StructureDefinition-mh-toc-parity.html" : "MH TOC Parity Profile"
+      "StructureDefinition-mh-toc-parity.html" : "MH TOC Parity Profile",
+      "StructureDefinition-MyPatient.html" : "MyPatient"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/link-type",

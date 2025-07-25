@@ -10,7 +10,7 @@
     "url" : "http://example.org/ImplementationGuide/fhir.example",
     "version" : "0.1.0",
     "name" : "USCDI_Postpartum_TOC",
-    "date" : "2025-07-25T16:07:06-04:00",
+    "date" : "2025-07-25T16:23:10-04:00",
     "status" : {
       "class" : "colsd",
       "owner" : "Example Publisher",
@@ -41,7 +41,7 @@
     "url" : "http://example.org/StructureDefinition/MyPatient",
     "version" : "0.1.0",
     "name" : "MyPatient",
-    "date" : "2025-07-25T16:07:06-04:00",
+    "date" : "2025-07-25T16:23:10-04:00",
     "description" : "An example profile of the Patient resource.",
     "descriptionlang" : {
     },

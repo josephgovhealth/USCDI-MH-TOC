@@ -175,9 +175,30 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <div>
   <!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown. -->
 </div>
-<h1 id="exampleig">ExampleIG</h1>
 
-<p>Feel free to modify this index page with your own awesome content!</p>
+<h1 id="uscdi-maternal-health-postpartum-transitions-of-care-fhir-ig">USCDI+ Maternal Health Postpartum Transitions of Care FHIR IG</h1>
+
+<p>1.1 <strong>Introduction</strong>
+Rates of maternal mortality for pregnant women and new mothers is on the rise, and it is paramount that providers, across care settings, have access to reliable and accurate health data to inform treatment and interventions. However, current gaps in standardized, interoperable data to exchange across health care settings can limit providers’ ability to access necessary health data to effectively manage and deliver high-quality care. Effective communication and data sharing across these settings are crucial to address ongoing health needs, manage chronic conditions, and support the mother's transition to primary care.</p>
+
+<p><a name="l277">​</a><img src="Postpartum_TOC_stages.png" alt="alt text" title="Title"/></p>
+
+<ol>
+  <li>Prenatal Care: Prenatal care typically occurs in outpatient clinics, where obstetricians, midwives, or family physicians monitor the pregnancy through regular visits.</li>
+  <li>Delivery Encounter: When labor begins, care shifts to a hospital or birthing center, where a different team manages the delivery.</li>
+  <li>Postpartum TOC: After childbirth, the mother returns to outpatient care for postpartum follow-up. Data relevant to postpartum is care is siloed across multiple prenatal encounter summaries and is either missing or captured as unstructured data from the hospital encounter.</li>
+</ol>
+
+<p>2.0 <strong>Data Exchange: Current and Future State</strong></p>
+
+<p>The USCDI+ MH domain extends the USCDI core dataset by establishing maternal health specific data elements for use in delivering care and conducting research on health outcomes for pregnant women. The USCDI+ MH Postpartum TOC Use Case focuses specifically on interoperable data exchange between health IT solutions that support obstetric care providers in caring for pregnant and postpartum patients and associated federal quality and reporting programs with electronic measures and datasets pertaining to postpartum outcomes.</p>
+
+<p>Currently, Clinical Document Architecture (CDA) and Consolidated-Clinical Document Architecture (C-CDAs) are used to exchange both structured and unstructured data, such as narrative notes in a document format (e.g., Discharge Summary, History &amp; Physical notes, and Encounter Summary). There is no standardized Postpartum Summary note that facilitates the exchange of postpartum summary information and ensures that essential postpartum data is captured and exchanged in a structured, consistent manner when individuals transition from inpatient to outpatient care after pregnancy.</p>
+
+<p>Health Level Seven (HL7) FHIR has not yet been widely adopted for maternal health data exchange. Although some support exists, such as through the ASTP USCDI and the HL7 FHIR US Core IG, its application to postpartum use cases remains limited. Major barriers include the absence of a standardized set of postpartum data elements and a lack of guidance on appropriate value sets. This presents an opportunity for the development of a FHIR IG for the Postpartum TOC Use Case.</p>
+
+<p><a name="l306">​</a><img src="data_flow_diagram.png" alt="alt text" title="Title"/></p>
+
 
 
 
@@ -196,8 +217,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
-        <p><a name="l311">​</a>
-          IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://example.org/example-publisher">Example Publisher</a>.  Package fhir.example#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jul 25, 2025 16:07-0400">2025-07-25</span>
+        <p><a name="l346">​</a>
+          IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://example.org/example-publisher">Example Publisher</a>.  Package fhir.example#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jul 25, 2025 16:23-0400">2025-07-25</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

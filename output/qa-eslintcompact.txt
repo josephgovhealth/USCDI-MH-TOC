@@ -42,6 +42,8 @@ Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' 
 Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The image source 'Postpartum_TOC_stages.png' cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The image source 'data_flow_diagram.png' cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Warning - The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
