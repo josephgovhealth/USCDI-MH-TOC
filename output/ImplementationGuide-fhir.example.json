@@ -9,7 +9,7 @@
   "version" : "0.1.0",
   "name" : "USCDI_Postpartum_TOC",
   "status" : "draft",
-  "date" : "2025-07-24T18:01:17-04:00",
+  "date" : "2025-07-25T16:07:06-04:00",
   "publisher" : "Example Publisher",
   "contact" : [{
     "name" : "Example Publisher",
@@ -45,7 +45,7 @@
     "id" : "hl7_fhir_us_core",
     "uri" : "http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core",
     "packageId" : "hl7.fhir.us.core",
-    "version" : "8.0.0"
+    "version" : "6.1.0"
   },
   {
     "id" : "mcode",
@@ -609,6 +609,18 @@
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     }],
     "resource" : [{
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/mh-toc-disseminated-intravascular-coagulation-ICD"
+      },
+      "name" : "MH TOC Disseminated Intravascular Coagulation ICD10",
+      "description" : "This value set includes terms related to the severe maternal morbidity indicator of disseminated intravascular coagulation.",
+      "exampleBoolean" : false
+    },
+    {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"

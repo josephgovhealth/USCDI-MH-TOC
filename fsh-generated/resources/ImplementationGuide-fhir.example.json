@@ -24,7 +24,7 @@
   "dependsOn": [
     {
       "packageId": "hl7.fhir.us.core",
-      "version": "8.0.0",
+      "version": "6.1.0",
       "uri": "http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core",
       "id": "hl7_fhir_us_core"
     },
@@ -37,6 +37,14 @@
   ],
   "definition": {
     "resource": [
+      {
+        "reference": {
+          "reference": "ValueSet/mh-toc-disseminated-intravascular-coagulation-ICD"
+        },
+        "description": "This value set includes terms related to the severe maternal morbidity indicator of disseminated intravascular coagulation.",
+        "exampleBoolean": false,
+        "name": "MH TOC Disseminated Intravascular Coagulation ICD10"
+      },
       {
         "reference": {
           "reference": "StructureDefinition/mh-toc-parity"

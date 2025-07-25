@@ -17,7 +17,7 @@
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "USCDI_Postpartum_TOC"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-07-24T18:01:17-04:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-07-25T16:07:06-04:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Example Publisher"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Example Publisher" ] ;
@@ -66,7 +66,7 @@
        fhir:link <http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core>
      ] ;
      fhir:packageId [ fhir:v "hl7.fhir.us.core" ] ;
-     fhir:version [ fhir:v "8.0.0" ]
+     fhir:version [ fhir:v "6.1.0" ]
   ] [
      fhir:id [ fhir:v "mcode" ] ;
      fhir:uri [
@@ -835,6 +835,24 @@
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] ) ;
      fhir:resource ( [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://example.org/ValueSet/mh-toc-disseminated-intravascular-coagulation-ICD> ;
+         fhir:reference [ fhir:v "ValueSet/mh-toc-disseminated-intravascular-coagulation-ICD" ]
+       ] ;
+       fhir:name [ fhir:v "MH TOC Disseminated Intravascular Coagulation ICD10" ] ;
+       fhir:description [ fhir:v "This value set includes terms related to the severe maternal morbidity indicator of disseminated intravascular coagulation." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [

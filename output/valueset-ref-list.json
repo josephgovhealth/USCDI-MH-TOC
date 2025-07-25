@@ -1,18 +1,25 @@
 {
   "codeSystems" : [
     {
+      "url" : "http://example.org/ValueSet/isseminated-intravascular-coagulation-ICD",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "ValueSetMHTOCDisseminatedIntravascularCoagulationICD10",
+      "title" : "MH TOC Disseminated Intravascular Coagulation ICD10",
+      "description" : "This value set includes terms related to the severe maternal morbidity indicator of disseminated intravascular coagulation.",
+      "systems" : ["http://hl7.org/fhir/sid/icd-10-cm"]
+    },
+    {
       "url" : "http://hl7.org/fhir/us/core/ValueSet/us-core-simple-observation-category",
-      "version" : "8.0.0",
+      "version" : "6.1.0",
       "status" : "active",
       "name" : "USCoreSimpleObservationCategory",
       "title" : "US Core Simple Observation Category",
-      "description" : "This value set is a value set of category codes used in the US Core Simple Observation and Condition Problems and Health Concerns Profiles that any conformant system **SHOULD** support to help identify the type of USCDI Health Status/Assessment data class being reported.",
+      "description" : "Used to classify the context of a survey, screening or assessment for simple observations and may be used to assist with indexing and searching for appropriate instances.",
       "systems" : [
         "http://hl7.org/fhir/us/core/CodeSystem/us-core-category",
         "http://terminology.hl7.org/CodeSystem/observation-category"
       ],
-      "oids" : ["2.16.840.1.113883.4.642.40.2.48.14"],
-      "sources" : ["2.16.840.1.113883.4.642.40.2.48.14"],
       "uses" : {
       },
       "StructureDefinition-mh-toc-parity.html" : "MH TOC Parity Profile"

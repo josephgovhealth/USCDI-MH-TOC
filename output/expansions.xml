@@ -1,9 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="ddb8dba2-ebd7-42cb-a42e-3784aa29d936"/>
+  <id value="36840e07-efe3-4180-934c-b2d13f02d46b"/>
   <meta>
-    <lastUpdated value="2025-07-24T18:01:34.810-04:00"/>
+    <lastUpdated value="2025-07-25T16:07:19.643-04:00"/>
   </meta>
   <type value="collection"/>
+  <entry>
+    <fullUrl value="http://example.org/ValueSet/isseminated-intravascular-coagulation-ICD"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx.fhir.org based on codesystem International Classification of Diseases, 10th Revision, Clinical Modification (ICD-10-CM) version2024</p>
+            <p>This value set contains 3 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display (en-US)</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://hl7.org/fhir/sid/icd-10-cm-D65"> </a>  D65
+                </td>
+                <td>http://hl7.org/fhir/sid/icd-10-cm</td>
+                <td>Disseminated intravascular coagulation</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://hl7.org/fhir/sid/icd-10-cm-D68.8"> </a>  D68.8
+                </td>
+                <td>http://hl7.org/fhir/sid/icd-10-cm</td>
+                <td>Other specified coagulation defects</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://hl7.org/fhir/sid/icd-10-cm-O45.002"> </a>  O45.002
+                </td>
+                <td>http://hl7.org/fhir/sid/icd-10-cm</td>
+                <td>Prem separtn of placenta w coag defect, unsp, second tri</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://example.org/ValueSet/isseminated-intravascular-coagulation-ICD"/>
+        <version value="0.1.0"/>
+        <name value="ValueSetMHTOCDisseminatedIntravascularCoagulationICD10"/>
+        <title value="MH TOC Disseminated Intravascular Coagulation ICD10"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2025-07-25"/>
+        <expansion>
+          <identifier value="urn:uuid:4369393d-ae8d-4d11-8755-5ef325a3a571"/>
+          <timestamp value="2025-07-25T16:07:49-04:00"/>
+          <total value="3"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en-US"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://hl7.org/fhir/sid/icd-10-cm|2024"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://hl7.org/fhir/sid/icd-10-cm|2024"/>
+          </parameter>
+          <contains>
+            <system value="http://hl7.org/fhir/sid/icd-10-cm"/>
+            <code value="D65"/>
+            <display value="Disseminated intravascular coagulation"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/sid/icd-10-cm"/>
+            <code value="D68.8"/>
+            <display value="Other specified coagulation defects"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/sid/icd-10-cm"/>
+            <code value="O45.002"/>
+            <display value="Prem separtn of placenta w coag defect, unsp, second tri"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
 </Bundle>

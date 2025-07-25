@@ -17,7 +17,7 @@
    <version value="0.1.0"/>
    <name value="USCDI_Postpartum_TOC"/>
    <status value="draft"/>
-   <date value="2025-07-24T18:01:17-04:00"/>
+   <date value="2025-07-25T16:07:06-04:00"/>
    <publisher value="Example Publisher"/>
    <contact>
       <name value="Example Publisher"/>
@@ -48,7 +48,7 @@
    <dependsOn id="hl7_fhir_us_core">
       <uri value="http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core"/>
       <packageId value="hl7.fhir.us.core"/>
-      <version value="8.0.0"/>
+      <version value="6.1.0"/>
    </dependsOn>
    <dependsOn id="mcode">
       <uri value="http://hl7.org/fhir/us/mcode/ImplementationGuide/hl7.fhir.us.mcode"/>
@@ -263,6 +263,10 @@
          <name value="Structures: Resource Profiles"/>
          <description value="These define constraints on FHIR resources for systems conforming to this implementation guide."/>
       </grouping>
+      <grouping id="-term-valueset">
+         <name value="Terminology: Value Sets"/>
+         <description value="These define sets of codes used by systems conforming to this implementation guide."/>
+      </grouping>
       <grouping id="-ex-example">
          <name value="Example: Example Instances"/>
          <description value="These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like."/>
@@ -302,6 +306,24 @@
          <description value="An example profile of the Patient resource."/>
          <exampleBoolean value="false"/>
          <groupingId value="-str-profile"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-mh-toc-disseminated-intravascular-coagulation-ICD.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/mh-toc-disseminated-intravascular-coagulation-ICD"/>
+         </reference>
+         <name value="MH TOC Disseminated Intravascular Coagulation ICD10"/>
+         <description value="This value set includes terms related to the severe maternal morbidity indicator of disseminated intravascular coagulation."/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-term-valueset"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
@@ -364,6 +386,11 @@
             <page>
                <nameUrl value="StructureDefinition-MyPatient.html"/>
                <title value="MyPatient"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="ValueSet-mh-toc-disseminated-intravascular-coagulation-ICD.html"/>
+               <title value="MH TOC Disseminated Intravascular Coagulation ICD10"/>
                <generation value="generated"/>
             </page>
             <page>

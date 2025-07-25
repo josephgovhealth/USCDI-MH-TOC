@@ -1,3 +1,13 @@
 {
-  "codeSystems" : []
+  "codeSystems" : [
+    {
+      "url" : "http://example.org/ValueSet/isseminated-intravascular-coagulation-ICD",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "ValueSetMHTOCDisseminatedIntravascularCoagulationICD10",
+      "title" : "MH TOC Disseminated Intravascular Coagulation ICD10",
+      "description" : "This value set includes terms related to the severe maternal morbidity indicator of disseminated intravascular coagulation.",
+      "systems" : ["http://hl7.org/fhir/sid/icd-10-cm"]
+    }
+  ]
 }

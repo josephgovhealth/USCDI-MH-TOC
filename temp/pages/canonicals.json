@@ -19,5 +19,12 @@
     "url" : "http://example.org/StructureDefinition/mh-toc-parity",
     "version" : "0.1.0",
     "name" : "MHTOCParityProfile"
+  },
+  {
+    "id" : "mh-toc-disseminated-intravascular-coagulation-ICD",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/isseminated-intravascular-coagulation-ICD",
+    "version" : "0.1.0",
+    "name" : "ValueSetMHTOCDisseminatedIntravascularCoagulationICD10"
   }
 ]

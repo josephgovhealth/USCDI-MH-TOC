@@ -10,7 +10,7 @@
     "url" : "http://example.org/ImplementationGuide/fhir.example",
     "version" : "0.1.0",
     "name" : "USCDI_Postpartum_TOC",
-    "date" : "2025-07-24T18:01:17-04:00",
+    "date" : "2025-07-25T16:07:06-04:00",
     "status" : {
       "class" : "colsd",
       "owner" : "Example Publisher",
@@ -41,7 +41,7 @@
     "url" : "http://example.org/StructureDefinition/MyPatient",
     "version" : "0.1.0",
     "name" : "MyPatient",
-    "date" : "2025-07-24T18:01:17-04:00",
+    "date" : "2025-07-25T16:07:06-04:00",
     "description" : "An example profile of the Patient resource.",
     "descriptionlang" : {
     },
@@ -75,6 +75,35 @@
       "owner" : "Example Publisher",
       "link" : "http://example.org/example-publisher",
       "status" : "Active"
+    }
+  },
+  "ValueSet/mh-toc-disseminated-intravascular-coagulation-ICD" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 4,
+    "source" : "input/resources/ValueSet-mh-toc-disseminated-intravascular-coagulation.json",
+    "sourceTail" : "ValueSet-mh-toc-disseminated-intravascular-coagulation.json",
+    "path" : "ValueSet-mh-toc-disseminated-intravascular-coagulation-ICD.html",
+    "url" : "http://example.org/ValueSet/isseminated-intravascular-coagulation-ICD",
+    "version" : "0.1.0",
+    "name" : "ValueSetMHTOCDisseminatedIntravascularCoagulationICD10",
+    "title" : "MH TOC Disseminated Intravascular Coagulation ICD10",
+    "titlelang" : {
+    },
+    "experimental" : false,
+    "date" : "2025-07-25",
+    "description" : "This value set includes terms related to the severe maternal morbidity indicator of disseminated intravascular coagulation.",
+    "descriptionlang" : {
+    },
+    "status" : {
+      "class" : "colsd",
+      "owner" : "Example Publisher",
+      "link" : "http://example.org/example-publisher",
+      "status" : "Draft"
+    },
+    "copyright" : "ICD-10-cm",
+    "copyrightlang" : {
     }
   }
 }
