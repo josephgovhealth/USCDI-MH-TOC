@@ -23,7 +23,7 @@
   {
     "id" : "mh-toc-disseminated-intravascular-coagulation-ICD",
     "type" : "ValueSet",
-    "url" : "http://example.org/ValueSet/isseminated-intravascular-coagulation-ICD",
+    "url" : "http://example.org/ValueSet/disseminated-intravascular-coagulation-ICD",
     "version" : "0.1.0",
     "name" : "ValueSetMHTOCDisseminatedIntravascularCoagulationICD10"
   }

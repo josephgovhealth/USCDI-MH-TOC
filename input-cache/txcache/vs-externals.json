@@ -16,6 +16,7 @@
     "server" : "http://tx.fhir.org/r4",
     "filename" : "vs-a3e98500-2f51-4564-897d-ac18892f56d1.json"
   },
+  "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation" : null,
   "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race" : null,
   "http://hl7.org/fhir/us/core/StructureDefinition/us-core-tribal-affiliation" : null,
   "http://hl7.org/fhir/us/core/StructureDefinition/us-core-interpreter-needed" : null

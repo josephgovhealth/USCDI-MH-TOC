@@ -30,10 +30,6 @@
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
       "StructureDefinition.snapshot.element.binding"
     ],
-    "http://hl7.org/fhir/StructureDefinition/elementdefinition-minValueSet": [
-      "StructureDefinition.differential.element.binding",
-      "StructureDefinition.snapshot.element.binding"
-    ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support": [
       "StructureDefinition.differential.element.type",
       "StructureDefinition.differential.element.type.targetProfile",
@@ -69,7 +65,6 @@
       "StructureDefinition.snapshot"
     ],
     "http://hl7.org/fhir/us/core/StructureDefinition/uscdi-requirement": [
-      "StructureDefinition.differential.element",
       "StructureDefinition.snapshot.element"
     ]
   }

@@ -1,7 +1,7 @@
 {
   "codeSystems" : [
     {
-      "url" : "http://example.org/ValueSet/isseminated-intravascular-coagulation-ICD",
+      "url" : "http://example.org/ValueSet/disseminated-intravascular-coagulation-ICD",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "ValueSetMHTOCDisseminatedIntravascularCoagulationICD10",

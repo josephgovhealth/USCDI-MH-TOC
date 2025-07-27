@@ -17,7 +17,7 @@
    <version value="0.1.0"/>
    <name value="USCDI_Postpartum_TOC"/>
    <status value="draft"/>
-   <date value="2025-07-25T16:23:10-04:00"/>
+   <date value="2025-07-27T11:31:10-04:00"/>
    <publisher value="Example Publisher"/>
    <contact>
       <name value="Example Publisher"/>
@@ -313,7 +313,7 @@
       </grouping>
       <grouping id="-str-abstractprofile">
          <name value="Structures: Abstract Profiles"/>
-         <description value="These are profiles on resources or data types that describe patterns used by other profiles, but cannot be instantiated directly.  I.e. instances can conform to profiles *based* on these abstract profiles, but do not declare conformance to the abstract profiles themselves."/>
+         <description value="These are profiles on resources or data types that describe patterns used by other profiles, but cannot be instantiated directly.  I.e. instances can conform to profiles *based* on these abstract profiles but do not declare conformance to the abstract profiles themselves."/>
       </grouping>
       <grouping id="-str-profile">
          <name value="Structures: Resource Profiles"/>

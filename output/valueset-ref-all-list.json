@@ -1,7 +1,7 @@
 {
   "codeSystems" : [
     {
-      "url" : "http://example.org/ValueSet/isseminated-intravascular-coagulation-ICD",
+      "url" : "http://example.org/ValueSet/disseminated-intravascular-coagulation-ICD",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "ValueSetMHTOCDisseminatedIntravascularCoagulationICD10",
@@ -96,6 +96,20 @@
       "uses" : {
       },
       "StructureDefinition-MyPatient.html" : "MyPatient"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ObservationCategoryCodes",
+      "title" : "Observation Category Codes",
+      "description" : "Observation Category codes.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/observation-category"],
+      "oids" : ["2.16.840.1.113883.4.642.3.403"],
+      "sources" : ["2.16.840.1.113883.4.642.3.403"],
+      "uses" : {
+      },
+      "StructureDefinition-mh-toc-parity.html" : "MH TOC Parity Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-codes",
