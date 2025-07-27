@@ -61,7 +61,7 @@
                 ],
                 "mustSupport": true
             },
-            
+
             {
                 "id": "Observation.value[x]",
                 "path": "Observation.value[x]",
@@ -90,7 +90,7 @@
             {
                 "id": "Observation.derivedFrom",
                 "path": "Observation.derivedFrom",
-                "definition": "Observations or or other resource such as a QuestionnaireResponse from which this observation value is derived.",
+                "definition": "Observations from which this observation value is derived.",
                 "type": [
                     {
                         "code": "Reference",

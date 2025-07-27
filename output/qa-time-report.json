@@ -1,5 +1,5 @@
 {
-  "date" : "Sun, 27 Jul, 2025 11:31:22 -0400",
+  "date" : "Sun, 27 Jul, 2025 11:33:49 -0400",
   "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
   "files" : [
     {
@@ -19,36 +19,26 @@
         {
           "activity" : "generateNarratives",
           "start" : 12,
-          "length" : 55
+          "length" : 56
         },
         {
           "activity" : "validate",
           "start" : 13,
-          "length" : 11420
-        },
-        {
-          "activity" : "validate",
-          "start" : 24,
-          "length" : 1
+          "length" : 11360
         },
         {
           "activity" : "generate1",
           "start" : 24,
-          "length" : 35
+          "length" : 32
         },
         {
           "activity" : "generate2",
           "start" : 25,
-          "length" : 30
+          "length" : 28
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 34,
-          "length" : 1
-        },
-        {
-          "activity" : "scanExamplesForR5",
-          "start" : 37,
+          "start" : 33,
           "length" : 1
         }
       ]
@@ -60,7 +50,12 @@
         {
           "activity" : "loadResources",
           "start" : 11,
-          "length" : 11
+          "length" : 10
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 12,
+          "length" : 1
         },
         {
           "activity" : "generateNarratives",
@@ -69,8 +64,13 @@
         },
         {
           "activity" : "validate",
+          "start" : 12,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
           "start" : 24,
-          "length" : 3
+          "length" : 2
         },
         {
           "activity" : "generate1",
@@ -80,7 +80,7 @@
         {
           "activity" : "generate2",
           "start" : 25,
-          "length" : 10
+          "length" : 9
         }
       ]
     },
@@ -91,93 +91,32 @@
         {
           "activity" : "loadResources",
           "start" : 11,
-          "length" : 12
+          "length" : 10
         },
         {
           "activity" : "load",
           "start" : 11,
-          "length" : 6
+          "length" : 4
         },
         {
           "activity" : "generateSnapshots",
           "start" : 11,
-          "length" : 20
+          "length" : 18
         },
         {
-          "activity" : "load-configure",
+          "activity" : "loadDepInfo",
           "start" : 12,
           "length" : 1
         },
         {
           "activity" : "generateNarratives",
           "start" : 12,
-          "length" : 24
+          "length" : 25
         },
         {
           "activity" : "validate",
           "start" : 12,
-          "length" : 491
-        },
-        {
-          "activity" : "scanForUsageStats",
-          "start" : 24,
-          "length" : 1
-        },
-        {
-          "activity" : "generate1",
-          "start" : 24,
-          "length" : 91
-        },
-        {
-          "activity" : "generate2",
-          "start" : 25,
-          "length" : 441
-        },
-        {
-          "activity" : "generate2",
-          "start" : 26,
-          "length" : 1016
-        },
-        {
-          "activity" : "generateValidationPack",
-          "start" : 34,
-          "length" : 3
-        }
-      ]
-    },
-    {
-      "name" : "input/resources/StructureDefinition-mh-toc-parity.json",
-      "size" : 4163,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 11,
-          "length" : 12
-        },
-        {
-          "activity" : "load",
-          "start" : 11,
-          "length" : 3
-        },
-        {
-          "activity" : "generateSnapshots",
-          "start" : 11,
-          "length" : 28
-        },
-        {
-          "activity" : "checkR4R4B",
-          "start" : 12,
-          "length" : 1
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 12,
-          "length" : 22
-        },
-        {
-          "activity" : "validate",
-          "start" : 13,
-          "length" : 153
+          "length" : 498
         },
         {
           "activity" : "checkConformanceResources",
@@ -192,32 +131,93 @@
         {
           "activity" : "generate1",
           "start" : 24,
-          "length" : 129
+          "length" : 86
+        },
+        {
+          "activity" : "generate2",
+          "start" : 25,
+          "length" : 442
         },
         {
           "activity" : "generate2",
           "start" : 26,
-          "length" : 331
-        },
-        {
-          "activity" : "generate2",
-          "start" : 27,
-          "length" : 143
-        },
-        {
-          "activity" : "makeDependencies",
-          "start" : 30,
-          "length" : 1
+          "length" : 801
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 34,
-          "length" : 5
+          "start" : 33,
+          "length" : 3
         },
         {
           "activity" : "scanExamplesForR5",
           "start" : 37,
           "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/StructureDefinition-mh-toc-parity.json",
+      "size" : 4098,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 11,
+          "length" : 10
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 3
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 11,
+          "length" : 24
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 12,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 12,
+          "length" : 22
+        },
+        {
+          "activity" : "validate",
+          "start" : 13,
+          "length" : 154
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 24,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 24,
+          "length" : 132
+        },
+        {
+          "activity" : "generate2",
+          "start" : 26,
+          "length" : 284
+        },
+        {
+          "activity" : "generate2",
+          "start" : 27,
+          "length" : 211
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 29,
+          "length" : 2
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 33,
+          "length" : 4
         }
       ]
     },
@@ -228,27 +228,37 @@
         {
           "activity" : "loadResources",
           "start" : 11,
-          "length" : 13
+          "length" : 11
         },
         {
           "activity" : "load",
           "start" : 11,
-          "length" : 19
+          "length" : 35
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 12,
+          "length" : 1
         },
         {
           "activity" : "validate",
           "start" : 12,
-          "length" : 165
+          "length" : 151
         },
         {
           "activity" : "generate1",
           "start" : 25,
-          "length" : 21
+          "length" : 19
         },
         {
           "activity" : "generate2",
           "start" : 26,
-          "length" : 292
+          "length" : 289
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 33,
+          "length" : 1
         }
       ]
     }
