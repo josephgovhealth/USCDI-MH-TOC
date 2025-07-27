@@ -3,7 +3,7 @@ USCDI_Postpartum_TOC : Validation Results
 
 err = 6, warn = 16, info = 2
 IG Publisher Version: 2.0.11
-Generated Sun Jul 27 11:34:14 EDT 2025. FHIR version 4.0.1 for fhir.example#0.1.0 (canonical = http://example.org)
+Generated Sun Jul 27 15:09:05 EDT 2025. FHIR version 4.0.1 for fhir.example#0.1.0 (canonical = http://example.org)
  Build Errors : 36 / 4 / 0
  /Users/joseph/Consulting/Clinovations/ASTP_Contract/Repos/USCDI-MH-TOC/fsh-generated/resources/ImplementationGuide-fhir.example : 0 / 2 / 1
  /Users/joseph/Consulting/Clinovations/ASTP_Contract/Repos/USCDI-MH-TOC/fsh-generated/resources/Patient-PatientExample : 0 / 0 / 1
@@ -32,9 +32,9 @@ ERROR: StructureDefinition-mh-toc-parity-mappings.html#/html/body/div/div/div/p/
 ERROR: StructureDefinition-mh-toc-parity-testing.html#/html/body/div/div/div/p/a at Line 240, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
 ERROR: StructureDefinition-mh-toc-parity.html#/html/body/div/div/div/p/a at Line 2129, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
 ERROR: StructureDefinition-mh-toc-parity.profile.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
-ERROR: StructureDefinition-mh-toc-parity.profile.json.html#/html/body/div/div/div/p/a at Line 3201, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
-ERROR: StructureDefinition-mh-toc-parity.profile.ttl.html#/html/body/div/div/div/p/a at Line 2388, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
-ERROR: StructureDefinition-mh-toc-parity.profile.xml.html#/html/body/div/div/div/p/a at Line 2960, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: StructureDefinition-mh-toc-parity.profile.json.html#/html/body/div/div/div/p/a at Line 3203, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: StructureDefinition-mh-toc-parity.profile.ttl.html#/html/body/div/div/div/p/a at Line 2390, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: StructureDefinition-mh-toc-parity.profile.xml.html#/html/body/div/div/div/p/a at Line 2962, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
 ERROR: ValueSet-mh-toc-disseminated-intravascular-coagulation-ICD-testing.html#/html/body/div/div/div/p/a at Line 217, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
 ERROR: ValueSet-mh-toc-disseminated-intravascular-coagulation-ICD.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
 ERROR: ValueSet-mh-toc-disseminated-intravascular-coagulation-ICD.html#/html/body/div/div/div/p/a at Line 289, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved

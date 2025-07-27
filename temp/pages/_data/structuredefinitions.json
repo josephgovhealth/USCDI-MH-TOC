@@ -15,7 +15,7 @@
     "basepath" : "http://hl7.org/fhir/R4/patient.html",
     "adl" : false,
     "status" : "draft",
-    "date" : "Sun Jul 27 11:33:37 EDT 2025",
+    "date" : "Sun Jul 27 15:07:55 EDT 2025",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "Example Publisher",
