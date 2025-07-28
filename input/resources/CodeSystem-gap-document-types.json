@@ -15,7 +15,12 @@
     {
       "code": "mh-toc-postpartum-summary",
       "display": "Local code for Postpartum Summary Note  (known gap working on getting a LOINC code established)",
-      "definition": "A document used for summarizing the delivery episode."
+      "definition": "A document used for summarizing the prenatal and delivery episodes of care."
+    },
+    {
+      "code": "mh-toc-behavioral-health-history",
+      "display": "Local code for Behavioral Health History Note  (known gap working on getting a LOINC code established)",
+      "definition": "A document used for summarizing a patient's behavioral health history."
     }
   ]
 }

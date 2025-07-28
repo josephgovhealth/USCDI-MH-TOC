@@ -1,0 +1,95 @@
+{
+    "resourceType": "StructureDefinition",
+    "id": "mh-toc-gravidity",
+    "url": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-gravidity",
+    "name": "MHTOCgravidityProfile",
+    "title": "MH TOC Gravidity Profile",
+    "status": "active",
+    "date": "2024-11-16",
+    "description": "This is an example profile for gravidity",
+    "fhirVersion": "4.0.1",
+    "kind": "resource",
+    "abstract": false,
+    "type": "Observation",
+    "baseDefinition": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-simple-observation",
+    "derivation": "constraint",
+    "differential": {
+        "element": [
+            
+            {
+                "id": "Observation.code",
+                "path": "Observation.code",
+                "short": "Maternal Gravidity",
+                "type": [
+                    {
+                        "code": "CodeableConcept"
+                    }
+                ],
+                "patternCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "11996-6"
+                        }
+                    ]
+                },
+                "mustSupport": true
+            },
+
+            {
+                "id": "Observation.subject",
+                "path": "Observation.subject",
+                "min": 1,
+                "type": [
+                    {
+                        "code": "Reference",
+                        "targetProfile": [
+                            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
+                        ],
+                        "_targetProfile": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support",
+                                        "valueBoolean": true
+                                    }
+                                ]
+                            }
+                            
+                        ]
+                    }
+                ],
+                "mustSupport": true
+            },
+
+            {
+                "id": "Observation.value[x]",
+                "path": "Observation.value[x]",
+                "min": 1,
+                "max": "1",
+                "type": [
+                    {
+                        "extension": [
+                            {
+                                "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support",
+                                "valueBoolean": true
+                            }
+                        ],
+                        "code": "integer"
+                    },
+                    {
+                        "code": "time"
+                    },
+                    {
+                        "code": "dateTime"
+                    },
+                    {
+                        "code": "Period"
+                    }
+                ],
+                "mustSupport": true
+            }
+            
+        ]
+    }
+}
