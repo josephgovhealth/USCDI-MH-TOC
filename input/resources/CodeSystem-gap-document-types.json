@@ -1,0 +1,21 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "local-document-types",
+  "url": "http://fhir.org/guides/astp/postpartum-toc/CodeSystem/gap-document-types",
+  "version": "1.0.0",
+  "name": "LocalDocumentTypes",
+  "title": "Local Document Types",
+  "status": "active",
+  "date": "2025-07-24",
+  "publisher": "Example Health Org",
+  "description": "A custom code system for internal document types.",
+  "caseSensitive": true,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "mh-toc-postpartum-summary",
+      "display": "Local code for Postpartum Summary Note  (known gap working on getting a LOINC code established)",
+      "definition": "A document used for summarizing the delivery episode."
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
     "resourceType": "StructureDefinition",
     "id": "mh-toc-parity",
-    "url": "http://example.org/StructureDefinition/mh-toc-parity",
+    "url": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-parity",
     "name": "MHTOCParityProfile",
     "title": "MH TOC Parity Profile",
     "status": "active",
