@@ -88,31 +88,8 @@
                     }
                 ],
                 "mustSupport": true
-            },
-            {
-                "id": "Observation.derivedFrom",
-                "path": "Observation.derivedFrom",
-                "definition": "Observations from which this observation value is derived.",
-                "type": [
-                    {
-                        "code": "Reference",
-                        "targetProfile": [
-                            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation"
-                        ],
-                        "_targetProfile": [
-                            {
-                                "extension": [
-                                    {
-                                        "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support",
-                                        "valueBoolean": true
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                "mustSupport": true
             }
+            
         ]
     }
 }
