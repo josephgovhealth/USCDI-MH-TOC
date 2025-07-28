@@ -17,7 +17,7 @@
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "USCDI_Postpartum_TOC"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-07-27T15:07:55-04:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-07-28T11:44:01-04:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Example Publisher"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Example Publisher" ] ;
@@ -865,6 +865,24 @@
          fhir:reference [ fhir:v "StructureDefinition/mh-toc-parity" ]
        ] ;
        fhir:name [ fhir:v "MH TOC Parity Profile" ] ;
+       fhir:description [ fhir:v "This is an example profile for parity" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://example.org/StructureDefinition/mh-toc-postpartum-summary> ;
+         fhir:reference [ fhir:v "StructureDefinition/mh-toc-postpartum-summary" ]
+       ] ;
+       fhir:name [ fhir:v "MH TOC Postpartum Summary Profile" ] ;
        fhir:description [ fhir:v "This is an example profile for parity" ] ;
        fhir:example [
          a fhir:boolean ;

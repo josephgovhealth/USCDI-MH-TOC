@@ -1,44 +1,44 @@
 {
-  "date" : "Sun, 27 Jul, 2025 15:08:08 -0400",
+  "date" : "Mon, 28 Jul, 2025 11:44:13 -0400",
   "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
   "files" : [
     {
       "name" : "/fsh-generated/resources/ImplementationGuide-fhir.example.json",
-      "size" : 2799,
+      "size" : 3070,
       "processes" : [
         {
           "activity" : "load",
-          "start" : 13,
-          "length" : 6
+          "start" : 11,
+          "length" : 5
         },
         {
           "activity" : "checkR4R4B",
-          "start" : 28,
-          "length" : 12
+          "start" : 26,
+          "length" : 7
         },
         {
           "activity" : "generateNarratives",
-          "start" : 28,
-          "length" : 57
+          "start" : 26,
+          "length" : 55
         },
         {
           "activity" : "validate",
-          "start" : 29,
-          "length" : 11699
+          "start" : 27,
+          "length" : 11448
         },
         {
           "activity" : "generate1",
-          "start" : 41,
-          "length" : 32
+          "start" : 39,
+          "length" : 31
         },
         {
           "activity" : "generate2",
-          "start" : 42,
-          "length" : 27
+          "start" : 40,
+          "length" : 30
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 51,
+          "start" : 50,
           "length" : 1
         },
         {
@@ -54,33 +54,33 @@
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 13,
+          "start" : 11,
           "length" : 15
         },
         {
           "activity" : "load-configure",
-          "start" : 28,
+          "start" : 26,
           "length" : 1
         },
         {
           "activity" : "generateNarratives",
-          "start" : 28,
+          "start" : 26,
           "length" : 1
         },
         {
           "activity" : "validate",
-          "start" : 41,
+          "start" : 39,
           "length" : 3
         },
         {
           "activity" : "generate1",
-          "start" : 41,
-          "length" : 7
+          "start" : 39,
+          "length" : 9
         },
         {
           "activity" : "generate2",
-          "start" : 42,
-          "length" : 9
+          "start" : 40,
+          "length" : 10
         }
       ]
     },
@@ -90,62 +90,57 @@
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 13,
-          "length" : 13
+          "start" : 11,
+          "length" : 14
         },
         {
           "activity" : "load",
-          "start" : 13,
-          "length" : 6
+          "start" : 11,
+          "length" : 4
         },
         {
           "activity" : "generateSnapshots",
-          "start" : 13,
-          "length" : 18
+          "start" : 11,
+          "length" : 16
         },
         {
-          "activity" : "load-configure",
-          "start" : 28,
+          "activity" : "checkR4R4B",
+          "start" : 26,
           "length" : 1
         },
         {
           "activity" : "generateNarratives",
-          "start" : 28,
+          "start" : 26,
           "length" : 26
         },
         {
           "activity" : "validate",
-          "start" : 28,
-          "length" : 483
-        },
-        {
-          "activity" : "checkConformanceResources",
-          "start" : 41,
-          "length" : 1
+          "start" : 26,
+          "length" : 506
         },
         {
           "activity" : "scanForUsageStats",
-          "start" : 41,
+          "start" : 39,
           "length" : 1
         },
         {
           "activity" : "generate1",
+          "start" : 39,
+          "length" : 99
+        },
+        {
+          "activity" : "generate2",
+          "start" : 40,
+          "length" : 470
+        },
+        {
+          "activity" : "generate2",
           "start" : 41,
-          "length" : 84
-        },
-        {
-          "activity" : "generate2",
-          "start" : 42,
-          "length" : 431
-        },
-        {
-          "activity" : "generate2",
-          "start" : 43,
-          "length" : 977
+          "length" : 1434
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 51,
+          "start" : 50,
           "length" : 3
         },
         {
@@ -161,63 +156,68 @@
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 13,
-          "length" : 14
+          "start" : 11,
+          "length" : 15
         },
         {
           "activity" : "load",
-          "start" : 13,
+          "start" : 11,
           "length" : 3
         },
         {
           "activity" : "generateSnapshots",
-          "start" : 13,
-          "length" : 43
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 28,
+          "start" : 11,
           "length" : 24
         },
         {
+          "activity" : "load-configure",
+          "start" : 26,
+          "length" : 1
+        },
+        {
+          "activity" : "loadDepInfo",
+          "start" : 26,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 26,
+          "length" : 23
+        },
+        {
           "activity" : "validate",
-          "start" : 29,
-          "length" : 155
+          "start" : 27,
+          "length" : 139
         },
         {
           "activity" : "scanForUsageStats",
-          "start" : 41,
+          "start" : 39,
           "length" : 2
         },
         {
           "activity" : "generate1",
-          "start" : 41,
-          "length" : 141
+          "start" : 39,
+          "length" : 135
         },
         {
           "activity" : "generate2",
-          "start" : 42,
-          "length" : 365
+          "start" : 40,
+          "length" : 299
         },
         {
           "activity" : "generate2",
-          "start" : 44,
-          "length" : 193
+          "start" : 43,
+          "length" : 143
         },
         {
           "activity" : "makeDependencies",
-          "start" : 46,
-          "length" : 2
+          "start" : 45,
+          "length" : 1
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 51,
+          "start" : 50,
           "length" : 4
-        },
-        {
-          "activity" : "scanProfilesForR5",
-          "start" : 69,
-          "length" : 1
         },
         {
           "activity" : "scanExamplesForR5",
@@ -227,38 +227,99 @@
       ]
     },
     {
+      "name" : "input/resources/StructureDefinition-mh-toc-postpartum-summary.json",
+      "size" : 4338,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 11,
+          "length" : 15
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 2
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 11,
+          "length" : 28
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 26,
+          "length" : 22
+        },
+        {
+          "activity" : "validate",
+          "start" : 27,
+          "length" : 119
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 39,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 39,
+          "length" : 127
+        },
+        {
+          "activity" : "generate2",
+          "start" : 40,
+          "length" : 344
+        },
+        {
+          "activity" : "generate2",
+          "start" : 43,
+          "length" : 158
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 50,
+          "length" : 4
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 69,
+          "length" : 10
+        }
+      ]
+    },
+    {
       "name" : "input/resources/ValueSet-mh-toc-disseminated-intravascular-coagulation.json",
       "size" : 10528,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 13,
-          "length" : 14
+          "start" : 11,
+          "length" : 6
         },
         {
           "activity" : "load",
-          "start" : 13,
-          "length" : 22
+          "start" : 11,
+          "length" : 7
         },
         {
           "activity" : "validate",
-          "start" : 28,
-          "length" : 162
+          "start" : 26,
+          "length" : 164
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 39,
+          "length" : 1
         },
         {
           "activity" : "generate1",
-          "start" : 41,
-          "length" : 26
+          "start" : 39,
+          "length" : 18
         },
         {
           "activity" : "generate2",
-          "start" : 43,
-          "length" : 289
-        },
-        {
-          "activity" : "generateValidationPack",
-          "start" : 51,
-          "length" : 1
+          "start" : 41,
+          "length" : 302
         }
       ]
     }

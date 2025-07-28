@@ -1,0 +1,21 @@
+---
+---
+<!-- get modelType -->
+{% include fragment-modelType.html id='mh-toc-postpartum-summary' %}
+
+{% include fragment-pagebegin.html %}
+
+<div style="counter-reset: section 10" class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
+  {% include fragment-profile-navtabs.html type='StructureDefinition' id='mh-toc-postpartum-summary' active='history' %}
+
+  <a name="root"> </a>
+  <h2 id="root">{{modelType}}: MHTOCPostpartumSummaryProfile - Change History</h2>
+{% include fragment-simpletable.html %}
+  <p>Changes in the mh-toc-postpartum-summary {{modelType | downcase}}.</p>
+
+  {%include StructureDefinition-mh-toc-postpartum-summary-history.xhtml%}
+
+</div>
+{% assign includetabscripts = 'true' %}
+{% include fragment-pageend.html %}

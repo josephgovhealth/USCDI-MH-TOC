@@ -5,7 +5,7 @@
   "igName" : "USCDI_Postpartum_TOC",
   "packageId" : "fhir.example",
   "igVer" : "0.1.0",
-  "errorCount" : 4,
+  "errorCount" : 5,
   "version" : "4.0.1",
   "releaseLabel" : "ci-build",
   "releaseLabellang" : {
@@ -15,10 +15,10 @@
   "toolingVersion" : "5.0.0",
   "toolingRevision" : "3",
   "toolingVersionFull" : "5.0.0 (3)",
-  "genDate" : "Sun, Jul 27, 2025 15:08-0400",
-  "genDay" : "27/07/2025",
-  "totalFiles" : 5,
-  "processedFiles" : 14,
+  "genDate" : "Mon, Jul 28, 2025 11:44-0400",
+  "genDay" : "28/07/2025",
+  "totalFiles" : 6,
+  "processedFiles" : 15,
   "repoSource" : "https://github.com/josephgovhealth/USCDI-MH-TOC.git",
   "resourceTypes" : [
     "Account",
@@ -254,7 +254,7 @@
         "telecom" : ["http://example.org/example-publisher"]
       }
     ],
-    "date" : "2025-07-27T15:07:55-04:00",
+    "date" : "2025-07-28T11:44:01-04:00",
     "description" : "",
     "descriptionlang" : {
     },

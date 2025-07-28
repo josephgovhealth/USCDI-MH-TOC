@@ -9,7 +9,7 @@
   "version" : "0.1.0",
   "name" : "USCDI_Postpartum_TOC",
   "status" : "draft",
-  "date" : "2025-07-27T15:07:55-04:00",
+  "date" : "2025-07-28T11:44:01-04:00",
   "publisher" : "Example Publisher",
   "contact" : [{
     "name" : "Example Publisher",
@@ -629,6 +629,18 @@
         "reference" : "StructureDefinition/mh-toc-parity"
       },
       "name" : "MH TOC Parity Profile",
+      "description" : "This is an example profile for parity",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/mh-toc-postpartum-summary"
+      },
+      "name" : "MH TOC Postpartum Summary Profile",
       "description" : "This is an example profile for parity",
       "exampleBoolean" : false
     },

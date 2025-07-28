@@ -1,0 +1,27 @@
+---
+---
+<!-- get modelType -->
+{% include fragment-modelType.html id='mh-toc-postpartum-summary' %}
+
+{% include fragment-pagebegin.html %}
+<div style="counter-reset: section 5" class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
+  {% include fragment-profile-navtabs.html type='StructureDefinition' id='mh-toc-postpartum-summary' active='mapping' %}
+
+<a name="root"> </a>
+<h2 id="root">{{modelType}}: MHTOCPostpartumSummaryProfile - Mappings</h2>
+{% include fragment-simpletable.html %}
+
+<p>Mappings for the mh-toc-postpartum-summary {{modelType | downcase }}.</p>
+
+  <!-- insert intro if present -->
+  {% include fragment-intro.html type='StructureDefinition' id='mh-toc-postpartum-summary' %}
+
+  {%include StructureDefinition-mh-toc-postpartum-summary-maps.xhtml%}
+
+  <!-- insert notes if present -->
+  {% include fragment-notes.html type='StructureDefinition' id='mh-toc-postpartum-summary' %}
+
+</div>
+{% assign includetabscripts = 'true' %}
+{% include fragment-pageend.html %}

@@ -15,6 +15,12 @@
         "url": "http://example.org/StructureDefinition/mh-toc-parity",
         "title": "MH TOC Parity Profile"
       }
+    ],
+    "DocumentReference": [
+      {
+        "url": "http://example.org/StructureDefinition/mh-toc-postpartum-summary",
+        "title": "MH TOC Postpartum Summary Profile"
+      }
     ]
   },
   "usage": {
@@ -29,6 +35,12 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
       "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-minValueSet": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
+      "StructureDefinition.snapshot.element"
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support": [
       "StructureDefinition.differential.element.type",

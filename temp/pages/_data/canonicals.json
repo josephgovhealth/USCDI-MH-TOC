@@ -21,6 +21,13 @@
     "name" : "MHTOCParityProfile"
   },
   {
+    "id" : "mh-toc-postpartum-summary",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/mh-toc-postpartum-summary",
+    "version" : "0.1.0",
+    "name" : "MHTOCPostpartumSummaryProfile"
+  },
+  {
     "id" : "mh-toc-disseminated-intravascular-coagulation-ICD",
     "type" : "ValueSet",
     "url" : "http://example.org/ValueSet/disseminated-intravascular-coagulation-ICD",

@@ -17,7 +17,7 @@
    <version value="0.1.0"/>
    <name value="USCDI_Postpartum_TOC"/>
    <status value="draft"/>
-   <date value="2025-07-27T15:07:55-04:00"/>
+   <date value="2025-07-28T11:44:01-04:00"/>
    <publisher value="Example Publisher"/>
    <contact>
       <name value="Example Publisher"/>
@@ -403,6 +403,24 @@
             <reference value="StructureDefinition/mh-toc-parity"/>
          </reference>
          <name value="MH TOC Parity Profile"/>
+         <description value="This is an example profile for parity"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-str-profile"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:resource"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-mh-toc-postpartum-summary.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/mh-toc-postpartum-summary"/>
+         </reference>
+         <name value="MH TOC Postpartum Summary Profile"/>
          <description value="This is an example profile for parity"/>
          <exampleBoolean value="false"/>
          <groupingId value="-str-profile"/>
