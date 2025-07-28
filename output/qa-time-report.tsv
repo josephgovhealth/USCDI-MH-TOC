@@ -1,7 +1,0 @@
-Source File	Size	loadResources	load	generateSnapshots	load-configure	scan	loadDepInfo	loadInfo	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
-/fsh-generated/resources/ImplementationGuide-fhir.example.json	3070	-	0	0	0	0	0	0	7	55	0	0	0	0	0	0	0	0	0	0	31	30	0	0	0	1	0	1
-fsh-generated/resources/Patient-PatientExample.json	249	15	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	9	10	0	0	0	0	0	0
-fsh-generated/resources/StructureDefinition-MyPatient.json	597	14	0	16	0	0	0	0	1	26	0	0	0	0	0	0	0	1	0	0	99	470	0	0	0	3	0	1
-input/resources/StructureDefinition-mh-toc-parity.json	4152	15	0	24	1	0	1	0	0	23	0	0	0	0	0	0	0	2	0	0	135	299	0	1	0	4	0	2
-input/resources/StructureDefinition-mh-toc-postpartum-summary.json	4338	15	0	28	0	0	0	0	0	22	0	0	1	0	0	0	0	0	0	0	127	344	0	0	0	4	0	10
-input/resources/ValueSet-mh-toc-disseminated-intravascular-coagulation.json	10528	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	18	302	0	0	0	0	0	0
