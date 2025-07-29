@@ -4,4 +4,5 @@
 |---|---|---|---|
 |Health Status Assessment|Alcohol Use|[US Core Observation Screening Assessment Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment)|observation.code|
 |Health Status Assessment|Pregnancy Status|[US Core Observation Pregnancy Status Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-pregnancystatus)|observation.code|
+|Name of class|Data Element Name|[sample link](https://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-pregnancystatus)|FHIR Resource Mapping|
 {: .grid}
