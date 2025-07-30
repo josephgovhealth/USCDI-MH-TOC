@@ -23,18 +23,16 @@
                 "coding": [
                     {
                         "system": "http://fhir.org/guides/astp/postpartum-toc/CodeSystem/gap-document-types",
-                        "code": "mh-toc-postpartum-summary",
-                        "display": "Local code for Postpartum Summary Note (known gap working on getting a LOINC code established)"
+                        "code": "mh-toc-postpartum-summary"
                     }
-                ],
-                "text": "Postpartum Summary Note"
+                ]
+                
               },
               "mustSupport": true
             },
             {
                 "id": "DocumentReference.author",
                 "path": "DocumentReference.author",
-                "min": 1,
                 "type": [
                     {
                         "code": "Reference",

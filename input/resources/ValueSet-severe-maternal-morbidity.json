@@ -1,0 +1,21 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "mh-toc-severe-maternal-morbidity",
+  "url" : "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-severe-maternal-morbidity",
+  "version" : "1.0.0",
+  "name" : "MHTOCSevereMaternalMorbidityValueSet",
+  "title" : "MH TOC Severe Maternal Morbidity ValueSet ",
+  "date" : "2025-07-25",
+  "description" : "A ValueSet for combining procedure and ICD-10-CM codes for indentifying severe maternal morbidity",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1029.255"      
+      },
+      {
+
+        "system" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1029.256"
+      }
+    ]
+  }
+}

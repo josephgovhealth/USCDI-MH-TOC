@@ -1,0 +1,22 @@
+{
+    "resourceType": "StructureDefinition",
+    "id": "mh-toc-severe-maternal-morbidity",
+    "url": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-severe-maternal-morbidity",
+    "name": "MHTOCCSeverMaternalMorbidityProfile",
+    "title": "MH TOC Severe Maternal Morbidity Profile",
+    "status": "active",
+    "date": "2025-07-28",
+    "description": "Profile for Severe Maternal Morbidity",
+    "fhirVersion": "4.0.1",
+    "kind": "resource",
+    "abstract": false,
+    "type": "Observation",
+    "baseDefinition": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-simple-observation",
+    "derivation": "constraint",
+    "differential": {
+        "element": [
+            
+            
+        ]
+    }
+}

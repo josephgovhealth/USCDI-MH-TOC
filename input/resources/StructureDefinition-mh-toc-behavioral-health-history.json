@@ -23,11 +23,10 @@
                 "coding": [
                     {
                         "system": "http://fhir.org/guides/astp/postpartum-toc/CodeSystem/gap-document-types",
-                        "code": "mh-toc-behavioral-health-history",
-                        "display": "Local code for Postpartum Summary Note (known gap working on getting a LOINC code established)"
+                        "code": "mh-toc-behavioral-health-history"
                     }
-                ],
-                "text": "Postpartum Summary Note"
+                ]
+                
               },
               "mustSupport": true
             },

@@ -1,38 +1,48 @@
 {
     "resourceType": "StructureDefinition",
-    "id": "mh-toc-labor-and-delivery-summary",
-    "url": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-labor-and-delivery-summary",
-    "name": "MHTOCLaborAndDeliverySummaryProfile",
-    "title": "MH TOC Labor and Delivery Summary Profile",
+    "id": "mh-toc-labor-type",
+    "url": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-labor-type",
+    "name": "MHTOCLaborTypeProfile",
+    "title": "MH TOC Labor Type Profile",
     "status": "active",
     "date": "2025-07-28",
-    "description": "Profile for a Labor and Delivery Summary Note",
+    "description": "Profile for Labor Type",
     "fhirVersion": "4.0.1",
     "kind": "resource",
     "abstract": false,
-    "type": "DocumentReference",
-    "baseDefinition": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference",
+    "type": "Observation",
+    "baseDefinition": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-simple-observation",
     "derivation": "constraint",
     "differential": {
         "element": [
             {
-                "id": "DocumentReference.type",
-                "path": "DocumentReference.type",
+                "id": "Observation.subject",
+                "path": "Observation.subject",
                 "min": 1,
-                "fixedCodeableConcept": {
-                    "coding": [
-                        {
-                            "system": "http://loinc.org",
-                            "code": "57057-2"
-                        }
-                    ]
-                },
+                "type": [
+                    {
+                        "code": "Reference",
+                        "targetProfile": [
+                            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
+                        ],
+                        "_targetProfile": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support",
+                                        "valueBoolean": true
+                                    }
+                                ]
+                            }
+                            
+                        ]
+                    }
+                ],
                 "mustSupport": true
             },
             {
-                "id": "DocumentReference.author",
-                "path": "DocumentReference.author",
-                "min": 1,
+                "id": "Observation.performer",
+                "path": "Observation.performer",
                 "type": [
                     {
                         "code": "Reference",
@@ -79,32 +89,34 @@
                 ],
                 "mustSupport": true
             },
-
             {
-                "id": "DocumentReference.subject",
-                "path": "DocumentReference.subject",
+                "id": "Observation.value[x]",
+                "path": "Observation.value[x]",
                 "min": 1,
+                "max": "1",
                 "type": [
                     {
-                        "code": "Reference",
-                        "targetProfile": [
-                            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
-                        ],
-                        "_targetProfile": [
+                        "extension" : [
                             {
-                                "extension": [
-                                    {
-                                        "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support",
-                                        "valueBoolean": true
-                                    }
-                                ]
+                                "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support",
+                                "valueBoolean" : true
                             }
-                            
-                        ]
+                        ],
+                    "code" : "CodeableConcept"
+                    },
+                    {
+                        "extension" : [
+                            {
+                                "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support",
+                                "valueBoolean" : true
+                            }
+                        ],
+                        "code" : "string"
                     }
                 ],
                 "mustSupport": true
             }
+            
         ]
     }
 }
