@@ -2,6 +2,7 @@
 
 
 
+
 |Data Class|Postpartum TOC Data Element|FHIR Profile|FHIR Profile Data Element|
 |---|---|---|---|
 |Allergies and Intolerances|Substance|[US Core Observation Screening Assessment Profile](http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-allergyintolerance)|AllergyIntolerance.category|
@@ -40,26 +41,25 @@
 |Newborn's Delivery Information|Birth Weight|[BFDR Observation Birth Weight](http://hl7.org/fhir/us/bfdr/StructureDefinition/Observation-birth-weight)|Observation.value[x]|
 |Newborn's Delivery Information|Multiple Birth Order||patient.multiplebirth[x]  
 patient.multipleBirthInteger|
-|Patient Demographics|Current Address||Patient.address|
-|Patient Demographics|Date of Birth||Patient.birthDate|
-|Patient Demographics|Email Address||Patient.telecom|
-|Patient Demographics|Ethnicity||Extension.extension:ombCategory.value[x]|
-|Patient Demographics|First Name||Patient.name|
-|Patient Demographics|Gender Identity||Patient.gender|
-|Patient Demographics|Last Name||Patient.name|
-|Patient Demographics|Middle Name  
-(Including middle initial)||Patient.name|
-|Patient Demographics|Name Suffix||Patient.name|
-|Patient Demographics|Phone Number||Patient.telecom|
-|Patient Demographics|Phone Number Type||Patient.telecom|
-|Patient Demographics|Preferred Language||Patient.communication|
-|Patient Demographics|Previous Address||Patient.address|
-|Patient Demographics|Previous Name||Patient.name|
-|Patient Demographics|Race||Extension.extension:ombCategory.value[x]|
+|Patient Demographics|Current Address|[US Core Patient Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|Patient.address|
+|Patient Demographics|Date of Birth|[US Core Patient Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|Patient.birthDate|
+|Patient Demographics|Email Address|[US Core Patient Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|Patient.telecom|
+|Patient Demographics|Ethnicity|[US Core Patient Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|Extension.extension:ombCategory.value[x]|
+|Patient Demographics|First Name|[US Core Patient Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|Patient.name|
+|Patient Demographics|Gender Identity|[US Core Patient Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|Patient.gender|
+|Patient Demographics|Last Name|[US Core Patient Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|Patient.name|
+|Patient Demographics|Middle Name (Including middle initial)|[US Core Patient Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|Patient.name|
+|Patient Demographics|Name Suffix|[US Core Patient Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|Patient.name|
+|Patient Demographics|Phone Number|[US Core Patient Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|Patient.telecom|
+|Patient Demographics|Phone Number Type|[US Core Patient Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|Patient.telecom|
+|Patient Demographics|Preferred Language|[US Core Patient Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|Patient.communication|
+|Patient Demographics|Previous Address|[US Core Patient Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|Patient.address|
+|Patient Demographics|Previous Name|[US Core Patient Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|Patient.name|
+|Patient Demographics|Race|[US Core Patient Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|Extension.extension:ombCategory.value[x]|
 |Patient Demographics|Related Person's Name||RelatedPerson.name|
 |Patient Demographics|Relationship Type||RelatedPerson.relationship|
-|Patient Demographics|Sex||Patient.gender|
-|Patient Demographics|Tribal Affiliation||Patient.extension:tribalAffiliation|
+|Patient Demographics|Sex|[US Core Patient Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|Patient.gender|
+|Patient Demographics|Tribal Affiliation|[US Core Patient Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|Patient.extension:tribalAffiliation|
 |Patient Summary and Plan|Assessment and Plan of Treatment||CarePlan.text|
 |Pregnancy Information|Estimated Date of Delivery||Observation.code|
 |Pregnancy Information|Gestational Age||Obversation.code|
@@ -84,8 +84,8 @@ patient.multipleBirthInteger|
 |Vital Signs|Head Occipital-frontal Circumference Percentile (Birth - 36 Months)|[US Core Pediatric Head Occipital Frontal Circumference Percentile Profile](http://hl7.org/fhir/us/core/StructureDefinition/head-occipital-frontal-circumference-percentile)|Observation.code|
 |Vital Signs|Heart Rate|[US Core Heart Rate Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-heart-rate)|Observation.code|
 |Vital Signs|Inhaled Oxygen Concentration||Observation.code|
-|Vital Signs|Pulse Oximetry||Observation.component:systolic.code|
+|Vital Signs|Pulse Oximetry|[US Core Pulse Oximetry Profile](http://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-pulse-oximetry)|Observation.component:systolic.code|
 |Vital Signs|Respiratory Rate|[US Core Respiratory Rate Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-respiratory-rate)|Observation.code|
 |Vital Signs|Systolic Blood Pressure|[US Core Blood Pressure Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-blood-pressure)|Observation.component:systolic.code|
-|Vital Signs|Weight-for-length Percentile (Birth - 36 Months)||Observation.code|
+|Vital Signs|Weight-for-length Percentile (Birth - 36 Months)|[US Core Pediatric Weight for Height Observation Profile](http://hl7.org/fhir/us/core/StructureDefinition/pediatric-weight-for-height)|Observation.code|
 {: .grid}
