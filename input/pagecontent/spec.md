@@ -1,10 +1,9 @@
 
 
+
 |Data Class|Postpartum TOC Data Element|FHIR Profile|FHIR Profile Data Element|
 |---|---|---|---|
-|Allergies and Intolerances|Substance (Drug Class)||AllergyIntolerance.category|
-|Allergies and Intolerances|Substance (Medication)||AllergyIntolerance.category|
-|Allergies and Intolerances|Substance (Non-Medication)||AllergyIntolerance.category|
+|Allergies and Intolerances|Substance|[US Core Observation Screening Assessment Profile](http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-allergyintolerance)|AllergyIntolerance.category|
 |Care Team Member(s)|Care Team Member Name||CareTeam.participant|
 |Care Team Member(s)|Care Team Member Role||CareTeam.participant.role|
 |Clinical Notes|Consultation Note|||
@@ -16,7 +15,7 @@
 |Clinical Tests|Clinical Test Result/Report||DocumentReference.type|
 |Diagnostic Imaging|Diagnostic Imaging Report||Observation.code|
 |Diagnostic Imaging|Diagnostic Imaging Test||DiagnosticReport.result|
-|Encounter Information|Encounter Diagnosis||Condition.code|
+|Encounter Information|Encounter Diagnosis|[US Core Encounter Diagnosis Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis)|Condition.code|
 |Encounter Information|Encounter Location||Encounter.location|
 |Encounter Information|Encounter Type||Encounter.type|
 |Facility Information|Facility Name||Organization.name|
@@ -94,10 +93,11 @@ patient.multipleBirthInteger|
 |Vital Signs|Respiratory Rate||Observation.code|
 |Vital Signs|Systolic Blood Pressure||Observation.component:systolic.code|
 |Vital Signs|Weight-for-length Percentile (Birth - 36 Months)||Observation.code|
+|Name of class|Data Element Name|[sample](https://www.google.com)|FHIR Resource Mapping|
 |Name of class|Data Element Name||FHIR Resource Mapping|
 |Name of class|Data Element Name||FHIR Resource Mapping|
 |Name of class|Data Element Name||FHIR Resource Mapping|
 |Name of class|Data Element Name||FHIR Resource Mapping|
 |Name of class|Data Element Name||FHIR Resource Mapping|
 |Name of class|Data Element Name||FHIR Resource Mapping|
-|Name of class|Data Element Name||FHIR Resource Mapping|
+{: .grid}

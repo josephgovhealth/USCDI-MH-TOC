@@ -1,0 +1,26 @@
+{
+    "resourceType": "StructureDefinition",
+    "id": "mh-toc-allergyintolerance",
+    "url": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-allergyintolerance",
+    "name": "MHTOCAllergyIntoleranceProfile",
+    "title": "MH TOC AllergyIntolerance Profile",
+    "status": "active",
+    "date": "2024-11-16",
+    "description": "Profile for AllergyIntolerance",
+    "fhirVersion": "4.0.1",
+    "kind": "resource",
+    "abstract": false,
+    "type": "AllergyIntolerance",
+    "baseDefinition": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-allergyintolerance",
+    "derivation": "constraint",
+    "differential": {
+        "element": [
+            
+            {
+                "id": "AllergyIntolerance.category",
+                "path": "AllergyIntolerance.category",
+                "min": 1
+            }
+        ]
+    }
+}
