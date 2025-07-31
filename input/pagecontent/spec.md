@@ -1,6 +1,7 @@
 
 
 
+
 |Data Class|Postpartum TOC Data Element|FHIR Profile|FHIR Profile Data Element|
 |---|---|---|---|
 |Allergies and Intolerances|Substance|[US Core Observation Screening Assessment Profile](http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-allergyintolerance)|AllergyIntolerance.category|
@@ -15,21 +16,15 @@
 |Clinical Tests|Clinical Test Result/Report||DocumentReference.type|
 |Diagnostic Imaging|Diagnostic Imaging Report||Observation.code|
 |Diagnostic Imaging|Diagnostic Imaging Test||DiagnosticReport.result|
-|Encounter Information|Encounter Diagnosis|[US Core Encounter Diagnosis Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis)|Condition.code|
-|Encounter Information|Encounter Location||Encounter.location|
-|Encounter Information|Encounter Type||Encounter.type|
 |Facility Information|Facility Name||Organization.name|
 |Facility Information|Facility Type||Organization.identifier.system|
-|Family Health History|Family Health History||FamilyMemberHistory|
+|Family Health History|Family Health History|[Family Member History](http://hl7.org/fhir/StructureDefinition/FamilyMemberHistory)|FamilyMemberHistory|
 |Health Status Assessment|Alcohol Use|[US Core Observation Screening Assessment Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment)|observation.code|
 |Health Status Assessments|Clinical Risk Assessment Results|||
 |Health Status Assessments|Mental / Cognitive Status||Observation.code|
 |Health Status Assessment|Pregnancy Status|[US Core Observation Pregnancy Status Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-pregnancystatus)|observation.code|
-|Health Status Assessments|Smoking Status||Observation.code|
+|Health Status Assessments|Smoking Status|[US Core Smoking Status](http://hl7.org/fhir/us/core/StructureDefinition/us-core-smokingstatus)|Observation.code|
 |Health Status Assessments|Substance Use||Observation.value[x]|
-|Immunizations|Immunization Status||Immunization.status|
-|Immunizations|Immunizations||Immunization.vaccinecode|
-|Immunizations|Reason Immunization Not Performed||Immunization.statusreason|
 |Laboratory|Result Reference Range||Observation.referenceRange|
 |Laboratory|Result Status||DiagnosticReport.status|
 |Laboratory|Specimen Identifier||Specimen.identifier|
@@ -80,7 +75,7 @@ patient.multipleBirthInteger|
 |Procedures|Reason for Referral||ServiceRequest.reasonReference|
 |Provenance|Author Organization||Provenance.agent|
 |Provenance|Author Time Stamp||Provenance.occured[x]|
-|Vital Signs|Average Blood Pressure||Observation.?|
+|Vital Signs|Average Blood Pressure|[US Core Average Blood Pressure](http://hl7.org/fhir/us/core/StructureDefinition/us-core-average-blood-pressure)|Observation.value[x]|
 |Vital Signs|BMI||Observation.code|
 |Vital Signs|Body Height||Observation.code|
 |Vital Signs|Body Temperature||Observation.code|

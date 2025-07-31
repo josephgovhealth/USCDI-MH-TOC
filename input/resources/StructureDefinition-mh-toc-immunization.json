@@ -1,0 +1,26 @@
+{
+    "resourceType": "StructureDefinition",
+    "id": "mh-toc-immunization",
+    "url": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-immunization",
+    "name": "MHTOCImmunizationProfile",
+    "title": "MH TOC Immunization Profile",
+    "status": "active",
+    "date": "2024-11-16",
+    "description": "Profile for Immunization",
+    "fhirVersion": "4.0.1",
+    "kind": "resource",
+    "abstract": false,
+    "type": "Immunization",
+    "baseDefinition": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-immunization",
+    "derivation": "constraint",
+    "differential": {
+        "element": [
+            
+            {
+                "id": "Immunization.statusReason",
+                "path": "Immunization.statusReason",
+                "min": 1
+            }
+        ]
+    }
+}

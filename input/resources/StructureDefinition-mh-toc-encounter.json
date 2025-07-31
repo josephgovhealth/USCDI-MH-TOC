@@ -20,7 +20,13 @@
                 "id": "Encounter.serviceProvider",
                 "path": "Encounter.serviceProvider",
                 "min": 1
+            },
+            {
+                "id": "Encounter.location",
+                "path": "Encounter.location",
+                "min": 1
             }
+
             
         ]
     }
