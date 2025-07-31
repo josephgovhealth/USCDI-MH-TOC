@@ -15,7 +15,16 @@
     "derivation": "constraint",
     "differential": {
         "element": [
-            
+            {
+                "id": "Observation.code",
+                "path": "Observation.code",
+                "min": 1,
+                "mustSupport": true,
+                "binding": {
+                    "strength": "required",
+                    "valueSet": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-severe-maternal-morbidity"
+                }
+            } 
             
         ]
     }

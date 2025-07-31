@@ -1,0 +1,110 @@
+{
+    "resourceType": "StructureDefinition",
+    "id": "mh-toc-genetic-analysis-report",
+    "url": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-genetic-analysis-report",
+    "name": "MHTOCGeneticAnalysisReportProfile",
+    "title": "MH TOC genetic analysis report profile",
+    "status": "active",
+    "date": "2025-07-30",
+    "description": "Profile for a genetic analysis report",
+    "fhirVersion": "4.0.1",
+    "kind": "resource",
+    "abstract": false,
+    "type": "DocumentReference",
+    "baseDefinition": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference",
+    "derivation": "constraint",
+    "differential": {
+        "element": [
+            {
+                "id": "DocumentReference.type",
+                "path": "DocumentReference.type",
+                "min": 1,
+                "fixedCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "51969-4"
+                        }
+                    ]
+                },
+                "mustSupport": true
+            },
+            {
+                "id": "DocumentReference.author",
+                "path": "DocumentReference.author",
+                "min": 1,
+                "type": [
+                    {
+                        "code": "Reference",
+                        "targetProfile": [
+                            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner",
+                            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization",
+                            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"
+              
+                        ],
+                        "_targetProfile": [
+                            {
+                                "extension": [
+                                    
+
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support",
+                                        "valueBoolean": true
+                                    }
+                                ]
+                            },
+                            {
+                                "extension": [
+                                    
+
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support",
+                                        "valueBoolean": false
+                                    }
+                                ]
+                            },
+                            {
+                                "extension": [
+                                    
+
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support",
+                                        "valueBoolean": false
+                                    }
+                                ]
+                            }
+                            
+                        ]
+                    }
+                ],
+                "mustSupport": true
+            },
+            {
+                "id": "DocumentReference.subject",
+                "path": "DocumentReference.subject",
+                "min": 1,
+                "type": [
+                    {
+                        "code": "Reference",
+                        "targetProfile": [
+                            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
+                        ],
+                        "_targetProfile": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support",
+                                        "valueBoolean": true
+                                    }
+                                ]
+                            }
+                            
+                        ]
+                    }
+                ],
+                "mustSupport": true
+            }
+            
+        ]
+    }
+}
