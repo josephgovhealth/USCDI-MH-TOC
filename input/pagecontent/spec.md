@@ -79,13 +79,13 @@ patient.multipleBirthInteger|
 |Vital Signs|BMI|[US Core BMI](http://hl7.org/fhir/us/core/StructureDefinition/us-core-bmi)|Observation.code|
 |Vital Signs|Body Height|[US Core Body Height](http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-height)|Observation.code|
 |Vital Signs|Body Temperature|[US Core Body Temperature Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-temperature)|Observation.code|
-|Vital Signs|Body Weight||Observation.code|
-|Vital Signs|Diastolic Blood Pressure||Observation.component:diastolic.code|
-|Vital Signs|Head Occipital-frontal Circumference Percentile (Birth - 36 Months)||Observation.code|
-|Vital Signs|Heart Rate||Observation.code|
+|Vital Signs|Body Weight|[US Core Body Weight](http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-weight)|Observation.code|
+|Vital Signs|Diastolic Blood Pressure|[US Core Blood Pressure Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-blood-pressure)|Observation.component:diastolic.code|
+|Vital Signs|Head Occipital-frontal Circumference Percentile (Birth - 36 Months)|[US Core Pediatric Head Occipital Frontal Circumference Percentile Profile](http://hl7.org/fhir/us/core/StructureDefinition/head-occipital-frontal-circumference-percentile)|Observation.code|
+|Vital Signs|Heart Rate|[US Core Heart Rate Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-heart-rate)|Observation.code|
 |Vital Signs|Inhaled Oxygen Concentration||Observation.code|
 |Vital Signs|Pulse Oximetry||Observation.component:systolic.code|
-|Vital Signs|Respiratory Rate||Observation.code|
-|Vital Signs|Systolic Blood Pressure||Observation.component:systolic.code|
+|Vital Signs|Respiratory Rate|[US Core Respiratory Rate Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-respiratory-rate)|Observation.code|
+|Vital Signs|Systolic Blood Pressure|[US Core Blood Pressure Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-blood-pressure)|Observation.component:systolic.code|
 |Vital Signs|Weight-for-length Percentile (Birth - 36 Months)||Observation.code|
 {: .grid}
