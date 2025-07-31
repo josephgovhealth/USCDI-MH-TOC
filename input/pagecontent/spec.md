@@ -37,7 +37,7 @@
 |Medications|Dose Unit of Measure||MedicationRequest.dosageInstruction|
 |Medications|Medications||MedicationRequest.medication[x]|
 |Newborn's Delivery Information|APGAR Score||Obvervation.code|
-|Newborn's Delivery Information|Birth Weight||Observation.component.?|
+|Newborn's Delivery Information|Birth Weight|[BFDR Observation Birth Weight](http://hl7.org/fhir/us/bfdr/StructureDefinition/Observation-birth-weight)|Observation.value[x]|
 |Newborn's Delivery Information|Multiple Birth Order||patient.multiplebirth[x]  
 patient.multipleBirthInteger|
 |Patient Demographics|Current Address||Patient.address|
@@ -76,8 +76,8 @@ patient.multipleBirthInteger|
 |Provenance|Author Organization||Provenance.agent|
 |Provenance|Author Time Stamp||Provenance.occured[x]|
 |Vital Signs|Average Blood Pressure|[US Core Average Blood Pressure](http://hl7.org/fhir/us/core/StructureDefinition/us-core-average-blood-pressure)|Observation.value[x]|
-|Vital Signs|BMI||Observation.code|
-|Vital Signs|Body Height||Observation.code|
+|Vital Signs|BMI|[US Core BMI](http://hl7.org/fhir/us/core/StructureDefinition/us-core-bmi)|Observation.code|
+|Vital Signs|Body Height|[US Core Body Height](http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-height)|Observation.code|
 |Vital Signs|Body Temperature||Observation.code|
 |Vital Signs|Body Weight||Observation.code|
 |Vital Signs|Diastolic Blood Pressure||Observation.component:diastolic.code|
@@ -96,3 +96,8 @@ patient.multipleBirthInteger|
 |Name of class|Data Element Name||FHIR Resource Mapping|
 |Name of class|Data Element Name||FHIR Resource Mapping|
 {: .grid}
+
+
+
+
+
