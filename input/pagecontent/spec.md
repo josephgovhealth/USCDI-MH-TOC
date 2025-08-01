@@ -65,10 +65,10 @@ patient.multipleBirthInteger|
 |Pregnancy Information|Gestational Age||Obversation.code|
 |Pregnancy Information|Last Menstrual Period (LMP)||Observation.code|
 |Pregnancy Information|Pregnancy Outcome||Observation.code|
-|Problems|Date of Diagnosis||Condition.onset[x]|
-|Problems|Date of Resolution||Condition.abatement[x]|
-|Problems|Problems||Condition.code|
-|Problems|SDOH Problems/Health Concerns||Condition.code|
+|Problems|Date of Diagnosis|[US Core Condition Problems and Health Concerns Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-problems-health-concerns)|Condition.onset[x]|
+|Problems|Date of Resolution|[US Core Condition Problems and Health Concerns Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-problems-health-concerns)|Condition.abatement[x]|
+|Problems|Problems|[US Core Condition Problems and Health Concerns Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-problems-health-concerns)|Condition.code|
+|Problems|SDOH Problems/Health Concerns|[SDOHCC Condition Profile](http://hl7.org/fhir/us/sdoh-clinicalcare/StructureDefinition/SDOHCC-Condition)|Condition.code|
 |Procedures|Performance Time||Procedure.performed[x]|
 |Procedures|Procedure Status||Procedure.status|
 |Procedures|Procedures||Procedure.code|
