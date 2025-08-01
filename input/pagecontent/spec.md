@@ -28,9 +28,9 @@
 |Health Status Assessments|Substance Use||Observation.value[x]|
 |Laboratory|Result Reference Range||Observation.referenceRange|
 |Laboratory|Result Status||DiagnosticReport.status|
-|Laboratory|Specimen Identifier||Specimen.identifier|
-|Laboratory|Specimen Source Site||Specimen.collection.bodySite|
-|Laboratory|Specimen Type||Specimen.type|
+|Laboratory|Specimen Identifier|[US Core Specimen Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-specimen)|Specimen.identifier|
+|Laboratory|Specimen Source Site|[US Core Specimen Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-specimen)|Specimen.collection.bodySite|
+|Laboratory|Specimen Type|[US Core Specimen Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-specimen)|Specimen.type|
 |Laboratory|Tests||DiagnosticReport.code|
 |Laboratory|Values/Results||DiagnosticReport.result|
 |Medications|Discharge Medications|||
