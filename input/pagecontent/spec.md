@@ -62,7 +62,7 @@ patient.multipleBirthInteger|
 |Patient Demographics|Tribal Affiliation|[US Core Patient Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|Patient.extension:tribalAffiliation|
 |Patient Summary and Plan|Assessment and Plan of Treatment||CarePlan.text|
 |Pregnancy Information|Estimated Date of Delivery|[IPS Expected Delivery Date](http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-pregnancy-edd-uv-ips)|Observation.code|
-|Pregnancy Information|Gestational Age||Obversation.code|
+|Pregnancy Information|Gestational Age|[Gestational Age](http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-gestation-age)|Obversation.code|
 |Pregnancy Information|Last Menstrual Period (LMP)||Observation.code|
 |Pregnancy Information|Pregnancy Outcome||Observation.code|
 |Problems|Date of Diagnosis|[US Core Condition Problems and Health Concerns Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-problems-health-concerns)|Condition.onset[x]|
