@@ -1,12 +1,12 @@
 {
     "resourceType": "StructureDefinition",
-    "id": "mh-toc-parity",
-    "url": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-parity",
-    "name": "MHTOCParityProfile",
-    "title": "MH TOC Parity Profile",
+    "id": "mh-toc-gestation-age",
+    "url": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-gestation-age",
+    "name": "MHTOCGestationalAgeProfile",
+    "title": "MH TOC Gestational Age Profile",
     "status": "active",
     "date": "2024-11-16",
-    "description": "This is an example profile for parity",
+    "description": "Profile for gestation age at a prenatal encounter",
     "fhirVersion": "4.0.1",
     "kind": "resource",
     "abstract": false,
@@ -19,7 +19,7 @@
             {
                 "id": "Observation.code",
                 "path": "Observation.code",
-                "short": "Maternal Parity",
+                "short": "Gestational Age",
                 "type": [
                     {
                         "code": "CodeableConcept"
@@ -37,29 +37,30 @@
             },
 
             {
-                "id": "Observation.subject",
-                "path": "Observation.subject",
-                "min": 1,
+                "id": "Observation.encounter",
+                "path": "Observation.encounter",
                 "type": [
                     {
                         "code": "Reference",
                         "targetProfile": [
-                            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
+                            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+              
                         ],
                         "_targetProfile": [
                             {
                                 "extension": [
+                                    
+
                                     {
                                         "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support",
                                         "valueBoolean": true
                                     }
                                 ]
                             }
-                            
-                        ]
+                        ],
+                        "mustSupport": true
                     }
-                ],
-                "mustSupport": true
+                ]
             },
             {
                 "id": "Observation.performer",
@@ -125,15 +126,6 @@
                             }
                         ],
                         "code": "string"
-                    },
-                    {
-                        "code": "time"
-                    },
-                    {
-                        "code": "dateTime"
-                    },
-                    {
-                        "code": "Period"
                     }
                 ],
                 "mustSupport": true
