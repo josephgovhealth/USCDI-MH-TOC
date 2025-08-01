@@ -5,7 +5,7 @@
 
 |Data Class|Postpartum TOC Data Element|FHIR Profile|FHIR Profile Data Element|
 |---|---|---|---|
-|Allergies and Intolerances|Substance|[US Core Observation Screening Assessment Profile](http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-allergyintolerance)|AllergyIntolerance.category|
+|Allergies and Intolerances|Substance|[AllergyIntolerance Profile](http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-allergyintolerance)|AllergyIntolerance.category|
 |Care Team Member(s)|Care Team Member Name||CareTeam.participant|
 |Care Team Member(s)|Care Team Member Role||CareTeam.participant.role|
 |Clinical Notes|Consultation Note|||
