@@ -9,7 +9,7 @@
 |Care Team Member(s)|Care Team Member Name||CareTeam.participant|
 |Care Team Member(s)|Care Team Member Role||CareTeam.participant.role|
 |Clinical Notes|Consultation Note|||
-|Clinical Notes|Discharge Summary Note||DocumentReference.type|
+|Clinical Notes|Discharge Summary Note|[C-CDA on FHIR Discharge Summary](http://hl7.org/fhir/us/ccda/StructureDefinition/Discharge-Summary)|DocumentReference.type|
 |Clinical Notes|History & Physical||DocumentReference.type|
 |Clinical Notes|Procedure Note|||
 |Clinical Notes|Progress Note||DocumentReference.code|
@@ -26,21 +26,20 @@
 |Health Status Assessment|Pregnancy Status|[US Core Observation Pregnancy Status Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-pregnancystatus)|observation.code|
 |Health Status Assessments|Smoking Status|[US Core Smoking Status](http://hl7.org/fhir/us/core/StructureDefinition/us-core-smokingstatus)|Observation.code|
 |Health Status Assessments|Substance Use||Observation.value[x]|
-|Laboratory|Result Reference Range||Observation.referenceRange|
+|Laboratory|Result Reference Range|[FHIR R4 Observation](https://hl7.org/fhir/R4/observation)|Observation.referenceRange|
 |Laboratory|Result Status||DiagnosticReport.status|
 |Laboratory|Specimen Identifier|[US Core Specimen Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-specimen)|Specimen.identifier|
 |Laboratory|Specimen Source Site|[US Core Specimen Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-specimen)|Specimen.collection.bodySite|
 |Laboratory|Specimen Type|[US Core Specimen Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-specimen)|Specimen.type|
-|Laboratory|Tests||DiagnosticReport.code|
-|Laboratory|Values/Results||DiagnosticReport.result|
+|Laboratory|Tests|[FHIR R4 Observation](https://hl7.org/fhir/R4/observation)|DiagnosticReport.code|
+|Laboratory|Values/Results|FHIR R4 Observation](https://hl7.org/fhir/R4/observation)|DiagnosticReport.result|
 |Medications|Discharge Medications|||
 |Medications|Dose||MedicationRequest.dosageInstruction|
 |Medications|Dose Unit of Measure||MedicationRequest.dosageInstruction|
 |Medications|Medications||MedicationRequest.medication[x]|
 |Newborn's Delivery Information|APGAR Score||Obsvervation.code|
 |Newborn's Delivery Information|Birth Weight|[BFDR Observation Birth Weight](http://hl7.org/fhir/us/bfdr/StructureDefinition/Observation-birth-weight)|Observation.value[x]|
-|Newborn's Delivery Information|Multiple Birth Order||patient.multiplebirth[x]  
-patient.multipleBirthInteger|
+|Newborn's Delivery Information|Multiple Birth Order|[US Core Patient Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|patient.multiplebirth[x]|
 |Patient Demographics|Current Address|[US Core Patient Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|Patient.address|
 |Patient Demographics|Date of Birth|[US Core Patient Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|Patient.birthDate|
 |Patient Demographics|Email Address|[US Core Patient Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|Patient.telecom|
@@ -89,3 +88,4 @@ patient.multipleBirthInteger|
 |Vital Signs|Systolic Blood Pressure|[US Core Blood Pressure Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-blood-pressure)|Observation.component:systolic.code|
 |Vital Signs|Weight-for-length Percentile (Birth - 36 Months)|[US Core Pediatric Weight for Height Observation Profile](http://hl7.org/fhir/us/core/StructureDefinition/pediatric-weight-for-height)|Observation.code|
 {: .grid}
+
