@@ -56,8 +56,8 @@ patient.multipleBirthInteger|
 |Patient Demographics|Previous Address|[US Core Patient Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|Patient.address|
 |Patient Demographics|Previous Name|[US Core Patient Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|Patient.name|
 |Patient Demographics|Race|[US Core Patient Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|Extension.extension:ombCategory.value[x]|
-|Patient Demographics|Related Person's Name||RelatedPerson.name|
-|Patient Demographics|Relationship Type||RelatedPerson.relationship|
+|Patient Demographics|Related Person's Name|[US Core RelatedPerson Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-relatedperson)|RelatedPerson.name|
+|Patient Demographics|Relationship Type|[US Core RelatedPerson Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-relatedperson)|RelatedPerson.relationship|
 |Patient Demographics|Sex|[US Core Patient Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|Patient.gender|
 |Patient Demographics|Tribal Affiliation|[US Core Patient Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|Patient.extension:tribalAffiliation|
 |Patient Summary and Plan|Assessment and Plan of Treatment||CarePlan.text|
